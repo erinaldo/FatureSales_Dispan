@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<AliasList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AliasGroup>
+    <Alias>
+      <Name>FATURE</Name>
+      <DbType>SQL</DbType>
+      <DbProviderType>SqlClient</DbProviderType>
+      <ServerName>192.168.1.43</ServerName>
+      <DbName>CorporeRM_Fature</DbName>
+      <UserName>rm</UserName>
+      <Password>\E9\25V\DDL\C8\BE\FD</Password>
+    </Alias>  
+  </AliasGroup>
+</AliasList>  

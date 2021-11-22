@@ -1,0 +1,245 @@
+﻿namespace AppLib.Windows
+{
+    partial class FormCadastroObject
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCadastroObject));
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripButtonNOVO = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButtonEXCLUIR = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButtonPRIMEIRO = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButtonANTERIOR = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButtonPROXIMO = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButtonULTIMO = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButtonANEXOS = new System.Windows.Forms.ToolStripSplitButton();
+            this.toolStripButtonPROCESSOS = new System.Windows.Forms.ToolStripSplitButton();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.simpleButtonSALVAR = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButtonOK = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButtonCANCELAR = new DevExpress.XtraEditors.SimpleButton();
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.splashScreenManager1 = new DevExpress.XtraSplashScreen.SplashScreenManager(this, typeof(global::AppLib.Padrao.WaitForm1), true, true);
+            this.toolStrip1.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // toolStrip1
+            // 
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButtonNOVO,
+            this.toolStripButtonEXCLUIR,
+            this.toolStripSeparator1,
+            this.toolStripButtonPRIMEIRO,
+            this.toolStripButtonANTERIOR,
+            this.toolStripButtonPROXIMO,
+            this.toolStripButtonULTIMO,
+            this.toolStripSeparator2,
+            this.toolStripButtonANEXOS,
+            this.toolStripButtonPROCESSOS});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(566, 39);
+            this.toolStrip1.TabIndex = 10;
+            this.toolStrip1.Text = "toolStrip1";
+            // 
+            // toolStripButtonNOVO
+            // 
+            this.toolStripButtonNOVO.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonNOVO.Image")));
+            this.toolStripButtonNOVO.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButtonNOVO.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonNOVO.Name = "toolStripButtonNOVO";
+            this.toolStripButtonNOVO.Size = new System.Drawing.Size(62, 36);
+            this.toolStripButtonNOVO.Text = "Novo";
+            this.toolStripButtonNOVO.Click += new System.EventHandler(this.toolStripButtonNOVO_Click);
+            // 
+            // toolStripButtonEXCLUIR
+            // 
+            this.toolStripButtonEXCLUIR.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonEXCLUIR.Image")));
+            this.toolStripButtonEXCLUIR.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButtonEXCLUIR.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonEXCLUIR.Name = "toolStripButtonEXCLUIR";
+            this.toolStripButtonEXCLUIR.Size = new System.Drawing.Size(70, 36);
+            this.toolStripButtonEXCLUIR.Text = "Excluir";
+            this.toolStripButtonEXCLUIR.Click += new System.EventHandler(this.toolStripButtonEXCLUIR_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 39);
+            // 
+            // toolStripButtonPRIMEIRO
+            // 
+            this.toolStripButtonPRIMEIRO.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonPRIMEIRO.Image")));
+            this.toolStripButtonPRIMEIRO.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButtonPRIMEIRO.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonPRIMEIRO.Name = "toolStripButtonPRIMEIRO";
+            this.toolStripButtonPRIMEIRO.Size = new System.Drawing.Size(36, 36);
+            this.toolStripButtonPRIMEIRO.Click += new System.EventHandler(this.toolStripButtonPRIMEIRO_Click);
+            // 
+            // toolStripButtonANTERIOR
+            // 
+            this.toolStripButtonANTERIOR.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonANTERIOR.Image")));
+            this.toolStripButtonANTERIOR.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButtonANTERIOR.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonANTERIOR.Name = "toolStripButtonANTERIOR";
+            this.toolStripButtonANTERIOR.Size = new System.Drawing.Size(36, 36);
+            this.toolStripButtonANTERIOR.Click += new System.EventHandler(this.toolStripButtonANTERIOR_Click);
+            // 
+            // toolStripButtonPROXIMO
+            // 
+            this.toolStripButtonPROXIMO.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonPROXIMO.Image")));
+            this.toolStripButtonPROXIMO.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButtonPROXIMO.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonPROXIMO.Name = "toolStripButtonPROXIMO";
+            this.toolStripButtonPROXIMO.Size = new System.Drawing.Size(36, 36);
+            this.toolStripButtonPROXIMO.Click += new System.EventHandler(this.toolStripButtonPROXIMO_Click);
+            // 
+            // toolStripButtonULTIMO
+            // 
+            this.toolStripButtonULTIMO.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonULTIMO.Image")));
+            this.toolStripButtonULTIMO.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButtonULTIMO.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonULTIMO.Name = "toolStripButtonULTIMO";
+            this.toolStripButtonULTIMO.Size = new System.Drawing.Size(36, 36);
+            this.toolStripButtonULTIMO.Click += new System.EventHandler(this.toolStripButtonULTIMO_Click);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 39);
+            // 
+            // toolStripButtonANEXOS
+            // 
+            this.toolStripButtonANEXOS.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonANEXOS.Image")));
+            this.toolStripButtonANEXOS.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButtonANEXOS.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonANEXOS.Name = "toolStripButtonANEXOS";
+            this.toolStripButtonANEXOS.Size = new System.Drawing.Size(86, 36);
+            this.toolStripButtonANEXOS.Text = "Anexos";
+            // 
+            // toolStripButtonPROCESSOS
+            // 
+            this.toolStripButtonPROCESSOS.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonPROCESSOS.Image")));
+            this.toolStripButtonPROCESSOS.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButtonPROCESSOS.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonPROCESSOS.Name = "toolStripButtonPROCESSOS";
+            this.toolStripButtonPROCESSOS.Size = new System.Drawing.Size(99, 36);
+            this.toolStripButtonPROCESSOS.Text = "Processos";
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.simpleButtonSALVAR);
+            this.panel1.Controls.Add(this.simpleButtonOK);
+            this.panel1.Controls.Add(this.simpleButtonCANCELAR);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(0, 122);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(566, 61);
+            this.panel1.TabIndex = 11;
+            // 
+            // simpleButtonSALVAR
+            // 
+            this.simpleButtonSALVAR.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.simpleButtonSALVAR.Location = new System.Drawing.Point(289, 18);
+            this.simpleButtonSALVAR.Name = "simpleButtonSALVAR";
+            this.simpleButtonSALVAR.Size = new System.Drawing.Size(75, 23);
+            this.simpleButtonSALVAR.TabIndex = 1;
+            this.simpleButtonSALVAR.Text = "Salvar";
+            this.simpleButtonSALVAR.Click += new System.EventHandler(this.simpleButtonSALVAR_Click);
+            // 
+            // simpleButtonOK
+            // 
+            this.simpleButtonOK.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.simpleButtonOK.Location = new System.Drawing.Point(379, 18);
+            this.simpleButtonOK.Name = "simpleButtonOK";
+            this.simpleButtonOK.Size = new System.Drawing.Size(75, 23);
+            this.simpleButtonOK.TabIndex = 2;
+            this.simpleButtonOK.Text = "OK";
+            this.simpleButtonOK.Click += new System.EventHandler(this.simpleButtonOK_Click);
+            // 
+            // simpleButtonCANCELAR
+            // 
+            this.simpleButtonCANCELAR.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.simpleButtonCANCELAR.Location = new System.Drawing.Point(469, 18);
+            this.simpleButtonCANCELAR.Name = "simpleButtonCANCELAR";
+            this.simpleButtonCANCELAR.Size = new System.Drawing.Size(75, 23);
+            this.simpleButtonCANCELAR.TabIndex = 3;
+            this.simpleButtonCANCELAR.Text = "Cancelar";
+            this.simpleButtonCANCELAR.Click += new System.EventHandler(this.simpleButtonCANCELAR_Click);
+            // 
+            // splashScreenManager1
+            // 
+            this.splashScreenManager1.ClosingDelay = 500;
+            // 
+            // FormCadastroObject
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(566, 183);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.toolStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "FormCadastroObject";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Cadastro";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormCadastroObject_FormClosed);
+            this.Load += new System.EventHandler(this.FormCadastro2_Load);
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        public System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStripButton toolStripButtonNOVO;
+        private System.Windows.Forms.ToolStripButton toolStripButtonEXCLUIR;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        public System.Windows.Forms.ToolStripSplitButton toolStripButtonANEXOS;
+        public System.Windows.Forms.ToolStripSplitButton toolStripButtonPROCESSOS;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripButton toolStripButtonPRIMEIRO;
+        private System.Windows.Forms.ToolStripButton toolStripButtonANTERIOR;
+        private System.Windows.Forms.ToolStripButton toolStripButtonPROXIMO;
+        private System.Windows.Forms.ToolStripButton toolStripButtonULTIMO;
+        private System.Windows.Forms.BindingSource bindingSource1;
+        public DevExpress.XtraEditors.SimpleButton simpleButtonOK;
+        public DevExpress.XtraEditors.SimpleButton simpleButtonCANCELAR;
+        public DevExpress.XtraEditors.SimpleButton simpleButtonSALVAR;
+        public System.Windows.Forms.Panel panel1;
+        private DevExpress.XtraSplashScreen.SplashScreenManager splashScreenManager1;
+    }
+}

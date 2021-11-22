@@ -1,0 +1,1323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D023A561-E057-42F6-A590-F0525D803D24}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AppLib</RootNamespace>
+    <AssemblyName>AppLib</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>1</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <WarningLevel>3</WarningLevel>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <WarningLevel>3</WarningLevel>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.CodeParser.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.TreeMap.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeMap.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Dashboard.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Dashboard.v19.1.Win, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v19.1.UI, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v19.1.Export, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v19.1.UI, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v19.1.Extensions, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v19.1.UI, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v19.1.Wizard, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v19.1.Win, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraMap.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v19.1.Extensions, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Graph, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Graph.15.0.4420.1017\lib\net20\Microsoft.Office.Interop.Graph.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools.Excel.v4.0.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools.v4.0.Framework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\AssistantDecode.cs" />
+    <Compile Include="ERP\Alias.cs" />
+    <Compile Include="ERP\Start.cs" />
+    <Compile Include="Expressao\Arvore.cs" />
+    <Compile Include="Expressao\FormExpressaoDesigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expressao\FormExpressaoDesigner.Designer.cs">
+      <DependentUpon>FormExpressaoDesigner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Expressao\FormExpressaoSelecao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expressao\FormExpressaoSelecao.Designer.cs">
+      <DependentUpon>FormExpressaoSelecao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fluxo\Figuras\CaixaTexto.cs" />
+    <Compile Include="Fluxo\Figuras\Figura.cs" />
+    <Compile Include="Fluxo\Figuras\FiguraCondicao.cs" />
+    <Compile Include="Fluxo\Figuras\FiguraFim.cs" />
+    <Compile Include="Fluxo\Figuras\FiguraInicio.cs" />
+    <Compile Include="Fluxo\Figuras\FiguraProcesso.cs" />
+    <Compile Include="Fluxo\Figuras\FiguraRepeticao.cs" />
+    <Compile Include="Fluxo\Figuras\FiguraSubprocesso.cs" />
+    <Compile Include="Fluxo\Figuras\FiguraTransacao.cs" />
+    <Compile Include="Fluxo\Figuras\FormFiguraCondicao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fluxo\Figuras\FormFiguraCondicao.designer.cs">
+      <DependentUpon>FormFiguraCondicao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fluxo\Figuras\FormFiguraFim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fluxo\Figuras\FormFiguraFim.designer.cs">
+      <DependentUpon>FormFiguraFim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fluxo\Figuras\FormFiguraInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fluxo\Figuras\FormFiguraInicio.designer.cs">
+      <DependentUpon>FormFiguraInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fluxo\Figuras\FormFiguraProcesso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fluxo\Figuras\FormFiguraProcesso.designer.cs">
+      <DependentUpon>FormFiguraProcesso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fluxo\Figuras\FormFiguraRepeticao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fluxo\Figuras\FormFiguraRepeticao.designer.cs">
+      <DependentUpon>FormFiguraRepeticao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fluxo\Figuras\FormFiguraSubprocesso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fluxo\Figuras\FormFiguraSubprocesso.designer.cs">
+      <DependentUpon>FormFiguraSubprocesso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fluxo\Figuras\FormFiguraTransacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fluxo\Figuras\FormFiguraTransacao.Designer.cs">
+      <DependentUpon>FormFiguraTransacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fluxo\Figuras\FormParametroSubprocesso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fluxo\Figuras\FormParametroSubprocesso.Designer.cs">
+      <DependentUpon>FormParametroSubprocesso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fluxo\Figuras\Ligacao.cs" />
+    <Compile Include="Fluxo\Figuras\VariaveisSubprocesso.cs" />
+    <Compile Include="Fluxo\Fluxo.cs" />
+    <Compile Include="Fluxo\FluxoExpImp.cs" />
+    <Compile Include="Fluxo\FluxoUtil.cs" />
+    <Compile Include="Fluxo\FormAbrir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fluxo\FormAbrir.designer.cs">
+      <DependentUpon>FormAbrir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fluxo\FormFluxo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fluxo\FormFluxo.designer.cs">
+      <DependentUpon>FormFluxo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fluxo\FormFluxoBibliotecaCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fluxo\FormFluxoBibliotecaCadastro.Designer.cs">
+      <DependentUpon>FormFluxoBibliotecaCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fluxo\FormFluxoBibliotecaVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fluxo\FormFluxoBibliotecaVisao.Designer.cs">
+      <DependentUpon>FormFluxoBibliotecaVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fluxo\FormFluxoBuild.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fluxo\FormFluxoBuild.Designer.cs">
+      <DependentUpon>FormFluxoBuild.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fluxo\FormFluxoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fluxo\FormFluxoCadastro.Designer.cs">
+      <DependentUpon>FormFluxoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fluxo\FormFluxoCadastroVariavel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fluxo\FormFluxoCadastroVariavel.Designer.cs">
+      <DependentUpon>FormFluxoCadastroVariavel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fluxo\FormFluxoVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fluxo\FormFluxoVisao.Designer.cs">
+      <DependentUpon>FormFluxoVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fluxo\FormOpcaoCondicao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fluxo\FormOpcaoCondicao.Designer.cs">
+      <DependentUpon>FormOpcaoCondicao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fluxo\FormOpcoesGerais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fluxo\FormOpcoesGerais.designer.cs">
+      <DependentUpon>FormOpcoesGerais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fluxo\Geradores\CSharp.cs" />
+    <Compile Include="Fluxo\Geral\Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fluxo\Geral\Editor.designer.cs">
+      <DependentUpon>Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fluxo\Geral\Expressao.cs" />
+    <Compile Include="Fluxo\Geral\FormPropriedadeFluxo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fluxo\Geral\FormPropriedadeFluxo.designer.cs">
+      <DependentUpon>FormPropriedadeFluxo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fluxo\Opcoes.cs" />
+    <Compile Include="Fluxo\Geral\PropriedadeFluxo.cs" />
+    <Compile Include="Fluxo\Geral\VariaveisFluxo.cs" />
+    <Compile Include="Fluxo\Principal.cs" />
+    <Compile Include="Padrao\FormConexaoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormConexaoCadastro.Designer.cs">
+      <DependentUpon>FormConexaoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormConexaoVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormConexaoVisao.Designer.cs">
+      <DependentUpon>FormConexaoVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormCuboCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormCuboCadastro.Designer.cs">
+      <DependentUpon>FormCuboCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormCuboParamCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormCuboParamCadastro.Designer.cs">
+      <DependentUpon>FormCuboParamCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormCuboPerfilCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormCuboPerfilCadastro.Designer.cs">
+      <DependentUpon>FormCuboPerfilCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormCuboSQLParCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormCuboSQLParCadastro.Designer.cs">
+      <DependentUpon>FormCuboSQLParCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormCuboSQLProcCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormCuboSQLProcCadastro.Designer.cs">
+      <DependentUpon>FormCuboSQLProcCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormCuboViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormCuboViewer.Designer.cs">
+      <DependentUpon>FormCuboViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormCuboVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormCuboVisao.Designer.cs">
+      <DependentUpon>FormCuboVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormDashboardCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormDashboardCadastro.Designer.cs">
+      <DependentUpon>FormDashboardCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormDashboardDesigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormDashboardDesigner.Designer.cs">
+      <DependentUpon>FormDashboardDesigner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormDashboardPerfilCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormDashboardPerfilCadastro.Designer.cs">
+      <DependentUpon>FormDashboardPerfilCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormDashboardViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormDashboardViewer.Designer.cs">
+      <DependentUpon>FormDashboardViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormDashboardVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormDashboardVisao.Designer.cs">
+      <DependentUpon>FormDashboardVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormDocumentDesigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormDocumentDesigner.Designer.cs">
+      <DependentUpon>FormDocumentDesigner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormExcelAbaSelecao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormExcelAbaSelecao.Designer.cs">
+      <DependentUpon>FormExcelAbaSelecao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormExcelCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormExcelCadastro.Designer.cs">
+      <DependentUpon>FormExcelCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormExcelParamCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormExcelParamCadastro.Designer.cs">
+      <DependentUpon>FormExcelParamCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormExcelPerfilCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormExcelPerfilCadastro.Designer.cs">
+      <DependentUpon>FormExcelPerfilCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormExcelSQLCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormExcelSQLCadastro.Designer.cs">
+      <DependentUpon>FormExcelSQLCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormExcelSQLParCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormExcelSQLParCadastro.Designer.cs">
+      <DependentUpon>FormExcelSQLParCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormExcelSQLProcCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormExcelSQLProcCadastro.Designer.cs">
+      <DependentUpon>FormExcelSQLProcCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormExcelVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormExcelVisao.Designer.cs">
+      <DependentUpon>FormExcelVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormMenuCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormMenuCadastro.designer.cs">
+      <DependentUpon>FormMenuCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormMenuFluxoVisaoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormMenuFluxoVisaoCadastro.Designer.cs">
+      <DependentUpon>FormMenuFluxoVisaoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormMenuPerfilCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormMenuPerfilCadastro.designer.cs">
+      <DependentUpon>FormMenuPerfilCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormMenuPerfilVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormMenuPerfilVisao.designer.cs">
+      <DependentUpon>FormMenuPerfilVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormMenuVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormMenuVisao.designer.cs">
+      <DependentUpon>FormMenuVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormMudarSenha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormMudarSenha.designer.cs">
+      <DependentUpon>FormMudarSenha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormPerfilCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormPerfilCadastro.designer.cs">
+      <DependentUpon>FormPerfilCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormPerfilVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormPerfilVisao.designer.cs">
+      <DependentUpon>FormPerfilVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormProcessoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormProcessoCadastro.designer.cs">
+      <DependentUpon>FormProcessoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormProcessoPerfilCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormProcessoPerfilCadastro.designer.cs">
+      <DependentUpon>FormProcessoPerfilCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormProcessoPerfilVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormProcessoPerfilVisao.designer.cs">
+      <DependentUpon>FormProcessoPerfilVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormProcessoVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormProcessoVisao.designer.cs">
+      <DependentUpon>FormProcessoVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormReportCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormReportCadastro.Designer.cs">
+      <DependentUpon>FormReportCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormReportPerfilCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormReportPerfilCadastro.Designer.cs">
+      <DependentUpon>FormReportPerfilCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormReportVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormReportVisao.Designer.cs">
+      <DependentUpon>FormReportVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormSQLCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormSQLCadastro.Designer.cs">
+      <DependentUpon>FormSQLCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormSQLTeste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormSQLTeste.Designer.cs">
+      <DependentUpon>FormSQLTeste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormSQLVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormSQLVisao.Designer.cs">
+      <DependentUpon>FormSQLVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormUsuarioCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormUsuarioCadastro.designer.cs">
+      <DependentUpon>FormUsuarioCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\FormUsuarioVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormUsuarioVisao.designer.cs">
+      <DependentUpon>FormUsuarioVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ERP\Corpore.cs" />
+    <Compile Include="Padrao\FormReportDesigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\FormReportDesigner.Designer.cs">
+      <DependentUpon>FormReportDesigner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Padrao\WaitForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Padrao\WaitForm1.Designer.cs">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintRibbonControllerResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintRibbonControllerResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Util\Alias.cs" />
+    <Compile Include="Util\AliasList.cs" />
+    <Compile Include="Util\Arquivo.cs" />
+    <Compile Include="Util\Correios\BuscaCep.cs" />
+    <Compile Include="Util\Correios\Endereco.cs" />
+    <Compile Include="Util\Correios\Request.cs" />
+    <Compile Include="Util\Correios\Response.cs" />
+    <Compile Include="Util\Database.cs" />
+    <Compile Include="Util\DesfazerRefazer.cs" />
+    <Compile Include="Util\ExcelManager.cs" />
+    <Compile Include="Util\Log.cs" />
+    <Compile Include="Windows\BackupDadosCadastro.cs" />
+    <Compile Include="Windows\CampoArquivo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\CampoArquivo.Designer.cs">
+      <DependentUpon>CampoArquivo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\CampoBusca.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\CampoBusca.Designer.cs">
+      <DependentUpon>CampoBusca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\CampoCheck.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\CampoCheck.Designer.cs">
+      <DependentUpon>CampoCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\CampoCheckList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\CampoCheckList.Designer.cs">
+      <DependentUpon>CampoCheckList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\CampoHora.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\CampoHora.Designer.cs">
+      <DependentUpon>CampoHora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AssistantConnection.cs" />
+    <Compile Include="Data\Connection.cs" />
+    <Compile Include="Data\OleDb.cs" />
+    <Compile Include="Data\OracleClient.cs" />
+    <Compile Include="Data\PoolConnection.cs" />
+    <Compile Include="Data\SqlClient.cs" />
+    <Compile Include="Data\Variaveis.cs" />
+    <Compile Include="Data\WebService.cs" />
+    <Compile Include="Context.cs" />
+    <Compile Include="Global\Types.cs" />
+    <Compile Include="MemoryManager.cs" />
+    <Compile Include="ORM\CampoValor.cs" />
+    <Compile Include="ORM\Constraint.cs" />
+    <Compile Include="ORM\ConstraintRef.cs" />
+    <Compile Include="ORM\Engine.cs" />
+    <Compile Include="ORM\Metadados.cs" />
+    <Compile Include="ORM\Jit.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Security\Access.cs" />
+    <Compile Include="Service References\wsLib\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="Sync\Base.cs" />
+    <Compile Include="Sync\SyncTool.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Sync\SyncTool.Designer.cs">
+      <DependentUpon>SyncTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Util\Calculo.cs" />
+    <Compile Include="Util\Classificacao.cs" />
+    <Compile Include="Util\Conversor.cs" />
+    <Compile Include="Util\Criptografia.cs" />
+    <Compile Include="Util\Email.cs" />
+    <Compile Include="Util\Format.cs" />
+    <Compile Include="Util\ObjetoXML.cs" />
+    <Compile Include="Windows\CampoData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\CampoData.designer.cs">
+      <DependentUpon>CampoData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\CampoDataHora.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\CampoDataHora.Designer.cs">
+      <DependentUpon>CampoDataHora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\CampoDecimal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\CampoDecimal.Designer.cs">
+      <DependentUpon>CampoDecimal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\CampoImagem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\CampoImagem.Designer.cs">
+      <DependentUpon>CampoImagem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\CampoInteiro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\CampoInteiro.Designer.cs">
+      <DependentUpon>CampoInteiro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\CampoLista.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\CampoLista.Designer.cs">
+      <DependentUpon>CampoLista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\CampoLookup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\CampoLookup.designer.cs">
+      <DependentUpon>CampoLookup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\CampoMemo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\CampoMemo.Designer.cs">
+      <DependentUpon>CampoMemo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\CampoTexto.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\CampoTexto.Designer.cs">
+      <DependentUpon>CampoTexto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\CodigoNome.cs" />
+    <Compile Include="Windows\GridCuboProps.cs" />
+    <Compile Include="Windows\DadosCadastro.cs" />
+    <Compile Include="Windows\FormCadastroData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\FormCadastroData.Designer.cs">
+      <DependentUpon>FormCadastroData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\FormCadastroObject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\FormCadastroObject.Designer.cs">
+      <DependentUpon>FormCadastroObject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\FormCampoImagem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\FormCampoImagem.Designer.cs">
+      <DependentUpon>FormCampoImagem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\FormListaPrompt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\FormListaPrompt.Designer.cs">
+      <DependentUpon>FormListaPrompt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\FormBusca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\FormBusca.Designer.cs">
+      <DependentUpon>FormBusca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\FormMessageDefault.cs" />
+    <Compile Include="Windows\FormImportarDados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\FormImportarDados.Designer.cs">
+      <DependentUpon>FormImportarDados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\FormSalvarDisposicao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\FormSalvarDisposicao.Designer.cs">
+      <DependentUpon>FormSalvarDisposicao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\FormSalvarDisposicaoCubo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\FormSalvarDisposicaoCubo.Designer.cs">
+      <DependentUpon>FormSalvarDisposicaoCubo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\FormVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\FormVisao.Designer.cs">
+      <DependentUpon>FormVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\FormExceptionSQL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\FormExceptionSQL.Designer.cs">
+      <DependentUpon>FormExceptionSQL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\FormFiltro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\FormFiltro.Designer.cs">
+      <DependentUpon>FormFiltro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\FormFiltroEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\FormFiltroEdit.Designer.cs">
+      <DependentUpon>FormFiltroEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\FormMessagePrompt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\FormMessagePrompt.Designer.cs">
+      <DependentUpon>FormMessagePrompt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\GridCubo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\GridCubo.Designer.cs">
+      <DependentUpon>GridCubo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\GridData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\GridData.Designer.cs">
+      <DependentUpon>GridData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\GridObject.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\GridObject.Designer.cs">
+      <DependentUpon>GridObject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\GridProps.cs" />
+    <Compile Include="Windows\Query.cs" />
+    <Compile Include="Windows\SequenciaListaItens.cs" />
+    <Compile Include="Windows\TipoArquivo.cs" />
+    <Compile Include="Windows\ValorDescriao.cs" />
+    <Compile Include="XRDesignRibbonControllerResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XRDesignRibbonControllerResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="XtraReport1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XtraReport1.Designer.cs">
+      <DependentUpon>XtraReport1.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Web\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Expressao\FormExpressaoDesigner.resx">
+      <DependentUpon>FormExpressaoDesigner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expressao\FormExpressaoSelecao.resx">
+      <DependentUpon>FormExpressaoSelecao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fluxo\Figuras\FormFiguraCondicao.resx">
+      <DependentUpon>FormFiguraCondicao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fluxo\Figuras\FormFiguraFim.resx">
+      <DependentUpon>FormFiguraFim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fluxo\Figuras\FormFiguraInicio.resx">
+      <DependentUpon>FormFiguraInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fluxo\Figuras\FormFiguraProcesso.resx">
+      <DependentUpon>FormFiguraProcesso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fluxo\Figuras\FormFiguraRepeticao.resx">
+      <DependentUpon>FormFiguraRepeticao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fluxo\Figuras\FormFiguraSubprocesso.resx">
+      <DependentUpon>FormFiguraSubprocesso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fluxo\Figuras\FormFiguraTransacao.resx">
+      <DependentUpon>FormFiguraTransacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fluxo\Figuras\FormParametroSubprocesso.resx">
+      <DependentUpon>FormParametroSubprocesso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fluxo\FormAbrir.resx">
+      <DependentUpon>FormAbrir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fluxo\FormFluxo.resx">
+      <DependentUpon>FormFluxo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fluxo\FormFluxoBibliotecaCadastro.resx">
+      <DependentUpon>FormFluxoBibliotecaCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fluxo\FormFluxoBibliotecaVisao.resx">
+      <DependentUpon>FormFluxoBibliotecaVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fluxo\FormFluxoBuild.resx">
+      <DependentUpon>FormFluxoBuild.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fluxo\FormFluxoCadastro.resx">
+      <DependentUpon>FormFluxoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fluxo\FormFluxoCadastroVariavel.resx">
+      <DependentUpon>FormFluxoCadastroVariavel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fluxo\FormFluxoVisao.resx">
+      <DependentUpon>FormFluxoVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fluxo\FormOpcaoCondicao.resx">
+      <DependentUpon>FormOpcaoCondicao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fluxo\FormOpcoesGerais.resx">
+      <DependentUpon>FormOpcoesGerais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fluxo\Geral\Editor.resx">
+      <DependentUpon>Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fluxo\Geral\FormPropriedadeFluxo.resx">
+      <DependentUpon>FormPropriedadeFluxo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormConexaoCadastro.resx">
+      <DependentUpon>FormConexaoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormConexaoVisao.resx">
+      <DependentUpon>FormConexaoVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormCuboCadastro.resx">
+      <DependentUpon>FormCuboCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormCuboParamCadastro.resx">
+      <DependentUpon>FormCuboParamCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormCuboPerfilCadastro.resx">
+      <DependentUpon>FormCuboPerfilCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormCuboSQLParCadastro.resx">
+      <DependentUpon>FormCuboSQLParCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormCuboSQLProcCadastro.resx">
+      <DependentUpon>FormCuboSQLProcCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormCuboViewer.resx">
+      <DependentUpon>FormCuboViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormCuboVisao.resx">
+      <DependentUpon>FormCuboVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormDashboardCadastro.resx">
+      <DependentUpon>FormDashboardCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormDashboardDesigner.resx">
+      <DependentUpon>FormDashboardDesigner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormDashboardPerfilCadastro.resx">
+      <DependentUpon>FormDashboardPerfilCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormDashboardViewer.resx">
+      <DependentUpon>FormDashboardViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormDashboardVisao.resx">
+      <DependentUpon>FormDashboardVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormDocumentDesigner.resx">
+      <DependentUpon>FormDocumentDesigner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormExcelAbaSelecao.resx">
+      <DependentUpon>FormExcelAbaSelecao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormExcelCadastro.resx">
+      <DependentUpon>FormExcelCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormExcelParamCadastro.resx">
+      <DependentUpon>FormExcelParamCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormExcelPerfilCadastro.resx">
+      <DependentUpon>FormExcelPerfilCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormExcelSQLCadastro.resx">
+      <DependentUpon>FormExcelSQLCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormExcelSQLParCadastro.resx">
+      <DependentUpon>FormExcelSQLParCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormExcelSQLProcCadastro.resx">
+      <DependentUpon>FormExcelSQLProcCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormExcelVisao.resx">
+      <DependentUpon>FormExcelVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormMenuCadastro.resx">
+      <DependentUpon>FormMenuCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormMenuFluxoVisaoCadastro.resx">
+      <DependentUpon>FormMenuFluxoVisaoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormMenuPerfilCadastro.resx">
+      <DependentUpon>FormMenuPerfilCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormMenuPerfilVisao.resx">
+      <DependentUpon>FormMenuPerfilVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormMenuVisao.resx">
+      <DependentUpon>FormMenuVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormMudarSenha.resx">
+      <DependentUpon>FormMudarSenha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormPerfilCadastro.resx">
+      <DependentUpon>FormPerfilCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormPerfilVisao.resx">
+      <DependentUpon>FormPerfilVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormProcessoCadastro.resx">
+      <DependentUpon>FormProcessoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormProcessoPerfilCadastro.resx">
+      <DependentUpon>FormProcessoPerfilCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormProcessoPerfilVisao.resx">
+      <DependentUpon>FormProcessoPerfilVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormProcessoVisao.resx">
+      <DependentUpon>FormProcessoVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormReportCadastro.resx">
+      <DependentUpon>FormReportCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormReportPerfilCadastro.resx">
+      <DependentUpon>FormReportPerfilCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormReportVisao.resx">
+      <DependentUpon>FormReportVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormSQLCadastro.resx">
+      <DependentUpon>FormSQLCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormSQLTeste.resx">
+      <DependentUpon>FormSQLTeste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormSQLVisao.resx">
+      <DependentUpon>FormSQLVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormUsuarioCadastro.resx">
+      <DependentUpon>FormUsuarioCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormUsuarioVisao.resx">
+      <DependentUpon>FormUsuarioVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\FormReportDesigner.resx">
+      <DependentUpon>FormReportDesigner.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Padrao\WaitForm1.resx">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintRibbonControllerResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PrintRibbonControllerResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Windows\CampoArquivo.resx">
+      <DependentUpon>CampoArquivo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\CampoBusca.resx">
+      <DependentUpon>CampoBusca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\CampoCheck.resx">
+      <DependentUpon>CampoCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\CampoCheckList.resx">
+      <DependentUpon>CampoCheckList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\CampoHora.resx">
+      <DependentUpon>CampoHora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sync\SyncTool.resx">
+      <DependentUpon>SyncTool.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\CampoData.resx">
+      <DependentUpon>CampoData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\CampoDataHora.resx">
+      <DependentUpon>CampoDataHora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\CampoDecimal.resx">
+      <DependentUpon>CampoDecimal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\CampoImagem.resx">
+      <DependentUpon>CampoImagem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\CampoInteiro.resx">
+      <DependentUpon>CampoInteiro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\CampoLista.resx">
+      <DependentUpon>CampoLista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\CampoLookup.resx">
+      <DependentUpon>CampoLookup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\CampoMemo.resx">
+      <DependentUpon>CampoMemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\CampoTexto.resx">
+      <DependentUpon>CampoTexto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\FormCadastroData.resx">
+      <DependentUpon>FormCadastroData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\FormCadastroObject.resx">
+      <DependentUpon>FormCadastroObject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\FormCampoImagem.resx">
+      <DependentUpon>FormCampoImagem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\FormImportarDados.resx">
+      <DependentUpon>FormImportarDados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\FormListaPrompt.resx">
+      <DependentUpon>FormListaPrompt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\FormBusca.resx">
+      <DependentUpon>FormBusca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\FormSalvarDisposicao.resx">
+      <DependentUpon>FormSalvarDisposicao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\FormSalvarDisposicaoCubo.resx">
+      <DependentUpon>FormSalvarDisposicaoCubo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\FormVisao.resx">
+      <DependentUpon>FormVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\FormExceptionSQL.resx">
+      <DependentUpon>FormExceptionSQL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\FormFiltro.resx">
+      <DependentUpon>FormFiltro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\FormFiltroEdit.resx">
+      <DependentUpon>FormFiltroEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\FormMessagePrompt.resx">
+      <DependentUpon>FormMessagePrompt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\GridCubo.resx">
+      <DependentUpon>GridCubo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\GridData.resx">
+      <DependentUpon>GridData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\GridObject.resx">
+      <DependentUpon>GridObject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XRDesignRibbonControllerResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>XRDesignRibbonControllerResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\System.Data.DataTable.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\wsLib\Service11.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\wsLib\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsLib\AppLib.wsLib.Message.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\wsLib\AppLib.wsLib.MessageGet.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\wsLib\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsLib\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsLib\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

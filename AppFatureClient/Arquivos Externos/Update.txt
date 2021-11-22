@@ -1,0 +1,3 @@
+d;http://www.itinit.com.br/cliente/palini/AppLib.dll
+d;http://www.itinit.com.br/cliente/palini/AppInterop.dll
+d;http://www.itinit.com.br/cliente/palini/AppFatureClient.exe

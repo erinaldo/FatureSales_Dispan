@@ -1,0 +1,898 @@
+E:\GitHub\AppLib-Dispan\AppLib\bin\Debug\AppLib.dll.config
+E:\GitHub\AppLib-Dispan\AppLib\bin\Debug\AppLib.dll
+E:\GitHub\AppLib-Dispan\AppLib\bin\Debug\AppLib.pdb
+E:\GitHub\AppLib-Dispan\AppLib\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.dll
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Expressao.FormExpressaoDesigner.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Expressao.FormExpressaoSelecao.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraCondicao.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraFim.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraInicio.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraProcesso.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraRepeticao.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraSubprocesso.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraTransacao.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormParametroSubprocesso.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormAbrir.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxo.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoBibliotecaCadastro.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoBibliotecaVisao.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoBuild.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoCadastro.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoCadastroVariavel.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoVisao.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormOpcaoCondicao.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormOpcoesGerais.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.Editor.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormPropriedadeFluxo.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormConexaoCadastro.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormConexaoVisao.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboCadastro.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboParamCadastro.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboPerfilCadastro.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboSQLParCadastro.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboSQLProcCadastro.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboViewer.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboVisao.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardCadastro.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardDesigner.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardPerfilCadastro.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardViewer.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardVisao.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDocumentDesigner.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelAbaSelecao.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelCadastro.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelParamCadastro.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelPerfilCadastro.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelSQLCadastro.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelSQLParCadastro.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelSQLProcCadastro.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelVisao.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuCadastro.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuFluxoVisaoCadastro.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuPerfilCadastro.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuPerfilVisao.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuVisao.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMudarSenha.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormPerfilCadastro.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormPerfilVisao.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoCadastro.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoPerfilCadastro.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoPerfilVisao.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoVisao.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportCadastro.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportPerfilCadastro.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportVisao.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormSQLCadastro.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormSQLTeste.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormSQLVisao.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormUsuarioCadastro.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormUsuarioVisao.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportDesigner.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.WaitForm1.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.PrintRibbonControllerResources.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoArquivo.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoBusca.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoCheck.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoCheckList.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoHora.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Properties.Resources.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Sync.SyncTool.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoData.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoDataHora.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoDecimal.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoImagem.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoInteiro.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoLista.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoLookup.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoMemo.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoTexto.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormCadastroData.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormCadastroObject.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormCampoImagem.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormImportarDados.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormListaPrompt.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormBusca.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormSalvarDisposicao.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormSalvarDisposicaoCubo.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormVisao.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormExceptionSQL.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormFiltro.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormFiltroEdit.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormMessagePrompt.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.GridCubo.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.GridData.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.GridObject.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.XRDesignRibbonControllerResources.resources
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csproj.GenerateResource.cache
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.dll.licenses
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csproj.CopyComplete
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.dll
+E:\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.pdb
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Expressao.FormExpressaoDesigner.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Expressao.FormExpressaoSelecao.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraCondicao.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraFim.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraInicio.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraProcesso.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraRepeticao.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraSubprocesso.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraTransacao.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormParametroSubprocesso.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormAbrir.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxo.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoBibliotecaCadastro.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoBibliotecaVisao.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoBuild.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoCadastro.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoCadastroVariavel.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoVisao.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormOpcaoCondicao.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormOpcoesGerais.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.Editor.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormPropriedadeFluxo.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormConexaoCadastro.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormConexaoVisao.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboCadastro.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboParamCadastro.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboPerfilCadastro.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboSQLParCadastro.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboSQLProcCadastro.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboViewer.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboVisao.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardCadastro.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardDesigner.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardPerfilCadastro.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardViewer.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardVisao.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDocumentDesigner.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelAbaSelecao.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelCadastro.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelParamCadastro.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelPerfilCadastro.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelSQLCadastro.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelSQLParCadastro.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelSQLProcCadastro.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelVisao.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuCadastro.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuFluxoVisaoCadastro.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuPerfilCadastro.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuPerfilVisao.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuVisao.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMudarSenha.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormPerfilCadastro.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormPerfilVisao.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoCadastro.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoPerfilCadastro.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoPerfilVisao.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoVisao.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportCadastro.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportPerfilCadastro.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportVisao.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormSQLCadastro.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormSQLTeste.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormSQLVisao.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormUsuarioCadastro.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormUsuarioVisao.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportDesigner.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.WaitForm1.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.PrintRibbonControllerResources.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoArquivo.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoBusca.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoCheck.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoCheckList.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoHora.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Properties.Resources.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Sync.SyncTool.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoData.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoDataHora.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoDecimal.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoImagem.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoInteiro.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoLista.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoLookup.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoMemo.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoTexto.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormCadastroData.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormCadastroObject.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormCampoImagem.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormImportarDados.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormListaPrompt.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormBusca.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormSalvarDisposicao.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormSalvarDisposicaoCubo.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormVisao.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormExceptionSQL.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormFiltro.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormFiltroEdit.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormMessagePrompt.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.GridCubo.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.GridData.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.GridObject.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.XRDesignRibbonControllerResources.resources
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csproj.GenerateResource.cache
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.dll.licenses
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csproj.CoreCompileInputs.cache
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.dll
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLib.pdb
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\bin\Debug\AppLib.dll.config
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\bin\Debug\AppLib.dll
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\bin\Debug\AppLib.pdb
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\bin\Debug\Microsoft.Office.Tools.Excel.v4.0.Utilities.dll
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.dll
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csproj.CopyComplete
+C:\Users\Fabio\Documents\GitHub\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csprojAssemblyReference.cache
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\bin\Debug\AppLib.dll.config
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\bin\Debug\AppLib.dll
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\bin\Debug\AppLib.pdb
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\bin\Debug\Microsoft.Office.Tools.Excel.v4.0.Utilities.dll
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.dll
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csprojAssemblyReference.cache
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Expressao.FormExpressaoDesigner.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Expressao.FormExpressaoSelecao.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraCondicao.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraFim.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraInicio.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraProcesso.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraRepeticao.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraSubprocesso.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraTransacao.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormParametroSubprocesso.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormAbrir.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxo.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoBibliotecaCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoBibliotecaVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoBuild.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoCadastroVariavel.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormOpcaoCondicao.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormOpcoesGerais.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.Editor.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormPropriedadeFluxo.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormConexaoCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormConexaoVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboParamCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboPerfilCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboSQLParCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboSQLProcCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboViewer.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardDesigner.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardPerfilCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardViewer.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDocumentDesigner.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelAbaSelecao.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelParamCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelPerfilCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelSQLCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelSQLParCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelSQLProcCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuFluxoVisaoCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuPerfilCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuPerfilVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMudarSenha.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormPerfilCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormPerfilVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoPerfilCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoPerfilVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportPerfilCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormSQLCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormSQLTeste.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormSQLVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormUsuarioCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormUsuarioVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportDesigner.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.WaitForm1.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.PrintRibbonControllerResources.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoArquivo.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoBusca.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoCheck.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoCheckList.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoHora.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Properties.Resources.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Sync.SyncTool.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoData.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoDataHora.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoDecimal.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoImagem.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoInteiro.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoLista.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoLookup.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoMemo.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoTexto.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormCadastroData.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormCadastroObject.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormCampoImagem.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormImportarDados.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormListaPrompt.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormBusca.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormSalvarDisposicao.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormSalvarDisposicaoCubo.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormExceptionSQL.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormFiltro.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormFiltroEdit.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormMessagePrompt.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.GridCubo.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.GridData.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.GridObject.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.XRDesignRibbonControllerResources.resources
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csproj.GenerateResource.cache
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.dll.licenses
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csproj.CoreCompileInputs.cache
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csproj.CopyComplete
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.dll
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-29-12-2020\FatureSales-Dispan-29-12-2020\AppLib-Dispan\AppLib\obj\Debug\AppLib.pdb
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\bin\Debug\AppLib.dll.config
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\bin\Debug\AppLib.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\bin\Debug\AppLib.pdb
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\bin\Debug\Microsoft.Office.Tools.Excel.v4.0.Utilities.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Expressao.FormExpressaoDesigner.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Expressao.FormExpressaoSelecao.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraCondicao.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraFim.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraInicio.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraProcesso.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraRepeticao.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraSubprocesso.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraTransacao.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormParametroSubprocesso.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormAbrir.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxo.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoBibliotecaCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoBibliotecaVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoBuild.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoCadastroVariavel.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormOpcaoCondicao.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormOpcoesGerais.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.Editor.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormPropriedadeFluxo.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormConexaoCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormConexaoVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboParamCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboPerfilCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboSQLParCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboSQLProcCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboViewer.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardDesigner.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardPerfilCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardViewer.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDocumentDesigner.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelAbaSelecao.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelParamCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelPerfilCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelSQLCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelSQLParCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelSQLProcCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuFluxoVisaoCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuPerfilCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuPerfilVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMudarSenha.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormPerfilCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormPerfilVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoPerfilCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoPerfilVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportPerfilCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormSQLCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormSQLTeste.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormSQLVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormUsuarioCadastro.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormUsuarioVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportDesigner.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.WaitForm1.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.PrintRibbonControllerResources.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoArquivo.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoBusca.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoCheck.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoCheckList.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoHora.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Properties.Resources.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Sync.SyncTool.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoData.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoDataHora.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoDecimal.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoImagem.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoInteiro.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoLista.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoLookup.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoMemo.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoTexto.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormCadastroData.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormCadastroObject.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormCampoImagem.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormImportarDados.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormListaPrompt.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormBusca.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormSalvarDisposicao.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormSalvarDisposicaoCubo.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormVisao.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormExceptionSQL.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormFiltro.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormFiltroEdit.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormMessagePrompt.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.GridCubo.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.GridData.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.GridObject.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.XRDesignRibbonControllerResources.resources
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csproj.GenerateResource.cache
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.dll.licenses
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csproj.CoreCompileInputs.cache
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csproj.CopyComplete
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.pdb
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\bin\Debug\AppLib.dll.config
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\bin\Debug\AppLib.dll
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\bin\Debug\AppLib.pdb
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.dll
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Expressao.FormExpressaoDesigner.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Expressao.FormExpressaoSelecao.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraCondicao.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraFim.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraInicio.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraProcesso.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraRepeticao.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraSubprocesso.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraTransacao.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormParametroSubprocesso.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormAbrir.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxo.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoBibliotecaCadastro.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoBibliotecaVisao.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoBuild.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoCadastro.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoCadastroVariavel.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoVisao.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormOpcaoCondicao.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormOpcoesGerais.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.Editor.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormPropriedadeFluxo.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormConexaoCadastro.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormConexaoVisao.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboCadastro.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboParamCadastro.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboPerfilCadastro.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboSQLParCadastro.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboSQLProcCadastro.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboViewer.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboVisao.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardCadastro.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardDesigner.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardPerfilCadastro.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardViewer.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardVisao.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDocumentDesigner.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelAbaSelecao.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelCadastro.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelParamCadastro.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelPerfilCadastro.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelSQLCadastro.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelSQLParCadastro.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelSQLProcCadastro.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelVisao.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuCadastro.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuFluxoVisaoCadastro.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuPerfilCadastro.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuPerfilVisao.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuVisao.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMudarSenha.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormPerfilCadastro.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormPerfilVisao.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoCadastro.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoPerfilCadastro.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoPerfilVisao.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoVisao.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportCadastro.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportPerfilCadastro.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportVisao.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormSQLCadastro.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormSQLTeste.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormSQLVisao.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormUsuarioCadastro.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormUsuarioVisao.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportDesigner.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.WaitForm1.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.PrintRibbonControllerResources.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoArquivo.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoBusca.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoCheck.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoCheckList.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoHora.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Properties.Resources.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Sync.SyncTool.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoData.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoDataHora.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoDecimal.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoImagem.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoInteiro.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoLista.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoLookup.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoMemo.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoTexto.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormCadastroData.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormCadastroObject.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormCampoImagem.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormImportarDados.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormListaPrompt.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormBusca.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormSalvarDisposicao.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormSalvarDisposicaoCubo.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormVisao.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormExceptionSQL.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormFiltro.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormFiltroEdit.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormMessagePrompt.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.GridCubo.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.GridData.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.GridObject.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.XRDesignRibbonControllerResources.resources
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csproj.GenerateResource.cache
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.dll.licenses
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csproj.CoreCompileInputs.cache
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csproj.CopyComplete
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.dll
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.pdb
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csproj.AssemblyReference.cache
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\bin\Debug\AppLib.dll.config
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\bin\Debug\AppLib.dll
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\bin\Debug\AppLib.pdb
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.dll
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csprojAssemblyReference.cache
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Expressao.FormExpressaoDesigner.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Expressao.FormExpressaoSelecao.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraCondicao.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraFim.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraInicio.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraProcesso.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraRepeticao.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraSubprocesso.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraTransacao.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormParametroSubprocesso.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormAbrir.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxo.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoBibliotecaCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoBibliotecaVisao.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoBuild.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoCadastroVariavel.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoVisao.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormOpcaoCondicao.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormOpcoesGerais.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.Editor.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormPropriedadeFluxo.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormConexaoCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormConexaoVisao.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboParamCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboPerfilCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboSQLParCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboSQLProcCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboViewer.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboVisao.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardDesigner.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardPerfilCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardViewer.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardVisao.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDocumentDesigner.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelAbaSelecao.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelParamCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelPerfilCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelSQLCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelSQLParCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelSQLProcCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelVisao.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuFluxoVisaoCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuPerfilCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuPerfilVisao.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuVisao.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMudarSenha.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormPerfilCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormPerfilVisao.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoPerfilCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoPerfilVisao.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoVisao.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportPerfilCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportVisao.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormSQLCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormSQLTeste.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormSQLVisao.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormUsuarioCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormUsuarioVisao.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportDesigner.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.WaitForm1.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.PrintRibbonControllerResources.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoArquivo.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoBusca.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoCheck.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoCheckList.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoHora.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Properties.Resources.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Sync.SyncTool.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoData.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoDataHora.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoDecimal.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoImagem.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoInteiro.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoLista.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoLookup.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoMemo.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoTexto.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormCadastroData.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormCadastroObject.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormCampoImagem.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormImportarDados.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormListaPrompt.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormBusca.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormSalvarDisposicao.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormSalvarDisposicaoCubo.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormVisao.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormExceptionSQL.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormFiltro.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormFiltroEdit.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormMessagePrompt.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.GridCubo.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.GridData.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.GridObject.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.XRDesignRibbonControllerResources.resources
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csproj.GenerateResource.cache
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.dll.licenses
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csproj.CoreCompileInputs.cache
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csproj.CopyComplete
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.dll
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.pdb
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\bin\Debug\AppLib.dll.config
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\bin\Debug\AppLib.dll
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\bin\Debug\AppLib.pdb
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.dll
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csprojAssemblyReference.cache
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Expressao.FormExpressaoDesigner.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Expressao.FormExpressaoSelecao.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraCondicao.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraFim.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraInicio.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraProcesso.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraRepeticao.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraSubprocesso.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraTransacao.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormParametroSubprocesso.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormAbrir.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxo.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoBibliotecaCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoBibliotecaVisao.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoBuild.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoCadastroVariavel.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoVisao.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormOpcaoCondicao.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormOpcoesGerais.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.Editor.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormPropriedadeFluxo.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormConexaoCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormConexaoVisao.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboParamCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboPerfilCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboSQLParCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboSQLProcCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboViewer.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboVisao.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardDesigner.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardPerfilCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardViewer.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardVisao.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDocumentDesigner.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelAbaSelecao.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelParamCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelPerfilCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelSQLCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelSQLParCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelSQLProcCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelVisao.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuFluxoVisaoCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuPerfilCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuPerfilVisao.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuVisao.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMudarSenha.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormPerfilCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormPerfilVisao.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoPerfilCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoPerfilVisao.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoVisao.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportPerfilCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportVisao.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormSQLCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormSQLTeste.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormSQLVisao.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormUsuarioCadastro.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormUsuarioVisao.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportDesigner.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.WaitForm1.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.PrintRibbonControllerResources.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoArquivo.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoBusca.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoCheck.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoCheckList.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoHora.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Properties.Resources.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Sync.SyncTool.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoData.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoDataHora.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoDecimal.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoImagem.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoInteiro.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoLista.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoLookup.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoMemo.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoTexto.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormCadastroData.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormCadastroObject.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormCampoImagem.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormImportarDados.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormListaPrompt.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormBusca.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormSalvarDisposicao.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormSalvarDisposicaoCubo.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormVisao.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormExceptionSQL.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormFiltro.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormFiltroEdit.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormMessagePrompt.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.GridCubo.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.GridData.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.GridObject.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.XRDesignRibbonControllerResources.resources
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csproj.GenerateResource.cache
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.dll.licenses
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csproj.CoreCompileInputs.cache
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csproj.CopyComplete
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.dll
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.pdb
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Expressao.FormExpressaoDesigner.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Expressao.FormExpressaoSelecao.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraCondicao.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraFim.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraInicio.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraProcesso.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraRepeticao.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraSubprocesso.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFiguraTransacao.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormParametroSubprocesso.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormAbrir.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxo.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoBibliotecaCadastro.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoBibliotecaVisao.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoBuild.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoCadastro.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoCadastroVariavel.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormFluxoVisao.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormOpcaoCondicao.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormOpcoesGerais.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.Editor.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Fluxo.FormPropriedadeFluxo.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormConexaoCadastro.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormConexaoVisao.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboCadastro.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboParamCadastro.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboPerfilCadastro.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboSQLParCadastro.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboSQLProcCadastro.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboViewer.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormCuboVisao.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardCadastro.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardDesigner.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardPerfilCadastro.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardViewer.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDashboardVisao.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormDocumentDesigner.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelAbaSelecao.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelCadastro.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelParamCadastro.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelPerfilCadastro.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelSQLCadastro.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelSQLParCadastro.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelSQLProcCadastro.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormExcelVisao.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuCadastro.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuFluxoVisaoCadastro.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuPerfilCadastro.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuPerfilVisao.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMenuVisao.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormMudarSenha.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormPerfilCadastro.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormPerfilVisao.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoCadastro.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoPerfilCadastro.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoPerfilVisao.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormProcessoVisao.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportCadastro.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportPerfilCadastro.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportVisao.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormSQLCadastro.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormSQLTeste.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormSQLVisao.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormUsuarioCadastro.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormUsuarioVisao.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.WaitForm1.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.PrintRibbonControllerResources.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoArquivo.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoBusca.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoCheck.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoCheckList.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoHora.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Properties.Resources.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Sync.SyncTool.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoData.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoDataHora.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoDecimal.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoImagem.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoInteiro.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoLista.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoLookup.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoMemo.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.CampoTexto.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormCadastroData.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormCadastroObject.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormCampoImagem.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormImportarDados.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormListaPrompt.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormBusca.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormSalvarDisposicao.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormSalvarDisposicaoCubo.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormVisao.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormExceptionSQL.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormFiltro.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormFiltroEdit.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.FormMessagePrompt.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.GridCubo.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.GridData.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Windows.GridObject.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.XRDesignRibbonControllerResources.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csproj.GenerateResource.cache
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\bin\Debug\AppLib.dll.config
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\bin\Debug\AppLib.dll
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\bin\Debug\AppLib.pdb
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.Padrao.FormReportDesigner.resources
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.dll.licenses
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csproj.CoreCompileInputs.cache
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csproj.CopyComplete
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.dll
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLib.pdb
+E:\Projetos\FatureSales-Dispan\AppLib-Dispan\AppLib\obj\Debug\AppLibV2.csproj.AssemblyReference.cache

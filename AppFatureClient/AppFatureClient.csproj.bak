@@ -1,0 +1,1808 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1D9C9CB4-E0AE-4912-89DA-B5136668EFBE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AppFatureClient</RootNamespace>
+    <AssemblyName>AppFatureClient</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <DocumentationFile>
+    </DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Logo IT INIT Layers.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AppInterop">
+      <HintPath>..\AppInterop\bin\Debug\AppInterop.dll</HintPath>
+    </Reference>
+    <Reference Include="AppLib">
+      <HintPath>..\..\AppLib-Dispan\AppLib\bin\Debug\AppLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Devart.Data, Version=5.0.1436.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\Devart.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Devart.Data.Oracle, Version=9.0.12.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\Devart.Data.Oracle.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v19.1.Drawing, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.PivotGrid.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v18.2.Core, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v18.2.Core, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v19.1.UI, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v19.1.Wizard, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPdfViewer.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.CodeParser.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v19.1.Export, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v19.1.Extensions, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="RM.Lib, Version=12.1.19.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\RM.Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="RM.Lib.Data, Version=12.1.19.117, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\RM.Lib.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="RM.Lib.Server">
+      <HintPath>dll\RM.Lib.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TotvsSOA.SDK, Version=11.50.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\TotvsSOA.SDK.dll</HintPath>
+    </Reference>
+    <Reference Include="TotvsSOA.SDK.WinForms, Version=11.50.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\TotvsSOA.SDK.WinForms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acao.cs" />
+    <Compile Include="Arquivo.cs" />
+    <Compile Include="Classes\CalculoPreco.cs" />
+    <Compile Include="Classes\Comissao.cs" />
+    <Compile Include="Classes\MetodosEmail.cs" />
+    <Compile Include="Classes\ItensCarregamento.cs" />
+    <Compile Include="Classes\ItensOrcamento.cs" />
+    <Compile Include="Classes\MetodosSQL.cs" />
+    <Compile Include="Classes\ProdutoTributos.cs" />
+    <Compile Include="Classes\RateioNFOP.cs" />
+    <Compile Include="Classes\Requisicoes.cs" />
+    <Compile Include="Classes\WebCEP.cs" />
+    <Compile Include="Consultas\frmConsultaCNPJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmConsultaCNPJ.Designer.cs">
+      <DependentUpon>frmConsultaCNPJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmReceitaFederal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmReceitaFederal.Designer.cs">
+      <DependentUpon>frmReceitaFederal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmWebBrowserSintegra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmWebBrowserSintegra.Designer.cs">
+      <DependentUpon>frmWebBrowserSintegra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAlteraItemComposicao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlteraItemComposicao.designer.cs">
+      <DependentUpon>FormAlteraItemComposicao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormComissaoAssociar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormComissaoAssociar.designer.cs">
+      <DependentUpon>FormComissaoAssociar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormComissaoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormComissaoCadastro.Designer.cs">
+      <DependentUpon>FormComissaoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormComissaoCartaCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormComissaoCartaCadastro.Designer.cs">
+      <DependentUpon>FormComissaoCartaCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormComissaoCartaValorComissao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormComissaoCartaValorComissao.designer.cs">
+      <DependentUpon>FormComissaoCartaValorComissao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormComissaoCartaVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormComissaoCartaVisao.designer.cs">
+      <DependentUpon>FormComissaoCartaVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormComissaoPorcentagemCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormComissaoPorcentagemCadastro.designer.cs">
+      <DependentUpon>FormComissaoPorcentagemCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormComissaoPorcentagemVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormComissaoPorcentagemVisao.designer.cs">
+      <DependentUpon>FormComissaoPorcentagemVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormComissaoSelecaoRepresentante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormComissaoSelecaoRepresentante.designer.cs">
+      <DependentUpon>FormComissaoSelecaoRepresentante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormComissaoVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormComissaoVisao.Designer.cs">
+      <DependentUpon>FormComissaoVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormConfereRateio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConfereRateio.designer.cs">
+      <DependentUpon>FormConfereRateio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCotacoesDiversasVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCotacoesDiversasVisao.designer.cs">
+      <DependentUpon>FormCotacoesDiversasVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formEmail.Designer.cs">
+      <DependentUpon>formEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewLogin.Designer.cs">
+      <DependentUpon>FormNewLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOPRateadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOPRateadas.designer.cs">
+      <DependentUpon>FormOPRateadas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProcessoAplicarRepresentante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProcessoAplicarRepresentante.Designer.cs">
+      <DependentUpon>FormProcessoAplicarRepresentante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProdutoTributoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProdutoTributoCadastro.designer.cs">
+      <DependentUpon>FormProdutoTributoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegraCFOPCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegraCFOPCadastro.designer.cs">
+      <DependentUpon>FormRegraCFOPCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegraCFOPVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegraCFOPVisao.designer.cs">
+      <DependentUpon>FormRegraCFOPVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegraProdutoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegraProdutoCadastro.designer.cs">
+      <DependentUpon>FormRegraProdutoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegraProdutoVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegraProdutoVisao.designer.cs">
+      <DependentUpon>FormRegraProdutoVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRepresentantesCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRepresentantesCadastro.Designer.cs">
+      <DependentUpon>FormRepresentantesCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRepresentantesVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRepresentantesVisao.Designer.cs">
+      <DependentUpon>FormRepresentantesVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRequisicaoDevolucaoFiltro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRequisicaoDevolucaoFiltro.designer.cs">
+      <DependentUpon>FormRequisicaoDevolucaoFiltro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRequisicaoPecasItemDevolucao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRequisicaoPecasItemDevolucao.designer.cs">
+      <DependentUpon>FormRequisicaoPecasItemDevolucao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSelecionaItemComposicao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSelecionaItemComposicao.designer.cs">
+      <DependentUpon>FormSelecionaItemComposicao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSelecionaNFParaRateio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSelecionaNFParaRateio.designer.cs">
+      <DependentUpon>FormSelecionaNFParaRateio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSeparacaoMateriaisVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSeparacaoMateriaisVisao.designer.cs">
+      <DependentUpon>FormSeparacaoMateriaisVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTabPrecoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTabPrecoCadastro.designer.cs">
+      <DependentUpon>FormTabPrecoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTabPrecoCadastroItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTabPrecoCadastroItem.designer.cs">
+      <DependentUpon>FormTabPrecoCadastroItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTabPrecoVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTabPrecoVisao.designer.cs">
+      <DependentUpon>FormTabPrecoVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMensagemDesbloqueio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMensagemDesbloqueio.Designer.cs">
+      <DependentUpon>frmMensagemDesbloqueio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelAnaliseItensPedidoCompras.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelAnaliseItensPedidoCompras.Designer.cs">
+      <DependentUpon>RelAnaliseItensPedidoCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelCartaComissao.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelCartaComissao.Designer.cs">
+      <DependentUpon>RelCartaComissao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelOrcamentoDispan.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelOrcamentoDispan.designer.cs">
+      <DependentUpon>RelOrcamentoDispan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelPedidoDesconto.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelPedidoDesconto.designer.cs">
+      <DependentUpon>RelPedidoDesconto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelPedidoDispan.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelPedidoDispan.designer.cs">
+      <DependentUpon>RelPedidoDispan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelPedidoLiquido.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelPedidoLiquido.designer.cs">
+      <DependentUpon>RelPedidoLiquido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelRequisicaoPecasPendentes.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelRequisicaoPecasPendentes.Designer.cs">
+      <DependentUpon>RelRequisicaoPecasPendentes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelRomaneio2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelRomaneio2.Designer.cs">
+      <DependentUpon>RelRomaneio2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelTabPrecoRevendaCompostoSipi.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelTabPrecoRevendaCompostoSipi.Designer.cs">
+      <DependentUpon>RelTabPrecoRevendaCompostoSipi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelTabPrecoRevendaSipi.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelTabPrecoRevendaSipi.Designer.cs">
+      <DependentUpon>RelTabPrecoRevendaSipi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelTabPrecoRevendaComposto.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelTabPrecoRevendaComposto.Designer.cs">
+      <DependentUpon>RelTabPrecoRevendaComposto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formSelecaoRepresentante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formSelecaoRepresentante.Designer.cs">
+      <DependentUpon>formSelecaoRepresentante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelPedidoAntigo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelPedidoAntigo.Designer.cs">
+      <DependentUpon>RelPedidoAntigo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSelecaoDataBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSelecaoDataBase.Designer.cs">
+      <DependentUpon>FormSelecaoDataBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTipoCobranca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTipoCobranca.Designer.cs">
+      <DependentUpon>FormTipoCobranca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelOrcamentoBanco.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelOrcamentoBanco.Designer.cs">
+      <DependentUpon>RelOrcamentoBanco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelOrcamentoTroca.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelOrcamentoTroca.Designer.cs">
+      <DependentUpon>RelOrcamentoTroca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAlterarCaminhao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlterarCaminhao.Designer.cs">
+      <DependentUpon>FormAlterarCaminhao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormObsRomaneio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormObsRomaneio.Designer.cs">
+      <DependentUpon>FormObsRomaneio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRomaneioCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRomaneioCadastro.Designer.cs">
+      <DependentUpon>FormRomaneioCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRomaneioVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRomaneioVisao.Designer.cs">
+      <DependentUpon>FormRomaneioVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelRelacaoCarregamentoCompleto.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelRelacaoCarregamentoCompleto.Designer.cs">
+      <DependentUpon>RelRelacaoCarregamentoCompleto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelRomaneio.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelRomaneio.Designer.cs">
+      <DependentUpon>RelRomaneio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FatureContexto.cs" />
+    <Compile Include="FormAgendaCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAgendaCadastro.Designer.cs">
+      <DependentUpon>FormAgendaCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAgendaVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAgendaVisao.Designer.cs">
+      <DependentUpon>FormAgendaVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAprovarFinanceiro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAprovarFinanceiro.Designer.cs">
+      <DependentUpon>FormAprovarFinanceiro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAprovarMovimento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAprovarMovimento.Designer.cs">
+      <DependentUpon>FormAprovarMovimento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCarregamentoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCarregamentoCadastro.Designer.cs">
+      <DependentUpon>FormCarregamentoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCarregamentoVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCarregamentoVisao.Designer.cs">
+      <DependentUpon>FormCarregamentoVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormConclusaoCarregamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConclusaoCarregamento.Designer.cs">
+      <DependentUpon>FormConclusaoCarregamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLimiteCredito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLimiteCredito.Designer.cs">
+      <DependentUpon>FormLimiteCredito.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOffClienteCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOffClienteCadastro.Designer.cs">
+      <DependentUpon>FormOffClienteCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOffClienteVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOffClienteVisao.Designer.cs">
+      <DependentUpon>FormOffClienteVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOffNovoClienteCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOffNovoClienteCadastro.Designer.cs">
+      <DependentUpon>FormOffNovoClienteCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOffNovoClienteVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOffNovoClienteVisao.Designer.cs">
+      <DependentUpon>FormOffNovoClienteVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFaturamentoSinteticoCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFaturamentoSinteticoCliente.Designer.cs">
+      <DependentUpon>FormFaturamentoSinteticoCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrintPreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrintPreview.Designer.cs">
+      <DependentUpon>FormPrintPreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrintPreviewSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrintPreviewSettings.Designer.cs">
+      <DependentUpon>FormPrintPreviewSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProgramacaoCarregamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProgramacaoCarregamento.designer.cs">
+      <DependentUpon>FormProgramacaoCarregamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRelacaoParcial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRelacaoParcial.Designer.cs">
+      <DependentUpon>FormRelacaoParcial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hideTabPage.cs" />
+    <Compile Include="PrintRibbonControllerResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintRibbonControllerResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ProdutoNivel.cs" />
+    <Compile Include="RelAutorizacaoCarregamento.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelAutorizacaoCarregamento.Designer.cs">
+      <DependentUpon>RelAutorizacaoCarregamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelFaturamentoSinteticoCliente.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelFaturamentoSinteticoCliente.Designer.cs">
+      <DependentUpon>RelFaturamentoSinteticoCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelNovoContrato.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelNovoContrato.Designer.cs">
+      <DependentUpon>RelNovoContrato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelOrcamento.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelOrcamento.Designer.cs">
+      <DependentUpon>RelOrcamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelOrcamentoDesconto.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelOrcamentoDesconto.Designer.cs">
+      <DependentUpon>RelOrcamentoDesconto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelOrcamentoDescontoOff.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelOrcamentoDescontoOff.Designer.cs">
+      <DependentUpon>RelOrcamentoDescontoOff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelOrcamentoLiquido.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelOrcamentoLiquido.Designer.cs">
+      <DependentUpon>RelOrcamentoLiquido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelOrcamentoLiquidoOff.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelOrcamentoLiquidoOff.Designer.cs">
+      <DependentUpon>RelOrcamentoLiquidoOff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelOrcamentoOff.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelOrcamentoOff.Designer.cs">
+      <DependentUpon>RelOrcamentoOff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelProgCarregamentoRepresentante.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelProgCarregamentoRepresentante.Designer.cs">
+      <DependentUpon>RelProgCarregamentoRepresentante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelRelacaoParcial.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelRelacaoParcial.Designer.cs">
+      <DependentUpon>RelRelacaoParcial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelRequisicaoPecas.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelRequisicaoPecas.Designer.cs">
+      <DependentUpon>RelRequisicaoPecas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelTabImplemento.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelTabImplemento.Designer.cs">
+      <DependentUpon>RelTabImplemento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelTabMaquina.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelTabMaquina.Designer.cs">
+      <DependentUpon>RelTabMaquina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelTabPecas.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelTabPecas.Designer.cs">
+      <DependentUpon>RelTabPecas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelTabPrecoRevenda.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelTabPrecoRevenda.Designer.cs">
+      <DependentUpon>RelTabPrecoRevenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seguranca\FormProcessoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguranca\FormProcessoCadastro.Designer.cs">
+      <DependentUpon>FormProcessoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seguranca\FormProcessoPerfilCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguranca\FormProcessoPerfilCadastro.Designer.cs">
+      <DependentUpon>FormProcessoPerfilCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seguranca\FormProcessoPerfilVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguranca\FormProcessoPerfilVisao.Designer.cs">
+      <DependentUpon>FormProcessoPerfilVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seguranca\FormProcessoVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguranca\FormProcessoVisao.Designer.cs">
+      <DependentUpon>FormProcessoVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TotvsMashup.cs" />
+    <Compile Include="FormAplicarTabelaPreco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAplicarTabelaPreco.Designer.cs">
+      <DependentUpon>FormAplicarTabelaPreco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCancelarMovimento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCancelarMovimento.Designer.cs">
+      <DependentUpon>FormCancelarMovimento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormClienteCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormClienteCadastro.Designer.cs">
+      <DependentUpon>FormClienteCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormClienteVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormClienteVisao.Designer.cs">
+      <DependentUpon>FormClienteVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCondPagamentoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCondPagamentoCadastro.Designer.cs">
+      <DependentUpon>FormCondPagamentoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCondPagamentoVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCondPagamentoVisao.Designer.cs">
+      <DependentUpon>FormCondPagamentoVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDemonstracaoBrindeVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDemonstracaoBrindeVisao.Designer.cs">
+      <DependentUpon>FormDemonstracaoBrindeVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEnviarFilaIntegracao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEnviarFilaIntegracao.Designer.cs">
+      <DependentUpon>FormEnviarFilaIntegracao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFamiliaProdutoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFamiliaProdutoCadastro.Designer.cs">
+      <DependentUpon>FormFamiliaProdutoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFamiliaProdutoVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFamiliaProdutoVisao.Designer.cs">
+      <DependentUpon>FormFamiliaProdutoVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFaturar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFaturar.Designer.cs">
+      <DependentUpon>FormFaturar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGrupoProdutoVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGrupoProdutoVisao.Designer.cs">
+      <DependentUpon>FormGrupoProdutoVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGrupoProdutoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGrupoProdutoCadastro.Designer.cs">
+      <DependentUpon>FormGrupoProdutoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLancamentoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLancamentoCadastro.Designer.cs">
+      <DependentUpon>FormLancamentoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLancamentoFinanceiro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLancamentoFinanceiro.Designer.cs">
+      <DependentUpon>FormLancamentoFinanceiro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLicenca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLicenca.Designer.cs">
+      <DependentUpon>FormLicenca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogIntegracaoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogIntegracaoCadastro.Designer.cs">
+      <DependentUpon>FormLogIntegracaoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogIntegracaoVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogIntegracaoVisao.Designer.cs">
+      <DependentUpon>FormLogIntegracaoVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOffOrcamentoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOffOrcamentoCadastro.Designer.cs">
+      <DependentUpon>FormOffOrcamentoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOffOrcamentoItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOffOrcamentoItem.Designer.cs">
+      <DependentUpon>FormOffOrcamentoItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOffOrcamentoVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOffOrcamentoVisao.Designer.cs">
+      <DependentUpon>FormOffOrcamentoVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOrcamentoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOrcamentoCadastro.Designer.cs">
+      <DependentUpon>FormOrcamentoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOrcamentoItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOrcamentoItem.Designer.cs">
+      <DependentUpon>FormOrcamentoItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOrcamentoVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOrcamentoVisao.Designer.cs">
+      <DependentUpon>FormOrcamentoVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOrdemProducaoVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOrdemProducaoVisao.Designer.cs">
+      <DependentUpon>FormOrdemProducaoVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOrdemProducaoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOrdemProducaoCadastro.Designer.cs">
+      <DependentUpon>FormOrdemProducaoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPedidoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPedidoCadastro.Designer.cs">
+      <DependentUpon>FormPedidoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPedidoItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPedidoItem.Designer.cs">
+      <DependentUpon>FormPedidoItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPedidoVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPedidoVisao.Designer.cs">
+      <DependentUpon>FormPedidoVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contrato.cs" />
+    <Compile Include="FormProdutoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProdutoCadastro.Designer.cs">
+      <DependentUpon>FormProdutoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProdutoCompostoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProdutoCompostoCadastro.Designer.cs">
+      <DependentUpon>FormProdutoCompostoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProdutoVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProdutoVisao.Designer.cs">
+      <DependentUpon>FormProdutoVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRastreabilidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRastreabilidade.Designer.cs">
+      <DependentUpon>FormRastreabilidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRequisicaoPecasCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRequisicaoPecasCadastro.Designer.cs">
+      <DependentUpon>FormRequisicaoPecasCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRequisicaoPecasItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRequisicaoPecasItem.Designer.cs">
+      <DependentUpon>FormRequisicaoPecasItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRequisicaoPecasVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRequisicaoPecasVisao.Designer.cs">
+      <DependentUpon>FormRequisicaoPecasVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTipoProdutoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTipoProdutoCadastro.Designer.cs">
+      <DependentUpon>FormTipoProdutoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTipoProdutoVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTipoProdutoVisao.Designer.cs">
+      <DependentUpon>FormTipoProdutoVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTransportadoraCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTransportadoraCadastro.Designer.cs">
+      <DependentUpon>FormTransportadoraCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTransportadoraVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTransportadoraVisao.Designer.cs">
+      <DependentUpon>FormTransportadoraVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrcamentoOff.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RelCompromissoCompraVendaPrazo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelCompromissoCompraVendaPrazo.Designer.cs">
+      <DependentUpon>RelCompromissoCompraVendaPrazo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelContratoVendaAlienacao.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelContratoVendaAlienacao.Designer.cs">
+      <DependentUpon>RelContratoVendaAlienacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelOrcamentoAcessorios.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelOrcamentoAcessorios.Designer.cs">
+      <DependentUpon>RelOrcamentoAcessorios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelOrdemProducao.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelOrdemProducao.Designer.cs">
+      <DependentUpon>RelOrdemProducao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelPedido.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelPedido.Designer.cs">
+      <DependentUpon>RelPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelPedidoAcessorios.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelPedidoAcessorios.Designer.cs">
+      <DependentUpon>RelPedidoAcessorios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelPedidoOff.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelPedidoOff.Designer.cs">
+      <DependentUpon>RelPedidoOff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seguranca\FormMenuCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguranca\FormMenuCadastro.Designer.cs">
+      <DependentUpon>FormMenuCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seguranca\FormMenuPerfilCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguranca\FormMenuPerfilCadastro.Designer.cs">
+      <DependentUpon>FormMenuPerfilCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seguranca\FormMenuPerfilVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguranca\FormMenuPerfilVisao.Designer.cs">
+      <DependentUpon>FormMenuPerfilVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seguranca\FormMenuVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguranca\FormMenuVisao.Designer.cs">
+      <DependentUpon>FormMenuVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seguranca\FormPerfilCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguranca\FormPerfilCadastro.Designer.cs">
+      <DependentUpon>FormPerfilCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seguranca\FormPerfilVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguranca\FormPerfilVisao.Designer.cs">
+      <DependentUpon>FormPerfilVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seguranca\FormUsuarioCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguranca\FormUsuarioCadastro.Designer.cs">
+      <DependentUpon>FormUsuarioCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seguranca\FormUsuarioVisao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguranca\FormUsuarioVisao.Designer.cs">
+      <DependentUpon>FormUsuarioVisao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsLib\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsContrato\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="TITMMOV.cs" />
+    <Compile Include="Util.cs" />
+    <Compile Include="Valida.cs" />
+    <Compile Include="ValidaEnvioEmail.cs" />
+    <Compile Include="WaitForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitForm1.Designer.cs">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaitForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitForm2.Designer.cs">
+      <DependentUpon>WaitForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebService.cs" />
+    <Compile Include="RelCarregamento.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelCarregamento.Designer.cs">
+      <DependentUpon>RelCarregamento.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Consultas\frmConsultaCNPJ.resx">
+      <DependentUpon>frmConsultaCNPJ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmReceitaFederal.resx">
+      <DependentUpon>frmReceitaFederal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmWebBrowserSintegra.resx">
+      <DependentUpon>frmWebBrowserSintegra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAlteraItemComposicao.resx">
+      <DependentUpon>FormAlteraItemComposicao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormComissaoAssociar.resx">
+      <DependentUpon>FormComissaoAssociar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormComissaoCadastro.resx">
+      <DependentUpon>FormComissaoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormComissaoCartaCadastro.resx">
+      <DependentUpon>FormComissaoCartaCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormComissaoCartaValorComissao.resx">
+      <DependentUpon>FormComissaoCartaValorComissao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormComissaoCartaVisao.resx">
+      <DependentUpon>FormComissaoCartaVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormComissaoPorcentagemCadastro.resx">
+      <DependentUpon>FormComissaoPorcentagemCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormComissaoPorcentagemVisao.resx">
+      <DependentUpon>FormComissaoPorcentagemVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormComissaoSelecaoRepresentante.resx">
+      <DependentUpon>FormComissaoSelecaoRepresentante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormComissaoVisao.resx">
+      <DependentUpon>FormComissaoVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConfereRateio.resx">
+      <DependentUpon>FormConfereRateio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCotacoesDiversasVisao.resx">
+      <DependentUpon>FormCotacoesDiversasVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formEmail.resx">
+      <DependentUpon>formEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewLogin.resx">
+      <DependentUpon>FormNewLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOPRateadas.resx">
+      <DependentUpon>FormOPRateadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProcessoAplicarRepresentante.resx">
+      <DependentUpon>FormProcessoAplicarRepresentante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProdutoTributoCadastro.resx">
+      <DependentUpon>FormProdutoTributoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegraCFOPCadastro.resx">
+      <DependentUpon>FormRegraCFOPCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegraCFOPVisao.resx">
+      <DependentUpon>FormRegraCFOPVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegraProdutoCadastro.resx">
+      <DependentUpon>FormRegraProdutoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegraProdutoVisao.resx">
+      <DependentUpon>FormRegraProdutoVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRepresentantesCadastro.resx">
+      <DependentUpon>FormRepresentantesCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRepresentantesVisao.resx">
+      <DependentUpon>FormRepresentantesVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRequisicaoDevolucaoFiltro.resx">
+      <DependentUpon>FormRequisicaoDevolucaoFiltro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRequisicaoPecasItemDevolucao.resx">
+      <DependentUpon>FormRequisicaoPecasItemDevolucao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSelecionaItemComposicao.resx">
+      <DependentUpon>FormSelecionaItemComposicao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSelecionaNFParaRateio.resx">
+      <DependentUpon>FormSelecionaNFParaRateio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSeparacaoMateriaisVisao.resx">
+      <DependentUpon>FormSeparacaoMateriaisVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTabPrecoCadastro.resx">
+      <DependentUpon>FormTabPrecoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTabPrecoCadastroItem.resx">
+      <DependentUpon>FormTabPrecoCadastroItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTabPrecoVisao.resx">
+      <DependentUpon>FormTabPrecoVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMensagemDesbloqueio.resx">
+      <DependentUpon>frmMensagemDesbloqueio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="RelAnaliseItensPedidoCompras.resx">
+      <DependentUpon>RelAnaliseItensPedidoCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelCartaComissao.resx">
+      <DependentUpon>RelCartaComissao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelOrcamentoDispan.resx">
+      <DependentUpon>RelOrcamentoDispan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelPedidoDesconto.resx">
+      <DependentUpon>RelPedidoDesconto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelPedidoDispan.resx">
+      <DependentUpon>RelPedidoDispan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelPedidoLiquido.resx">
+      <DependentUpon>RelPedidoLiquido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelRequisicaoPecasPendentes.resx">
+      <DependentUpon>RelRequisicaoPecasPendentes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelRomaneio2.resx">
+      <DependentUpon>RelRomaneio2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelTabPrecoRevendaCompostoSipi.resx">
+      <DependentUpon>RelTabPrecoRevendaCompostoSipi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelTabPrecoRevendaSipi.resx">
+      <DependentUpon>RelTabPrecoRevendaSipi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelTabPrecoRevendaComposto.resx">
+      <DependentUpon>RelTabPrecoRevendaComposto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formSelecaoRepresentante.resx">
+      <DependentUpon>formSelecaoRepresentante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelPedidoAntigo.resx">
+      <DependentUpon>RelPedidoAntigo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSelecaoDataBase.resx">
+      <DependentUpon>FormSelecaoDataBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTipoCobranca.resx">
+      <DependentUpon>FormTipoCobranca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelOrcamentoBanco.resx">
+      <DependentUpon>RelOrcamentoBanco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelOrcamentoTroca.resx">
+      <DependentUpon>RelOrcamentoTroca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAlterarCaminhao.resx">
+      <DependentUpon>FormAlterarCaminhao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormObsRomaneio.resx">
+      <DependentUpon>FormObsRomaneio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRomaneioCadastro.resx">
+      <DependentUpon>FormRomaneioCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRomaneioVisao.resx">
+      <DependentUpon>FormRomaneioVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelRelacaoCarregamentoCompleto.resx">
+      <DependentUpon>RelRelacaoCarregamentoCompleto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelRomaneio.resx">
+      <DependentUpon>RelRomaneio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAgendaCadastro.resx">
+      <DependentUpon>FormAgendaCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAgendaVisao.resx">
+      <DependentUpon>FormAgendaVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAplicarTabelaPreco.resx">
+      <DependentUpon>FormAplicarTabelaPreco.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAprovarFinanceiro.resx">
+      <DependentUpon>FormAprovarFinanceiro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAprovarMovimento.resx">
+      <DependentUpon>FormAprovarMovimento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCancelarMovimento.resx">
+      <DependentUpon>FormCancelarMovimento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCarregamentoCadastro.resx">
+      <DependentUpon>FormCarregamentoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCarregamentoVisao.resx">
+      <DependentUpon>FormCarregamentoVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormClienteCadastro.resx">
+      <DependentUpon>FormClienteCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormClienteVisao.resx">
+      <DependentUpon>FormClienteVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConclusaoCarregamento.resx">
+      <DependentUpon>FormConclusaoCarregamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCondPagamentoCadastro.resx">
+      <DependentUpon>FormCondPagamentoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCondPagamentoVisao.resx">
+      <DependentUpon>FormCondPagamentoVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDemonstracaoBrindeVisao.resx">
+      <DependentUpon>FormDemonstracaoBrindeVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEnviarFilaIntegracao.resx">
+      <DependentUpon>FormEnviarFilaIntegracao.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFamiliaProdutoCadastro.resx">
+      <DependentUpon>FormFamiliaProdutoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFamiliaProdutoVisao.resx">
+      <DependentUpon>FormFamiliaProdutoVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFaturar.resx">
+      <DependentUpon>FormFaturar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGrupoProdutoCadastro.resx">
+      <DependentUpon>FormGrupoProdutoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGrupoProdutoVisao.resx">
+      <DependentUpon>FormGrupoProdutoVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLancamentoCadastro.resx">
+      <DependentUpon>FormLancamentoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLancamentoFinanceiro.resx">
+      <DependentUpon>FormLancamentoFinanceiro.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLicenca.resx">
+      <DependentUpon>FormLicenca.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLimiteCredito.resx">
+      <DependentUpon>FormLimiteCredito.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogIntegracaoCadastro.resx">
+      <DependentUpon>FormLogIntegracaoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogIntegracaoVisao.resx">
+      <DependentUpon>FormLogIntegracaoVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOffClienteCadastro.resx">
+      <DependentUpon>FormOffClienteCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOffClienteVisao.resx">
+      <DependentUpon>FormOffClienteVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOffNovoClienteCadastro.resx">
+      <DependentUpon>FormOffNovoClienteCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOffNovoClienteVisao.resx">
+      <DependentUpon>FormOffNovoClienteVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOffOrcamentoCadastro.resx">
+      <DependentUpon>FormOffOrcamentoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOffOrcamentoItem.resx">
+      <DependentUpon>FormOffOrcamentoItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOffOrcamentoVisao.resx">
+      <DependentUpon>FormOffOrcamentoVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOrcamentoCadastro.resx">
+      <DependentUpon>FormOrcamentoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOrcamentoItem.resx">
+      <DependentUpon>FormOrcamentoItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOrcamentoVisao.resx">
+      <DependentUpon>FormOrcamentoVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOrdemProducaoVisao.resx">
+      <DependentUpon>FormOrdemProducaoVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOrdemProducaoCadastro.resx">
+      <DependentUpon>FormOrdemProducaoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFaturamentoSinteticoCliente.resx">
+      <DependentUpon>FormFaturamentoSinteticoCliente.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPedidoCadastro.resx">
+      <DependentUpon>FormPedidoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPedidoItem.resx">
+      <DependentUpon>FormPedidoItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPedidoVisao.resx">
+      <DependentUpon>FormPedidoVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrintPreview.resx">
+      <DependentUpon>FormPrintPreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrintPreviewSettings.resx">
+      <DependentUpon>FormPrintPreviewSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProdutoCadastro.resx">
+      <DependentUpon>FormProdutoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProdutoCompostoCadastro.resx">
+      <DependentUpon>FormProdutoCompostoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProdutoVisao.resx">
+      <DependentUpon>FormProdutoVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProgramacaoCarregamento.resx">
+      <DependentUpon>FormProgramacaoCarregamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRastreabilidade.resx">
+      <DependentUpon>FormRastreabilidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRelacaoParcial.resx">
+      <DependentUpon>FormRelacaoParcial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRequisicaoPecasCadastro.resx">
+      <DependentUpon>FormRequisicaoPecasCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRequisicaoPecasItem.resx">
+      <DependentUpon>FormRequisicaoPecasItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRequisicaoPecasVisao.resx">
+      <DependentUpon>FormRequisicaoPecasVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTipoProdutoCadastro.resx">
+      <DependentUpon>FormTipoProdutoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTipoProdutoVisao.resx">
+      <DependentUpon>FormTipoProdutoVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTransportadoraCadastro.resx">
+      <DependentUpon>FormTransportadoraCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTransportadoraVisao.resx">
+      <DependentUpon>FormTransportadoraVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintRibbonControllerResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PrintRibbonControllerResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RelAutorizacaoCarregamento.resx">
+      <DependentUpon>RelAutorizacaoCarregamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelCompromissoCompraVendaPrazo.resx">
+      <DependentUpon>RelCompromissoCompraVendaPrazo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelContratoVendaAlienacao.resx">
+      <DependentUpon>RelContratoVendaAlienacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelFaturamentoSinteticoCliente.resx">
+      <DependentUpon>RelFaturamentoSinteticoCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelNovoContrato.resx">
+      <DependentUpon>RelNovoContrato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelOrcamento.resx">
+      <DependentUpon>RelOrcamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelOrcamentoDesconto.resx">
+      <DependentUpon>RelOrcamentoDesconto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelOrcamentoDescontoOff.resx">
+      <DependentUpon>RelOrcamentoDescontoOff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelOrcamentoLiquido.resx">
+      <DependentUpon>RelOrcamentoLiquido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelOrcamentoAcessorios.resx">
+      <DependentUpon>RelOrcamentoAcessorios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelOrcamentoLiquidoOff.resx">
+      <DependentUpon>RelOrcamentoLiquidoOff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelOrcamentoOff.resx">
+      <DependentUpon>RelOrcamentoOff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelOrdemProducao.resx">
+      <DependentUpon>RelOrdemProducao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelPedido.resx">
+      <DependentUpon>RelPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelPedidoAcessorios.resx">
+      <DependentUpon>RelPedidoAcessorios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelPedidoOff.resx">
+      <DependentUpon>RelPedidoOff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelProgCarregamentoRepresentante.resx">
+      <DependentUpon>RelProgCarregamentoRepresentante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelRelacaoParcial.resx">
+      <DependentUpon>RelRelacaoParcial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelRequisicaoPecas.resx">
+      <DependentUpon>RelRequisicaoPecas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelTabImplemento.resx">
+      <DependentUpon>RelTabImplemento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelTabMaquina.resx">
+      <DependentUpon>RelTabMaquina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelTabPecas.resx">
+      <DependentUpon>RelTabPecas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelTabPrecoRevenda.resx">
+      <DependentUpon>RelTabPrecoRevenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguranca\FormMenuCadastro.resx">
+      <DependentUpon>FormMenuCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguranca\FormMenuPerfilCadastro.resx">
+      <DependentUpon>FormMenuPerfilCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguranca\FormMenuPerfilVisao.resx">
+      <DependentUpon>FormMenuPerfilVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguranca\FormMenuVisao.resx">
+      <DependentUpon>FormMenuVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguranca\FormPerfilCadastro.resx">
+      <DependentUpon>FormPerfilCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguranca\FormPerfilVisao.resx">
+      <DependentUpon>FormPerfilVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguranca\FormProcessoCadastro.resx">
+      <DependentUpon>FormProcessoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguranca\FormProcessoPerfilCadastro.resx">
+      <DependentUpon>FormProcessoPerfilCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguranca\FormProcessoPerfilVisao.resx">
+      <DependentUpon>FormProcessoPerfilVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguranca\FormProcessoVisao.resx">
+      <DependentUpon>FormProcessoVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguranca\FormUsuarioCadastro.resx">
+      <DependentUpon>FormUsuarioCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguranca\FormUsuarioVisao.resx">
+      <DependentUpon>FormUsuarioVisao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelCarregamento.resx">
+      <DependentUpon>RelCarregamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitForm1.resx">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitForm2.resx">
+      <DependentUpon>WaitForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Arquivos Externos\AppUpdate.exe.config" />
+    <None Include="Properties\DataSources\AppLib.AppLibWS.Message.datasource" />
+    <None Include="Properties\DataSources\AppLib.AppLibWS.MessageGet.datasource" />
+    <None Include="Properties\DataSources\AppLib.wsLib.Message.datasource" />
+    <None Include="Properties\DataSources\AppLib.wsLib.Message1.datasource" />
+    <None Include="Properties\DataSources\AppLib.wsLib.MessageGet.datasource" />
+    <None Include="Properties\DataSources\AppLib.wsLib.MessageGet1.datasource" />
+    <None Include="Properties\DataSources\System.Data.DataTable.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Service References\wsContrato\ClientFature.wsContrato.Contrato.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\wsContrato\Service.wsdl" />
+    <None Include="Service References\wsLib\Service1.wsdl" />
+    <None Include="templates\template_anexo_arquivos\themedata.thmx" />
+    <None Include="templates\template_anexo_despesa_arquivos\themedata.thmx" />
+    <None Include="templates\template_contrato_arquivos\themedata.thmx" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\wsLib\" />
+    <WCFMetadataStorage Include="Service References\wsContrato\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsContrato\Service.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsContrato\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsContrato\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsContrato\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Arquivos Externos\AppUpdate.exe" />
+    <Content Include="Arquivos Externos\Log.txt" />
+    <Content Include="Arquivos Externos\System.Windows.Interactivity.dll" />
+    <Content Include="Arquivos Externos\System.Windows.Interactivity.xml" />
+    <Content Include="Arquivos Externos\Update.txt" />
+    <Content Include="dll\Devart.Data.dll" />
+    <Content Include="dll\Devart.Data.Oracle.dll" />
+    <Content Include="Icone.ico" />
+    <None Include="Resources\check.png" />
+    <None Include="Resources\Tela de login fature sales Horizontal %28oficial%29.png" />
+    <None Include="Image\tabela-de-precos.png" />
+    <Content Include="Logo IT INIT Layers.ico" />
+    <None Include="Resources\broom.png" />
+    <None Include="Resources\broom 32x32.png" />
+    <None Include="Resources\broom 24x24.png" />
+    <None Include="Resources\broom 16x16.png" />
+    <None Include="Resources\inventory.png" />
+    <None Include="Resources\check-box.png" />
+    <None Include="Resources\rateio.png" />
+    <Content Include="templates\template_anexo.htm" />
+    <Content Include="templates\template_anexo_arquivos\colorschememapping.xml" />
+    <Content Include="templates\template_anexo_arquivos\filelist.xml" />
+    <Content Include="templates\template_anexo_despesa.htm" />
+    <Content Include="templates\template_anexo_despesa_arquivos\colorschememapping.xml" />
+    <Content Include="templates\template_anexo_despesa_arquivos\filelist.xml" />
+    <Content Include="templates\template_contrato.htm" />
+    <Content Include="templates\template_contrato_arquivos\colorschememapping.xml" />
+    <Content Include="templates\template_contrato_arquivos\filelist.xml" />
+    <None Include="Image\transporte.jpg" />
+    <Content Include="ITINIT.ico" />
+    <None Include="Resources\SUPORTE.png" />
+    <None Include="Resources\site.png" />
+    <None Include="Resources\sair-1.png" />
+    <None Include="Resources\Entrar-1.png" />
+    <None Include="Resources\LOGIN FATURE-1.png" />
+    <None Include="Resources\sair.png" />
+    <None Include="Resources\entrar.png" />
+    <None Include="Resources\LOGIN FATURE.jpg" />
+    <None Include="Resources\Wizard_32x32.png" />
+    <None Include="Resources\Wizard_16x16.png" />
+    <None Include="Service References\wsLib\AppFatureClient.wsLib.Message.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\wsLib\AppFatureClient.wsLib.MessageGet.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\wsLib\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\wsLib\configuration.svcinfo" />
+    <None Include="Service References\wsLib\configuration91.svcinfo" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,1318 @@
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\AppInterop.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\AppInterop.pdb
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\AppLib.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\RM.Lib.Data.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\RM.Lib.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraReports.v17.2.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraEditors.v17.2.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Utils.v17.2.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraBars.v17.2.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraGrid.v17.2.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraPivotGrid.v17.2.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Dashboard.v17.2.Win.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.DataAccess.v17.2.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraRichEdit.v17.2.Extensions.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraRichEdit.v17.2.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.RichEdit.v17.2.Core.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraReports.v17.2.Extensions.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraPrinting.v17.2.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Data.v17.2.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.PivotGrid.v17.2.Core.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Dashboard.v17.2.Core.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Printing.v17.2.Core.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\Newtonsoft.Json.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\Castle.Core.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\Castle.Windsor.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\Devart.Data.Oracle.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\Devart.Data.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\RM.Lib.DataErrors.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Office.v17.2.Core.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Charts.v17.2.Core.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Core.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Sparkline.v17.2.Core.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraLayout.v17.2.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraTreeList.v17.2.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraTreeMap.v17.2.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.DataAccess.v17.2.UI.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Utils.v17.2.UI.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.Wizard.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraMap.v17.2.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.UI.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Win.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.TreeMap.v17.2.Core.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Xpo.v17.2.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Presets.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Map.v17.2.Core.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.CodeParser.v17.2.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Pdf.v17.2.Core.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Images.v17.2.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.Extensions.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraNavBar.v17.2.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraVerticalGrid.v17.2.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Diagram.v17.2.Core.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraDiagram.v17.2.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\AppLib.pdb
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\AppLib.dll.config
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraReports.v17.2.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraEditors.v17.2.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Utils.v17.2.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraBars.v17.2.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraGrid.v17.2.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraPivotGrid.v17.2.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.DataAccess.v17.2.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraRichEdit.v17.2.Extensions.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraRichEdit.v17.2.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.RichEdit.v17.2.Core.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraReports.v17.2.Extensions.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraPrinting.v17.2.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Data.v17.2.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.PivotGrid.v17.2.Core.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Printing.v17.2.Core.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Office.v17.2.Core.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Core.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Sparkline.v17.2.Core.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraLayout.v17.2.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraTreeList.v17.2.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraTreeMap.v17.2.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.DataAccess.v17.2.UI.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Utils.v17.2.UI.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.Wizard.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraMap.v17.2.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.UI.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Win.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.TreeMap.v17.2.Core.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Xpo.v17.2.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Presets.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Map.v17.2.Core.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Pdf.v17.2.Core.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraNavBar.v17.2.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraVerticalGrid.v17.2.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Diagram.v17.2.Core.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraDiagram.v17.2.xml
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraReports.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraReports.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraReports.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraReports.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraEditors.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraEditors.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraEditors.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraEditors.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.Utils.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.Utils.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.Utils.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.Utils.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraBars.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraBars.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraBars.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraBars.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraGrid.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraGrid.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraGrid.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraGrid.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraPivotGrid.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraPivotGrid.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraPivotGrid.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraPivotGrid.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.Dashboard.v17.2.Win.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.Dashboard.v17.2.Win.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.Dashboard.v17.2.Win.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.Dashboard.v17.2.Win.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.DataAccess.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.DataAccess.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.DataAccess.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.DataAccess.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraRichEdit.v17.2.Extensions.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraRichEdit.v17.2.Extensions.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraRichEdit.v17.2.Extensions.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraRichEdit.v17.2.Extensions.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraRichEdit.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraRichEdit.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraRichEdit.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraRichEdit.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.RichEdit.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.RichEdit.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.RichEdit.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.RichEdit.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraReports.v17.2.Extensions.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraReports.v17.2.Extensions.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraReports.v17.2.Extensions.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraReports.v17.2.Extensions.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraPrinting.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraPrinting.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraPrinting.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraPrinting.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.Data.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.Data.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.Data.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.Data.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.PivotGrid.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.PivotGrid.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.PivotGrid.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.PivotGrid.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.Dashboard.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.Dashboard.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.Dashboard.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.Dashboard.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.Printing.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.Printing.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.Printing.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.Printing.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.Office.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.Office.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.Office.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.Office.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraCharts.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraCharts.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraCharts.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraCharts.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraGauges.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraGauges.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraGauges.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraGauges.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.Sparkline.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.Sparkline.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.Sparkline.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.Sparkline.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraLayout.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraLayout.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraLayout.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraLayout.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraTreeList.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraTreeList.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraTreeList.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraTreeList.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.DataAccess.v17.2.UI.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.DataAccess.v17.2.UI.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.DataAccess.v17.2.UI.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.DataAccess.v17.2.UI.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.Utils.v17.2.UI.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.Utils.v17.2.UI.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.Utils.v17.2.UI.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.Utils.v17.2.UI.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraCharts.v17.2.Wizard.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraCharts.v17.2.Wizard.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraCharts.v17.2.Wizard.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraCharts.v17.2.Wizard.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.Xpo.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.Xpo.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.Xpo.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.Xpo.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraGauges.v17.2.Presets.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraGauges.v17.2.Presets.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraGauges.v17.2.Presets.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraGauges.v17.2.Presets.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.Map.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.Map.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.Map.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.Map.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.Pdf.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.Pdf.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.Pdf.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.Pdf.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraNavBar.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraNavBar.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraNavBar.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraNavBar.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraVerticalGrid.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraVerticalGrid.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraVerticalGrid.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraVerticalGrid.v17.2.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.Diagram.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.Diagram.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.Diagram.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.Diagram.v17.2.Core.resources.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\obj\Debug\AppInterop.dll
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\obj\Debug\AppInterop.pdb
+E:\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\obj\Debug\AppInterop.csprojResolveAssemblyReference.cache
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\AppInterop.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\AppInterop.pdb
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\AppLib.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\RM.Lib.Data.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\RM.Lib.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraReports.v17.2.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraEditors.v17.2.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Utils.v17.2.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraBars.v17.2.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraGrid.v17.2.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraPivotGrid.v17.2.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Dashboard.v17.2.Win.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.DataAccess.v17.2.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraRichEdit.v17.2.Extensions.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraRichEdit.v17.2.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.RichEdit.v17.2.Core.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraReports.v17.2.Extensions.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraPrinting.v17.2.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Data.v17.2.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.PivotGrid.v17.2.Core.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Dashboard.v17.2.Core.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Printing.v17.2.Core.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\Newtonsoft.Json.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\Castle.Core.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\Castle.Windsor.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\Devart.Data.Oracle.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\Devart.Data.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\RM.Lib.DataErrors.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Office.v17.2.Core.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Charts.v17.2.Core.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Core.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Sparkline.v17.2.Core.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraLayout.v17.2.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraTreeList.v17.2.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraTreeMap.v17.2.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.DataAccess.v17.2.UI.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Utils.v17.2.UI.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.Wizard.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraMap.v17.2.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.UI.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Win.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.TreeMap.v17.2.Core.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Xpo.v17.2.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Presets.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Map.v17.2.Core.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.CodeParser.v17.2.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Pdf.v17.2.Core.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Images.v17.2.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.Extensions.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraNavBar.v17.2.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraVerticalGrid.v17.2.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Diagram.v17.2.Core.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraDiagram.v17.2.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\AppLib.pdb
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\AppLib.dll.config
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraReports.v17.2.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraEditors.v17.2.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Utils.v17.2.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraBars.v17.2.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraGrid.v17.2.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraPivotGrid.v17.2.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.DataAccess.v17.2.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraRichEdit.v17.2.Extensions.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraRichEdit.v17.2.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.RichEdit.v17.2.Core.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraReports.v17.2.Extensions.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraPrinting.v17.2.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Data.v17.2.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.PivotGrid.v17.2.Core.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Printing.v17.2.Core.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Office.v17.2.Core.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Core.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Sparkline.v17.2.Core.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraLayout.v17.2.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraTreeList.v17.2.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraTreeMap.v17.2.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.DataAccess.v17.2.UI.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Utils.v17.2.UI.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.Wizard.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraMap.v17.2.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.UI.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Win.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.TreeMap.v17.2.Core.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Xpo.v17.2.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Presets.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Map.v17.2.Core.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Pdf.v17.2.Core.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraNavBar.v17.2.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraVerticalGrid.v17.2.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.Diagram.v17.2.Core.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\DevExpress.XtraDiagram.v17.2.xml
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraReports.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraReports.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraReports.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraReports.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.Utils.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.Utils.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.Utils.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.Utils.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraBars.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraBars.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraBars.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraBars.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.Dashboard.v17.2.Win.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.Dashboard.v17.2.Win.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.Dashboard.v17.2.Win.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.Dashboard.v17.2.Win.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.DataAccess.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.DataAccess.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.DataAccess.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.DataAccess.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraRichEdit.v17.2.Extensions.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraRichEdit.v17.2.Extensions.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraRichEdit.v17.2.Extensions.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraRichEdit.v17.2.Extensions.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraRichEdit.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraRichEdit.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraRichEdit.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraRichEdit.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraReports.v17.2.Extensions.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraReports.v17.2.Extensions.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraReports.v17.2.Extensions.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraReports.v17.2.Extensions.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.Data.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.Data.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.Data.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.Data.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.Dashboard.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.Dashboard.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.Dashboard.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.Dashboard.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.Office.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.Office.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.Office.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.Office.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.DataAccess.v17.2.UI.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.DataAccess.v17.2.UI.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.DataAccess.v17.2.UI.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.DataAccess.v17.2.UI.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.Utils.v17.2.UI.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.Utils.v17.2.UI.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.Utils.v17.2.UI.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.Utils.v17.2.UI.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraCharts.v17.2.Wizard.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraCharts.v17.2.Wizard.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraCharts.v17.2.Wizard.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraCharts.v17.2.Wizard.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.Xpo.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.Xpo.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.Xpo.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.Xpo.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraGauges.v17.2.Presets.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraGauges.v17.2.Presets.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraGauges.v17.2.Presets.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraGauges.v17.2.Presets.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.Map.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.Map.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.Map.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.Map.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraNavBar.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraNavBar.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraNavBar.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraNavBar.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.XtraVerticalGrid.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.XtraVerticalGrid.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.XtraVerticalGrid.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.XtraVerticalGrid.v17.2.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\de\DevExpress.Diagram.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\es\DevExpress.Diagram.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ja\DevExpress.Diagram.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\bin\Debug\ru\DevExpress.Diagram.v17.2.Core.resources.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\obj\Debug\AppInterop.csprojAssemblyReference.cache
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\obj\Debug\AppInterop.csproj.CoreCompileInputs.cache
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\obj\Debug\AppInterop.csproj.CopyComplete
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\obj\Debug\AppInterop.dll
+C:\Projetos\Personalizações\Tfs_AppFature_Palini_Oficial\SOLUCAO\AppInterop\obj\Debug\AppInterop.pdb
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\AppInterop.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\AppInterop.pdb
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\RM.Lib.Data.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\RM.Lib.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraReports.v17.2.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraEditors.v17.2.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.Utils.v17.2.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraBars.v17.2.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraGrid.v17.2.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraPivotGrid.v17.2.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.Dashboard.v17.2.Win.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.DataAccess.v17.2.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraRichEdit.v17.2.Extensions.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraRichEdit.v17.2.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.RichEdit.v17.2.Core.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraReports.v17.2.Extensions.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraPrinting.v17.2.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.Data.v17.2.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.PivotGrid.v17.2.Core.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.Dashboard.v17.2.Core.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.Printing.v17.2.Core.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\Castle.Core.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\Castle.Windsor.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\Devart.Data.Oracle.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\Devart.Data.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\RM.Lib.DataErrors.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.Office.v17.2.Core.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.Charts.v17.2.Core.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Core.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.Sparkline.v17.2.Core.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraLayout.v17.2.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraTreeList.v17.2.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraTreeMap.v17.2.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.DataAccess.v17.2.UI.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.Utils.v17.2.UI.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.Wizard.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraMap.v17.2.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.UI.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Win.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.TreeMap.v17.2.Core.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.Xpo.v17.2.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Presets.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.Map.v17.2.Core.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.CodeParser.v17.2.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.Pdf.v17.2.Core.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.Images.v17.2.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.Extensions.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraNavBar.v17.2.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraVerticalGrid.v17.2.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.Diagram.v17.2.Core.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraDiagram.v17.2.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\AppLib.pdb
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\AppLib.dll.config
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraReports.v17.2.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraEditors.v17.2.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.Utils.v17.2.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraBars.v17.2.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraGrid.v17.2.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraPivotGrid.v17.2.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.DataAccess.v17.2.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraRichEdit.v17.2.Extensions.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraRichEdit.v17.2.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.RichEdit.v17.2.Core.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraReports.v17.2.Extensions.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraPrinting.v17.2.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.Data.v17.2.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.PivotGrid.v17.2.Core.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.Printing.v17.2.Core.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.Office.v17.2.Core.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Core.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.Sparkline.v17.2.Core.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraLayout.v17.2.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraTreeList.v17.2.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraTreeMap.v17.2.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.DataAccess.v17.2.UI.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.Utils.v17.2.UI.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.Wizard.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraMap.v17.2.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.UI.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Win.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.TreeMap.v17.2.Core.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.Xpo.v17.2.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Presets.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.Map.v17.2.Core.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.Pdf.v17.2.Core.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraNavBar.v17.2.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraVerticalGrid.v17.2.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.Diagram.v17.2.Core.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\DevExpress.XtraDiagram.v17.2.xml
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.XtraReports.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.XtraReports.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.XtraReports.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.XtraReports.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.Utils.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.Utils.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.Utils.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.Utils.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.Dashboard.v17.2.Win.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.Dashboard.v17.2.Win.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.Dashboard.v17.2.Win.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.Dashboard.v17.2.Win.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.DataAccess.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.DataAccess.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.DataAccess.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.DataAccess.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.XtraRichEdit.v17.2.Extensions.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.XtraRichEdit.v17.2.Extensions.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.XtraRichEdit.v17.2.Extensions.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.XtraRichEdit.v17.2.Extensions.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.XtraRichEdit.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.XtraRichEdit.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.XtraRichEdit.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.XtraRichEdit.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.XtraReports.v17.2.Extensions.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.XtraReports.v17.2.Extensions.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.XtraReports.v17.2.Extensions.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.XtraReports.v17.2.Extensions.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.Data.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.Data.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.Data.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.Data.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.Dashboard.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.Dashboard.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.Dashboard.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.Dashboard.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.DataAccess.v17.2.UI.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.DataAccess.v17.2.UI.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.DataAccess.v17.2.UI.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.DataAccess.v17.2.UI.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.Utils.v17.2.UI.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.Utils.v17.2.UI.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.Utils.v17.2.UI.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.Utils.v17.2.UI.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.XtraCharts.v17.2.Wizard.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.XtraCharts.v17.2.Wizard.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.XtraCharts.v17.2.Wizard.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.XtraCharts.v17.2.Wizard.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.Xpo.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.Xpo.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.Xpo.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.Xpo.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.XtraGauges.v17.2.Presets.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.XtraGauges.v17.2.Presets.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.XtraGauges.v17.2.Presets.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.XtraGauges.v17.2.Presets.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.Map.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.Map.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.Map.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.Map.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.XtraNavBar.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.XtraNavBar.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.XtraNavBar.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.XtraNavBar.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.XtraVerticalGrid.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.XtraVerticalGrid.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.XtraVerticalGrid.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.XtraVerticalGrid.v17.2.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\de\DevExpress.Diagram.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\es\DevExpress.Diagram.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ja\DevExpress.Diagram.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\bin\Debug\ru\DevExpress.Diagram.v17.2.Core.resources.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\obj\Debug\AppInterop.csprojResolveAssemblyReference.cache
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\obj\Debug\AppInterop.csproj.CoreCompileInputs.cache
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\obj\Debug\AppInterop.dll
+C:\Users\Matheus\Google Drive\Matheus\AppInterop\obj\Debug\AppInterop.pdb
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\AppInterop.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\AppInterop.pdb
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\RM.Lib.Data.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\RM.Lib.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraReports.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraEditors.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.Utils.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraBars.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraGrid.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraPivotGrid.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.Dashboard.v17.2.Win.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.DataAccess.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraRichEdit.v17.2.Extensions.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraRichEdit.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.RichEdit.v17.2.Core.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraReports.v17.2.Extensions.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraPrinting.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.Data.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.PivotGrid.v17.2.Core.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.Dashboard.v17.2.Core.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.Printing.v17.2.Core.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\Castle.Core.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\Castle.Windsor.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\Devart.Data.Oracle.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\Devart.Data.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\RM.Lib.DataErrors.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.Office.v17.2.Core.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.Charts.v17.2.Core.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Core.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.Sparkline.v17.2.Core.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraLayout.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraTreeList.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraTreeMap.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.DataAccess.v17.2.UI.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.Utils.v17.2.UI.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.Wizard.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraMap.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.UI.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Win.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.TreeMap.v17.2.Core.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.Xpo.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Presets.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.Map.v17.2.Core.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.CodeParser.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.Pdf.v17.2.Core.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.Images.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.Extensions.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraNavBar.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraVerticalGrid.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.Diagram.v17.2.Core.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraDiagram.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\AppLib.pdb
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\AppLib.dll.config
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraReports.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraEditors.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.Utils.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraBars.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraGrid.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraPivotGrid.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.DataAccess.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraRichEdit.v17.2.Extensions.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraRichEdit.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.RichEdit.v17.2.Core.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraReports.v17.2.Extensions.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraPrinting.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.Data.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.PivotGrid.v17.2.Core.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.Printing.v17.2.Core.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.Office.v17.2.Core.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Core.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.Sparkline.v17.2.Core.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraLayout.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraTreeList.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraTreeMap.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.DataAccess.v17.2.UI.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.Utils.v17.2.UI.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.Wizard.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraMap.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.UI.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Win.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.TreeMap.v17.2.Core.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.Xpo.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Presets.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.Map.v17.2.Core.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.Pdf.v17.2.Core.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraNavBar.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraVerticalGrid.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.Diagram.v17.2.Core.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\DevExpress.XtraDiagram.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.XtraReports.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.XtraReports.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.XtraReports.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.XtraReports.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.Utils.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.Utils.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.Utils.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.Utils.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.Dashboard.v17.2.Win.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.Dashboard.v17.2.Win.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.Dashboard.v17.2.Win.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.Dashboard.v17.2.Win.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.DataAccess.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.DataAccess.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.DataAccess.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.DataAccess.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.XtraRichEdit.v17.2.Extensions.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.XtraRichEdit.v17.2.Extensions.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.XtraRichEdit.v17.2.Extensions.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.XtraRichEdit.v17.2.Extensions.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.XtraRichEdit.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.XtraRichEdit.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.XtraRichEdit.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.XtraRichEdit.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.XtraReports.v17.2.Extensions.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.XtraReports.v17.2.Extensions.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.XtraReports.v17.2.Extensions.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.XtraReports.v17.2.Extensions.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.Data.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.Data.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.Data.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.Data.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.Dashboard.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.Dashboard.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.Dashboard.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.Dashboard.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.DataAccess.v17.2.UI.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.DataAccess.v17.2.UI.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.DataAccess.v17.2.UI.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.DataAccess.v17.2.UI.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.Utils.v17.2.UI.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.Utils.v17.2.UI.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.Utils.v17.2.UI.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.Utils.v17.2.UI.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.XtraCharts.v17.2.Wizard.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.XtraCharts.v17.2.Wizard.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.XtraCharts.v17.2.Wizard.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.XtraCharts.v17.2.Wizard.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.Xpo.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.Xpo.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.Xpo.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.Xpo.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.XtraGauges.v17.2.Presets.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.XtraGauges.v17.2.Presets.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.XtraGauges.v17.2.Presets.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.XtraGauges.v17.2.Presets.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.Map.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.Map.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.Map.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.Map.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.XtraNavBar.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.XtraNavBar.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.XtraNavBar.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.XtraNavBar.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.XtraVerticalGrid.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.XtraVerticalGrid.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.XtraVerticalGrid.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.XtraVerticalGrid.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\de\DevExpress.Diagram.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\es\DevExpress.Diagram.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ja\DevExpress.Diagram.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\bin\Debug\ru\DevExpress.Diagram.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\obj\Debug\AppInterop.csprojResolveAssemblyReference.cache
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\obj\Debug\AppInterop.csproj.CoreCompileInputs.cache
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\obj\Debug\AppInterop.dll
+C:\Users\Matheus\Documents\GitHub\AppFature\AppInterop\obj\Debug\AppInterop.pdb
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\AppInterop.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\AppInterop.pdb
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.Data.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraReports.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraEditors.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.Utils.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraBars.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraGrid.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraPivotGrid.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.Dashboard.v17.2.Win.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.DataAccess.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraRichEdit.v17.2.Extensions.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraRichEdit.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.RichEdit.v17.2.Core.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraReports.v17.2.Extensions.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraPrinting.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.Data.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.PivotGrid.v17.2.Core.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.Dashboard.v17.2.Core.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.Printing.v17.2.Core.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\Castle.Core.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\Castle.Windsor.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\Devart.Data.Oracle.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\Devart.Data.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.DataErrors.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.Office.v17.2.Core.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.Charts.v17.2.Core.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Core.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.Sparkline.v17.2.Core.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraLayout.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraTreeList.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraTreeMap.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.DataAccess.v17.2.UI.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.Utils.v17.2.UI.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.Wizard.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraMap.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.UI.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Win.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.TreeMap.v17.2.Core.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.Xpo.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Presets.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.Map.v17.2.Core.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.CodeParser.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.Pdf.v17.2.Core.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.Images.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.Extensions.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraNavBar.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraVerticalGrid.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.Diagram.v17.2.Core.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraDiagram.v17.2.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraReports.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraEditors.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.Utils.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraBars.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraGrid.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraPivotGrid.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.DataAccess.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraRichEdit.v17.2.Extensions.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraRichEdit.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.RichEdit.v17.2.Core.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraReports.v17.2.Extensions.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraPrinting.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.Data.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.PivotGrid.v17.2.Core.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.Printing.v17.2.Core.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.Office.v17.2.Core.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Core.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.Sparkline.v17.2.Core.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraLayout.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraTreeList.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraTreeMap.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.DataAccess.v17.2.UI.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.Utils.v17.2.UI.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.Wizard.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraMap.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraCharts.v17.2.UI.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Win.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.TreeMap.v17.2.Core.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.Xpo.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraGauges.v17.2.Presets.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.Map.v17.2.Core.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.Pdf.v17.2.Core.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraNavBar.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraVerticalGrid.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.Diagram.v17.2.Core.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\DevExpress.XtraDiagram.v17.2.xml
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.Utils.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.Utils.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.Utils.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.Utils.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.Dashboard.v17.2.Win.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.Dashboard.v17.2.Win.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.Dashboard.v17.2.Win.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.Dashboard.v17.2.Win.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.DataAccess.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.DataAccess.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.DataAccess.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.DataAccess.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.XtraRichEdit.v17.2.Extensions.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.XtraRichEdit.v17.2.Extensions.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.XtraRichEdit.v17.2.Extensions.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.XtraRichEdit.v17.2.Extensions.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.XtraRichEdit.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.XtraRichEdit.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.XtraRichEdit.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.XtraRichEdit.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.XtraReports.v17.2.Extensions.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.XtraReports.v17.2.Extensions.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.XtraReports.v17.2.Extensions.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.XtraReports.v17.2.Extensions.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.Data.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.Data.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.Data.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.Data.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.DataAccess.v17.2.UI.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.DataAccess.v17.2.UI.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.DataAccess.v17.2.UI.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.DataAccess.v17.2.UI.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.Utils.v17.2.UI.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.Utils.v17.2.UI.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.Utils.v17.2.UI.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.Utils.v17.2.UI.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.XtraCharts.v17.2.Wizard.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.XtraCharts.v17.2.Wizard.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.XtraCharts.v17.2.Wizard.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.XtraCharts.v17.2.Wizard.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.Xpo.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.Xpo.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.Xpo.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.Xpo.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.XtraGauges.v17.2.Presets.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.XtraGauges.v17.2.Presets.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.XtraGauges.v17.2.Presets.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.Map.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.Map.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.Map.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.Map.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.XtraNavBar.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.XtraNavBar.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.XtraNavBar.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.XtraNavBar.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.XtraVerticalGrid.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.XtraVerticalGrid.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.XtraVerticalGrid.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.Diagram.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.Diagram.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.Diagram.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.Diagram.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.csproj.CoreCompileInputs.cache
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.pdb
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.XtraGauges.v17.2.Presets.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.XtraVerticalGrid.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.XtraReports.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.XtraReports.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.XtraReports.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.XtraReports.v17.2.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\de\DevExpress.Dashboard.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\es\DevExpress.Dashboard.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ja\DevExpress.Dashboard.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\ru\DevExpress.Dashboard.v17.2.Core.resources.dll
+C:\Users\Matheus\Documents\GitHub\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.csprojResolveAssemblyReference.cache
+E:\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\AppInterop.dll
+E:\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\AppInterop.pdb
+E:\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.Data.dll
+E:\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.dll
+E:\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\Newtonsoft.Json.dll
+E:\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\Castle.Core.dll
+E:\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\Castle.Windsor.dll
+E:\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\Devart.Data.Oracle.dll
+E:\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\Devart.Data.dll
+E:\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.DataErrors.dll
+E:\GitHub\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.csprojAssemblyReference.cache
+E:\GitHub\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.csproj.CopyComplete
+E:\GitHub\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.dll
+E:\GitHub\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.pdb
+C:\Users\Fabio\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\AppInterop.dll
+C:\Users\Fabio\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\AppInterop.pdb
+C:\Users\Fabio\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.Data.dll
+C:\Users\Fabio\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.dll
+C:\Users\Fabio\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Fabio\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\Castle.Core.dll
+C:\Users\Fabio\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\Castle.Windsor.dll
+C:\Users\Fabio\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\Devart.Data.Oracle.dll
+C:\Users\Fabio\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\Devart.Data.dll
+C:\Users\Fabio\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.DataErrors.dll
+C:\Users\Fabio\Documents\GitHub\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.csprojAssemblyReference.cache
+C:\Users\Fabio\Documents\GitHub\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.csproj.CoreCompileInputs.cache
+C:\Users\Fabio\Documents\GitHub\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.csproj.CopyComplete
+C:\Users\Fabio\Documents\GitHub\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.dll
+C:\Users\Fabio\Documents\GitHub\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.pdb
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\AppInterop.dll
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\AppInterop.pdb
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\RM.Lib.Data.dll
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\RM.Lib.dll
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\Newtonsoft.Json.dll
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\Castle.Core.dll
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\Castle.Windsor.dll
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\Devart.Data.Oracle.dll
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\Devart.Data.dll
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\RM.Lib.DataErrors.dll
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\obj\Debug\AppInterop.csprojAssemblyReference.cache
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\obj\Debug\AppInterop.csproj.CoreCompileInputs.cache
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\obj\Debug\AppInterop.csproj.CopyComplete
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\obj\Debug\AppInterop.dll
+C:\Users\João Pedro Luchiari\Desktop\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\obj\Debug\AppInterop.pdb
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\AppInterop.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\AppInterop.pdb
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\RM.Lib.Data.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\RM.Lib.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\Newtonsoft.Json.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\Castle.Core.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\Castle.Windsor.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\Devart.Data.Oracle.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\Devart.Data.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\RM.Lib.DataErrors.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\obj\Debug\AppInterop.csprojAssemblyReference.cache
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\obj\Debug\AppInterop.csproj.CoreCompileInputs.cache
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\obj\Debug\AppInterop.csproj.CopyComplete
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\obj\Debug\AppInterop.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\obj\Debug\AppInterop.pdb
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\Projetos\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\AppInterop.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\Projetos\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\AppInterop.pdb
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\Projetos\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\RM.Lib.Data.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\Projetos\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\RM.Lib.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\Projetos\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\Newtonsoft.Json.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\Projetos\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\Castle.Core.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\Projetos\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\Castle.Windsor.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\Projetos\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\Devart.Data.Oracle.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\Projetos\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\Devart.Data.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\Projetos\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\bin\Debug\RM.Lib.DataErrors.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\Projetos\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\obj\Debug\AppInterop.csprojAssemblyReference.cache
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\Projetos\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\obj\Debug\AppInterop.csproj.CoreCompileInputs.cache
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\Projetos\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\obj\Debug\AppInterop.csproj.CopyComplete
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\Projetos\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\obj\Debug\AppInterop.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\Projetos\FatureSales-Dispan-master\FatureSales-Dispan-master\AppInterop\obj\Debug\AppInterop.pdb
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\_repo\FatureSales-Dispan\AppInterop\bin\Debug\AppInterop.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\_repo\FatureSales-Dispan\AppInterop\bin\Debug\AppInterop.pdb
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\_repo\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.Data.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\_repo\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\_repo\FatureSales-Dispan\AppInterop\bin\Debug\Newtonsoft.Json.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\_repo\FatureSales-Dispan\AppInterop\bin\Debug\Castle.Core.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\_repo\FatureSales-Dispan\AppInterop\bin\Debug\Castle.Windsor.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\_repo\FatureSales-Dispan\AppInterop\bin\Debug\Devart.Data.Oracle.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\_repo\FatureSales-Dispan\AppInterop\bin\Debug\Devart.Data.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\_repo\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.DataErrors.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\_repo\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.csprojAssemblyReference.cache
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\_repo\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.csproj.CoreCompileInputs.cache
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\_repo\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.csproj.CopyComplete
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\_repo\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\_repo\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.pdb
+C:\Users\João Pedro Luchiari\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\AppInterop.dll
+C:\Users\João Pedro Luchiari\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\AppInterop.pdb
+C:\Users\João Pedro Luchiari\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.Data.dll
+C:\Users\João Pedro Luchiari\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.dll
+C:\Users\João Pedro Luchiari\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\Newtonsoft.Json.dll
+C:\Users\João Pedro Luchiari\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\Castle.Core.dll
+C:\Users\João Pedro Luchiari\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\Castle.Windsor.dll
+C:\Users\João Pedro Luchiari\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\Devart.Data.Oracle.dll
+C:\Users\João Pedro Luchiari\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\Devart.Data.dll
+C:\Users\João Pedro Luchiari\Documents\GitHub\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.DataErrors.dll
+C:\Users\João Pedro Luchiari\Documents\GitHub\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.csprojAssemblyReference.cache
+C:\Users\João Pedro Luchiari\Documents\GitHub\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.csproj.CoreCompileInputs.cache
+C:\Users\João Pedro Luchiari\Documents\GitHub\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.csproj.CopyComplete
+C:\Users\João Pedro Luchiari\Documents\GitHub\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.dll
+C:\Users\João Pedro Luchiari\Documents\GitHub\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.pdb
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\bin\Debug\AppInterop.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\bin\Debug\AppInterop.pdb
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.Data.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\bin\Debug\Newtonsoft.Json.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\bin\Debug\Castle.Core.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\bin\Debug\Castle.Windsor.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\bin\Debug\Devart.Data.Oracle.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\bin\Debug\Devart.Data.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.DataErrors.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.csproj.CoreCompileInputs.cache
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.csproj.CopyComplete
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.dll
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.pdb
+C:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.csprojAssemblyReference.cache
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\bin\Debug\AppInterop.dll
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\bin\Debug\AppInterop.pdb
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.Data.dll
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.dll
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\bin\Debug\Newtonsoft.Json.dll
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\bin\Debug\Castle.Core.dll
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\bin\Debug\Castle.Windsor.dll
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\bin\Debug\Devart.Data.Oracle.dll
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\bin\Debug\Devart.Data.dll
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.DataErrors.dll
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.csproj.CoreCompileInputs.cache
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.csproj.CopyComplete
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.dll
+D:\Users\João Pedro Luchiari\Desktop\IT INIT\git itinit\FatureSales-Dispan\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.pdb
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppInterop\bin\Debug\AppInterop.dll
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppInterop\bin\Debug\AppInterop.pdb
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.Data.dll
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.dll
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppInterop\bin\Debug\Newtonsoft.Json.dll
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppInterop\bin\Debug\Castle.Core.dll
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppInterop\bin\Debug\Castle.Windsor.dll
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppInterop\bin\Debug\Devart.Data.Oracle.dll
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppInterop\bin\Debug\Devart.Data.dll
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.DataErrors.dll
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.csprojAssemblyReference.cache
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.csproj.CoreCompileInputs.cache
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.csproj.CopyComplete
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.dll
+E:\Arquivos Projetos\Projetos GitHub IT\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.pdb
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppInterop\bin\Debug\AppInterop.dll
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppInterop\bin\Debug\AppInterop.pdb
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.Data.dll
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.dll
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppInterop\bin\Debug\Newtonsoft.Json.dll
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppInterop\bin\Debug\Castle.Core.dll
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppInterop\bin\Debug\Castle.Windsor.dll
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppInterop\bin\Debug\Devart.Data.Oracle.dll
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppInterop\bin\Debug\Devart.Data.dll
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.DataErrors.dll
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.csprojAssemblyReference.cache
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.csproj.CoreCompileInputs.cache
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.csproj.CopyComplete
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.dll
+E:\Arquivos Projetos\Projetos GitHub CST\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.pdb
+E:\Projetos\FatureSales-Dispan\AppInterop\bin\Debug\AppInterop.dll
+E:\Projetos\FatureSales-Dispan\AppInterop\bin\Debug\AppInterop.pdb
+E:\Projetos\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.Data.dll
+E:\Projetos\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.dll
+E:\Projetos\FatureSales-Dispan\AppInterop\bin\Debug\Newtonsoft.Json.dll
+E:\Projetos\FatureSales-Dispan\AppInterop\bin\Debug\Castle.Core.dll
+E:\Projetos\FatureSales-Dispan\AppInterop\bin\Debug\Castle.Windsor.dll
+E:\Projetos\FatureSales-Dispan\AppInterop\bin\Debug\Devart.Data.Oracle.dll
+E:\Projetos\FatureSales-Dispan\AppInterop\bin\Debug\Devart.Data.dll
+E:\Projetos\FatureSales-Dispan\AppInterop\bin\Debug\RM.Lib.DataErrors.dll
+E:\Projetos\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.csproj.AssemblyReference.cache
+E:\Projetos\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.csproj.CoreCompileInputs.cache
+E:\Projetos\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.csproj.CopyComplete
+E:\Projetos\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.dll
+E:\Projetos\FatureSales-Dispan\AppInterop\obj\Debug\AppInterop.pdb
