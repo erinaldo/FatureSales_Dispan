@@ -162,6 +162,7 @@
             this.label25 = new System.Windows.Forms.Label();
             this.campoDecimalVALORBRUTO = new AppLib.Windows.CampoDecimal();
             this.label24 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -183,6 +184,23 @@
             this.tabPage7.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // simpleButtonOK
+            // 
+            this.simpleButtonOK.Location = new System.Drawing.Point(943, 18);
+            // 
+            // simpleButtonCANCELAR
+            // 
+            this.simpleButtonCANCELAR.Location = new System.Drawing.Point(1033, 18);
+            // 
+            // simpleButtonSALVAR
+            // 
+            this.simpleButtonSALVAR.Location = new System.Drawing.Point(853, 18);
+            // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(0, 472);
+            this.panel1.Size = new System.Drawing.Size(1130, 61);
             // 
             // tabControl1
             // 
@@ -257,7 +275,7 @@
             this.label41.AutoSize = true;
             this.label41.Location = new System.Drawing.Point(466, 92);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(20, 13);
+            this.label41.Size = new System.Drawing.Size(21, 14);
             this.label41.TabIndex = 63;
             this.label41.Text = "UF";
             // 
@@ -293,7 +311,7 @@
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(110, 17);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(48, 13);
+            this.label12.Size = new System.Drawing.Size(53, 14);
             this.label12.TabIndex = 54;
             this.label12.Text = "ICMS-ST";
             // 
@@ -302,7 +320,7 @@
             this.label28.AutoSize = true;
             this.label28.Location = new System.Drawing.Point(6, 17);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(21, 13);
+            this.label28.Size = new System.Drawing.Size(22, 14);
             this.label28.TabIndex = 53;
             this.label28.Text = "IPI";
             // 
@@ -361,7 +379,7 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(110, 17);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(58, 13);
+            this.label9.Size = new System.Drawing.Size(65, 14);
             this.label9.TabIndex = 54;
             this.label9.Text = "Percentual";
             // 
@@ -370,7 +388,7 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(6, 17);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(31, 13);
+            this.label10.Size = new System.Drawing.Size(34, 14);
             this.label10.TabIndex = 53;
             this.label10.Text = "Valor";
             // 
@@ -428,7 +446,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(110, 17);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(58, 13);
+            this.label8.Size = new System.Drawing.Size(65, 14);
             this.label8.TabIndex = 54;
             this.label8.Text = "Percentual";
             // 
@@ -437,7 +455,7 @@
             this.label40.AutoSize = true;
             this.label40.Location = new System.Drawing.Point(6, 17);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(31, 13);
+            this.label40.Size = new System.Drawing.Size(34, 14);
             this.label40.TabIndex = 53;
             this.label40.Text = "Valor";
             // 
@@ -496,7 +514,7 @@
             this.label29.AutoSize = true;
             this.label29.Location = new System.Drawing.Point(110, 17);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(58, 13);
+            this.label29.Size = new System.Drawing.Size(65, 14);
             this.label29.TabIndex = 52;
             this.label29.Text = "Percentual";
             // 
@@ -505,7 +523,7 @@
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(6, 17);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(31, 13);
+            this.label11.Size = new System.Drawing.Size(34, 14);
             this.label11.TabIndex = 51;
             this.label11.Text = "Valor";
             // 
@@ -551,7 +569,7 @@
             this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label47.Location = new System.Drawing.Point(697, 216);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(102, 13);
+            this.label47.Size = new System.Drawing.Size(130, 17);
             this.label47.TabIndex = 42;
             this.label47.Text = "Plano Financeiro";
             // 
@@ -623,7 +641,7 @@
             this.label46.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
             this.label46.Location = new System.Drawing.Point(482, 133);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(61, 13);
+            this.label46.Size = new System.Drawing.Size(72, 17);
             this.label46.TabIndex = 40;
             this.label46.Text = "Aplicação";
             // 
@@ -633,7 +651,7 @@
             this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label45.Location = new System.Drawing.Point(697, 176);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(145, 13);
+            this.label45.Size = new System.Drawing.Size(184, 17);
             this.label45.TabIndex = 37;
             this.label45.Text = "Condição de Pagamento";
             // 
@@ -665,7 +683,7 @@
             this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label44.Location = new System.Drawing.Point(697, 133);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(105, 13);
+            this.label44.Size = new System.Drawing.Size(134, 17);
             this.label44.TabIndex = 35;
             this.label44.Text = "Vendedor Interno";
             // 
@@ -697,7 +715,7 @@
             this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label43.Location = new System.Drawing.Point(697, 93);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(36, 13);
+            this.label43.Size = new System.Drawing.Size(46, 17);
             this.label43.TabIndex = 33;
             this.label43.Text = "Série";
             // 
@@ -729,7 +747,7 @@
             this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label42.Location = new System.Drawing.Point(697, 53);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(106, 13);
+            this.label42.Size = new System.Drawing.Size(134, 17);
             this.label42.TabIndex = 31;
             this.label42.Text = "Local de Estoque";
             // 
@@ -785,7 +803,7 @@
             this.label2.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
             this.label2.Location = new System.Drawing.Point(339, 133);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 13);
+            this.label2.Size = new System.Drawing.Size(107, 17);
             this.label2.TabIndex = 25;
             this.label2.Text = "Tipo de Venda";
             // 
@@ -809,7 +827,7 @@
             this.label32.AutoSize = true;
             this.label32.Location = new System.Drawing.Point(233, 53);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(89, 13);
+            this.label32.Size = new System.Drawing.Size(103, 14);
             this.label32.TabIndex = 3;
             this.label32.Text = "Segundo Número";
             this.label32.Visible = false;
@@ -833,7 +851,7 @@
             this.label31.AutoSize = true;
             this.label31.Location = new System.Drawing.Point(127, 53);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(75, 13);
+            this.label31.Size = new System.Drawing.Size(85, 14);
             this.label31.TabIndex = 20;
             this.label31.Text = "Pedido Cliente";
             // 
@@ -843,7 +861,7 @@
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.Location = new System.Drawing.Point(230, 134);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(87, 13);
+            this.label23.Size = new System.Drawing.Size(112, 17);
             this.label23.TabIndex = 19;
             this.label23.Text = "Prazo Entrega";
             // 
@@ -867,7 +885,7 @@
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.Location = new System.Drawing.Point(18, 53);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(101, 13);
+            this.label22.Size = new System.Drawing.Size(127, 17);
             this.label22.TabIndex = 17;
             this.label22.Text = "Núm. Movimento";
             // 
@@ -877,7 +895,7 @@
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.Location = new System.Drawing.Point(18, 14);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(85, 13);
+            this.label21.Size = new System.Drawing.Size(105, 17);
             this.label21.TabIndex = 16;
             this.label21.Text = "ID Movimento";
             // 
@@ -939,7 +957,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(18, 215);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(82, 13);
+            this.label7.Size = new System.Drawing.Size(90, 14);
             this.label7.TabIndex = 12;
             this.label7.Text = "Transportadora";
             // 
@@ -969,7 +987,7 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(578, 173);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(31, 13);
+            this.label6.Size = new System.Drawing.Size(41, 17);
             this.label6.TabIndex = 10;
             this.label6.Text = "Frete";
             // 
@@ -979,7 +997,7 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(18, 173);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(77, 13);
+            this.label5.Size = new System.Drawing.Size(102, 17);
             this.label5.TabIndex = 9;
             this.label5.Text = "Representante";
             // 
@@ -1013,7 +1031,7 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(124, 134);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(82, 13);
+            this.label4.Size = new System.Drawing.Size(104, 17);
             this.label4.TabIndex = 7;
             this.label4.Text = "Data Entrega";
             // 
@@ -1037,7 +1055,7 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(18, 134);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(84, 13);
+            this.label3.Size = new System.Drawing.Size(107, 17);
             this.label3.TabIndex = 5;
             this.label3.Text = "Data Emissão";
             // 
@@ -1061,7 +1079,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(18, 92);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 13);
+            this.label1.Size = new System.Drawing.Size(58, 17);
             this.label1.TabIndex = 1;
             this.label1.Text = "Cliente";
             // 
@@ -1139,7 +1157,7 @@
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(8, 51);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(108, 13);
+            this.label14.Size = new System.Drawing.Size(121, 14);
             this.label14.TabIndex = 34;
             this.label14.Text = "Validade da Proposta";
             // 
@@ -1148,7 +1166,7 @@
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(8, 12);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(65, 13);
+            this.label13.Size = new System.Drawing.Size(70, 14);
             this.label13.TabIndex = 33;
             this.label13.Text = "Observação";
             // 
@@ -1171,7 +1189,7 @@
             this.label30.AutoSize = true;
             this.label30.Location = new System.Drawing.Point(8, 92);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(48, 13);
+            this.label30.Size = new System.Drawing.Size(53, 14);
             this.label30.TabIndex = 30;
             this.label30.Text = "Histórico";
             // 
@@ -1256,7 +1274,7 @@
             this.label20.AutoSize = true;
             this.label20.Location = new System.Drawing.Point(264, 298);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(155, 13);
+            this.label20.Size = new System.Drawing.Size(175, 14);
             this.label20.TabIndex = 24;
             this.label20.Text = "Orçamento para financiamento";
             this.label20.Visible = false;
@@ -1290,7 +1308,7 @@
             this.label19.AutoSize = true;
             this.label19.Location = new System.Drawing.Point(135, 298);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(124, 13);
+            this.label19.Size = new System.Drawing.Size(141, 14);
             this.label19.TabIndex = 22;
             this.label19.Text = "Demonstração ou brinde";
             this.label19.Visible = false;
@@ -1324,7 +1342,7 @@
             this.label18.AutoSize = true;
             this.label18.Location = new System.Drawing.Point(20, 298);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(58, 13);
+            this.label18.Size = new System.Drawing.Size(63, 14);
             this.label18.TabIndex = 20;
             this.label18.Text = "Financiado";
             this.label18.Visible = false;
@@ -1334,7 +1352,7 @@
             this.label17.AutoSize = true;
             this.label17.Location = new System.Drawing.Point(20, 256);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(78, 13);
+            this.label17.Size = new System.Drawing.Size(90, 14);
             this.label17.TabIndex = 19;
             this.label17.Text = "Tipo de cultura";
             this.label17.Visible = false;
@@ -1369,7 +1387,7 @@
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(20, 175);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(61, 13);
+            this.label16.Size = new System.Drawing.Size(69, 14);
             this.label16.TabIndex = 16;
             this.label16.Text = "Pagamento";
             this.label16.Visible = false;
@@ -1379,7 +1397,7 @@
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(20, 92);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(101, 13);
+            this.label15.Size = new System.Drawing.Size(113, 14);
             this.label15.TabIndex = 14;
             this.label15.Text = "Mensagem relatório";
             this.label15.Visible = false;
@@ -1544,7 +1562,7 @@
             this.label38.AutoSize = true;
             this.label38.Location = new System.Drawing.Point(152, 9);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(58, 13);
+            this.label38.Size = new System.Drawing.Size(63, 14);
             this.label38.TabIndex = 56;
             this.label38.Text = "Financiado";
             // 
@@ -1553,7 +1571,7 @@
             this.label39.AutoSize = true;
             this.label39.Location = new System.Drawing.Point(258, 9);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(61, 13);
+            this.label39.Size = new System.Drawing.Size(69, 14);
             this.label39.TabIndex = 55;
             this.label39.Text = "Pagamento";
             // 
@@ -1563,7 +1581,7 @@
             this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label37.Location = new System.Drawing.Point(46, 9);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(84, 13);
+            this.label37.Size = new System.Drawing.Size(107, 17);
             this.label37.TabIndex = 51;
             this.label37.Text = "Data Emissão";
             // 
@@ -1585,21 +1603,21 @@
             // 
             this.txtValorLiquidoBanco.Location = new System.Drawing.Point(367, 111);
             this.txtValorLiquidoBanco.Name = "txtValorLiquidoBanco";
-            this.txtValorLiquidoBanco.Size = new System.Drawing.Size(100, 20);
+            this.txtValorLiquidoBanco.Size = new System.Drawing.Size(100, 22);
             this.txtValorLiquidoBanco.TabIndex = 5;
             // 
             // txtSubTotalBanco
             // 
             this.txtSubTotalBanco.Location = new System.Drawing.Point(261, 111);
             this.txtSubTotalBanco.Name = "txtSubTotalBanco";
-            this.txtSubTotalBanco.Size = new System.Drawing.Size(100, 20);
+            this.txtSubTotalBanco.Size = new System.Drawing.Size(100, 22);
             this.txtSubTotalBanco.TabIndex = 4;
             // 
             // txtValorBrutoBanco
             // 
             this.txtValorBrutoBanco.Location = new System.Drawing.Point(155, 111);
             this.txtValorBrutoBanco.Name = "txtValorBrutoBanco";
-            this.txtValorBrutoBanco.Size = new System.Drawing.Size(100, 20);
+            this.txtValorBrutoBanco.Size = new System.Drawing.Size(100, 22);
             this.txtValorBrutoBanco.TabIndex = 3;
             // 
             // label33
@@ -1607,7 +1625,7 @@
             this.label33.AutoSize = true;
             this.label33.Location = new System.Drawing.Point(364, 94);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(67, 13);
+            this.label33.Size = new System.Drawing.Size(76, 14);
             this.label33.TabIndex = 47;
             this.label33.Text = "Valor Liquido";
             // 
@@ -1616,7 +1634,7 @@
             this.label34.AutoSize = true;
             this.label34.Location = new System.Drawing.Point(258, 94);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(47, 13);
+            this.label34.Size = new System.Drawing.Size(53, 14);
             this.label34.TabIndex = 45;
             this.label34.Text = "Subtotal";
             // 
@@ -1625,7 +1643,7 @@
             this.label35.AutoSize = true;
             this.label35.Location = new System.Drawing.Point(152, 94);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(60, 13);
+            this.label35.Size = new System.Drawing.Size(68, 14);
             this.label35.TabIndex = 43;
             this.label35.Text = "Valor Bruto";
             // 
@@ -1635,7 +1653,7 @@
             this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label36.Location = new System.Drawing.Point(45, 111);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(104, 16);
+            this.label36.Size = new System.Drawing.Size(126, 20);
             this.label36.TabIndex = 41;
             this.label36.Text = "Totais Banco:";
             // 
@@ -1700,7 +1718,7 @@
             this.label27.AutoSize = true;
             this.label27.Location = new System.Drawing.Point(371, 15);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(67, 13);
+            this.label27.Size = new System.Drawing.Size(76, 14);
             this.label27.TabIndex = 40;
             this.label27.Text = "Valor Liquido";
             // 
@@ -1724,7 +1742,7 @@
             this.label26.AutoSize = true;
             this.label26.Location = new System.Drawing.Point(265, 15);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(47, 13);
+            this.label26.Size = new System.Drawing.Size(53, 14);
             this.label26.TabIndex = 38;
             this.label26.Text = "Subtotal";
             // 
@@ -1748,7 +1766,7 @@
             this.label25.AutoSize = true;
             this.label25.Location = new System.Drawing.Point(159, 15);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(60, 13);
+            this.label25.Size = new System.Drawing.Size(68, 14);
             this.label25.TabIndex = 36;
             this.label25.Text = "Valor Bruto";
             // 
@@ -1773,7 +1791,7 @@
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.Location = new System.Drawing.Point(99, 31);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(56, 16);
+            this.label24.Size = new System.Drawing.Size(67, 20);
             this.label24.TabIndex = 34;
             this.label24.Text = "Totais:";
             // 
@@ -1818,8 +1836,10 @@
             this.AntesSalvar += new AppLib.Windows.FormCadastroObject.PrepararHandler(this.FormPedidoCadastro_Preparar);
             this.AposSalvar += new AppLib.Windows.FormCadastroObject.AposSalvarHandler(this.FormPedidoCadastro_AposSalvar);
             this.Load += new System.EventHandler(this.FormPedidoCadastro_Load);
+            this.Controls.SetChildIndex(this.panel1, 0);
             this.Controls.SetChildIndex(this.groupBox1, 0);
             this.Controls.SetChildIndex(this.tabControl1, 0);
+            this.panel1.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();

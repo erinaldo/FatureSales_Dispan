@@ -48,6 +48,7 @@
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.chkComposto = new DevExpress.XtraEditors.CheckEdit();
             this.label8 = new System.Windows.Forms.Label();
             this.dteDataValidade = new DevExpress.XtraEditors.DateEdit();
             this.chkUsaPrecoFixo = new DevExpress.XtraEditors.CheckEdit();
@@ -90,6 +91,7 @@
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chkComposto.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dteDataValidade.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dteDataValidade.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chkUsaPrecoFixo.Properties)).BeginInit();
@@ -112,6 +114,7 @@
             // toolStrip1
             // 
             this.toolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButtonNOVO,
             this.toolStripButtonEXCLUIR,
@@ -135,7 +138,7 @@
             this.toolStripButtonNOVO.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButtonNOVO.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonNOVO.Name = "toolStripButtonNOVO";
-            this.toolStripButtonNOVO.Size = new System.Drawing.Size(62, 36);
+            this.toolStripButtonNOVO.Size = new System.Drawing.Size(71, 36);
             this.toolStripButtonNOVO.Text = "Novo";
             this.toolStripButtonNOVO.Click += new System.EventHandler(this.toolStripButtonNOVO_Click);
             // 
@@ -145,7 +148,7 @@
             this.toolStripButtonEXCLUIR.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButtonEXCLUIR.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonEXCLUIR.Name = "toolStripButtonEXCLUIR";
-            this.toolStripButtonEXCLUIR.Size = new System.Drawing.Size(70, 36);
+            this.toolStripButtonEXCLUIR.Size = new System.Drawing.Size(80, 36);
             this.toolStripButtonEXCLUIR.Text = "Excluir";
             this.toolStripButtonEXCLUIR.Click += new System.EventHandler(this.toolStripButtonEXCLUIR_Click);
             // 
@@ -201,7 +204,7 @@
             this.toolStripButtonANEXOS.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButtonANEXOS.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonANEXOS.Name = "toolStripButtonANEXOS";
-            this.toolStripButtonANEXOS.Size = new System.Drawing.Size(86, 36);
+            this.toolStripButtonANEXOS.Size = new System.Drawing.Size(100, 36);
             this.toolStripButtonANEXOS.Text = "Anexos";
             // 
             // toolStripButtonPROCESSOS
@@ -210,7 +213,7 @@
             this.toolStripButtonPROCESSOS.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButtonPROCESSOS.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonPROCESSOS.Name = "toolStripButtonPROCESSOS";
-            this.toolStripButtonPROCESSOS.Size = new System.Drawing.Size(99, 36);
+            this.toolStripButtonPROCESSOS.Size = new System.Drawing.Size(116, 36);
             this.toolStripButtonPROCESSOS.Text = "Processos";
             // 
             // panel1
@@ -256,6 +259,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.chkComposto);
             this.tabPage1.Controls.Add(this.label8);
             this.tabPage1.Controls.Add(this.dteDataValidade);
             this.tabPage1.Controls.Add(this.chkUsaPrecoFixo);
@@ -273,37 +277,50 @@
             this.tabPage1.Text = "Identificação";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // chkComposto
+            // 
+            this.chkComposto.Location = new System.Drawing.Point(323, 265);
+            this.chkComposto.Name = "chkComposto";
+            this.chkComposto.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.chkComposto.Properties.Appearance.Options.UseFont = true;
+            this.chkComposto.Properties.Caption = "Composto?";
+            this.chkComposto.Size = new System.Drawing.Size(114, 21);
+            this.chkComposto.TabIndex = 140;
+            // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(448, 252);
+            this.label8.Location = new System.Drawing.Point(440, 9);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(87, 13);
+            this.label8.Size = new System.Drawing.Size(110, 17);
             this.label8.TabIndex = 139;
             this.label8.Text = "Data Validade";
+            this.label8.Visible = false;
             // 
             // dteDataValidade
             // 
             this.dteDataValidade.EditValue = null;
-            this.dteDataValidade.Location = new System.Drawing.Point(451, 268);
+            this.dteDataValidade.Location = new System.Drawing.Point(443, 25);
             this.dteDataValidade.Name = "dteDataValidade";
             this.dteDataValidade.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.dteDataValidade.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dteDataValidade.Size = new System.Drawing.Size(100, 20);
+            this.dteDataValidade.Size = new System.Drawing.Size(100, 22);
             this.dteDataValidade.TabIndex = 137;
+            this.dteDataValidade.Visible = false;
             // 
             // chkUsaPrecoFixo
             // 
-            this.chkUsaPrecoFixo.Location = new System.Drawing.Point(331, 269);
+            this.chkUsaPrecoFixo.Location = new System.Drawing.Point(323, 24);
             this.chkUsaPrecoFixo.Name = "chkUsaPrecoFixo";
             this.chkUsaPrecoFixo.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
             this.chkUsaPrecoFixo.Properties.Appearance.Options.UseFont = true;
             this.chkUsaPrecoFixo.Properties.Caption = "Usa Preço Fixo?";
-            this.chkUsaPrecoFixo.Size = new System.Drawing.Size(114, 19);
+            this.chkUsaPrecoFixo.Size = new System.Drawing.Size(114, 21);
             this.chkUsaPrecoFixo.TabIndex = 136;
+            this.chkUsaPrecoFixo.Visible = false;
             this.chkUsaPrecoFixo.CheckedChanged += new System.EventHandler(this.chkUsaPrecoFixo_CheckedChanged);
             // 
             // groupBox1
@@ -327,7 +344,7 @@
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(126, 51);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(130, 13);
+            this.label7.Size = new System.Drawing.Size(165, 17);
             this.label7.TabIndex = 89;
             this.label7.Text = "PR - Preço da Tabela";
             // 
@@ -337,7 +354,7 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(126, 25);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(121, 13);
+            this.label6.Size = new System.Drawing.Size(154, 17);
             this.label6.TabIndex = 88;
             this.label6.Text = "PS - Peso da Chapa";
             // 
@@ -347,7 +364,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(12, 25);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 13);
+            this.label2.Size = new System.Drawing.Size(91, 17);
             this.label2.TabIndex = 78;
             this.label2.Text = "A - Largura";
             // 
@@ -357,7 +374,7 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(12, 51);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 13);
+            this.label3.Size = new System.Drawing.Size(77, 17);
             this.label3.TabIndex = 79;
             this.label3.Text = "B - Altura";
             // 
@@ -367,7 +384,7 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(12, 77);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(99, 13);
+            this.label4.Size = new System.Drawing.Size(128, 17);
             this.label4.TabIndex = 80;
             this.label4.Text = "C - Comprimento";
             // 
@@ -377,7 +394,7 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(12, 103);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(54, 13);
+            this.label5.Size = new System.Drawing.Size(68, 17);
             this.label5.TabIndex = 85;
             this.label5.Text = "D - Raio";
             // 
@@ -413,7 +430,7 @@
             this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label69.Location = new System.Drawing.Point(8, 13);
             this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(24, 13);
+            this.label69.Size = new System.Drawing.Size(29, 17);
             this.label69.TabIndex = 123;
             this.label69.Text = "DP";
             // 
@@ -423,7 +440,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(8, 250);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 13);
+            this.label1.Size = new System.Drawing.Size(71, 17);
             this.label1.TabIndex = 86;
             this.label1.Text = "Formula:";
             // 
@@ -505,7 +522,7 @@
             this.label61.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label61.Location = new System.Drawing.Point(35, 27);
             this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(50, 13);
+            this.label61.Size = new System.Drawing.Size(65, 17);
             this.label61.TabIndex = 137;
             this.label61.Text = "Largura";
             // 
@@ -515,7 +532,7 @@
             this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label60.Location = new System.Drawing.Point(45, 53);
             this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(40, 13);
+            this.label60.Size = new System.Drawing.Size(51, 17);
             this.label60.TabIndex = 138;
             this.label60.Text = "Altura";
             // 
@@ -525,7 +542,7 @@
             this.label59.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label59.Location = new System.Drawing.Point(6, 79);
             this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(79, 13);
+            this.label59.Size = new System.Drawing.Size(102, 17);
             this.label59.TabIndex = 139;
             this.label59.Text = "Comprimento";
             // 
@@ -535,7 +552,7 @@
             this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label58.Location = new System.Drawing.Point(6, 105);
             this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(94, 13);
+            this.label58.Size = new System.Drawing.Size(119, 17);
             this.label58.TabIndex = 140;
             this.label58.Text = "Distanciamento";
             // 
@@ -545,7 +562,7 @@
             this.label65.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label65.Location = new System.Drawing.Point(52, 131);
             this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(33, 13);
+            this.label65.Size = new System.Drawing.Size(41, 17);
             this.label65.TabIndex = 141;
             this.label65.Text = "Raio";
             // 
@@ -604,7 +621,7 @@
             this.label66.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label66.Location = new System.Drawing.Point(164, 131);
             this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(40, 13);
+            this.label66.Size = new System.Drawing.Size(50, 17);
             this.label66.TabIndex = 116;
             this.label66.Text = "Septo";
             // 
@@ -614,7 +631,7 @@
             this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label70.Location = new System.Drawing.Point(28, 156);
             this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(57, 13);
+            this.label70.Size = new System.Drawing.Size(73, 17);
             this.label70.TabIndex = 117;
             this.label70.Text = "Tipo raio";
             // 
@@ -624,7 +641,7 @@
             this.label63.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label63.Location = new System.Drawing.Point(161, 79);
             this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(43, 13);
+            this.label63.Size = new System.Drawing.Size(54, 17);
             this.label63.TabIndex = 92;
             this.label63.Text = "Chapa";
             // 
@@ -634,7 +651,7 @@
             this.label62.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label62.Location = new System.Drawing.Point(165, 105);
             this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(39, 13);
+            this.label62.Size = new System.Drawing.Size(50, 17);
             this.label62.TabIndex = 94;
             this.label62.Text = "Virola";
             // 
@@ -644,7 +661,7 @@
             this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label67.Location = new System.Drawing.Point(125, 27);
             this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(82, 13);
+            this.label67.Size = new System.Drawing.Size(105, 17);
             this.label67.TabIndex = 105;
             this.label67.Text = "Complemento";
             // 
@@ -654,7 +671,7 @@
             this.label64.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label64.Location = new System.Drawing.Point(130, 53);
             this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(77, 13);
+            this.label64.Size = new System.Drawing.Size(97, 17);
             this.label64.TabIndex = 100;
             this.label64.Text = "Acabamento";
             // 
@@ -688,6 +705,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chkComposto.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dteDataValidade.Properties.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dteDataValidade.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chkUsaPrecoFixo.Properties)).EndInit();
@@ -770,5 +788,6 @@
         private DevExpress.XtraEditors.DateEdit dteDataValidade;
         private DevExpress.XtraEditors.CheckEdit chkUsaPrecoFixo;
         private System.Windows.Forms.Label label8;
+        private DevExpress.XtraEditors.CheckEdit chkComposto;
     }
 }

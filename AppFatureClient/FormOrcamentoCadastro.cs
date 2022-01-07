@@ -222,7 +222,7 @@ namespace AppFatureClient
                         // Carrega os itens no objeto
                         if (ValidaComposicao(Convert.ToInt32(Item.TabelaItens.Rows[i]["IDPRD"])))
                         {
-                            Itens = Item.CarregaItens(GetItemComposicao(Item.TabelaItens.Rows[i]["NSEQITMMOV"].ToString()));
+                            Itens = Item.CarregaItens(GetItemComposicao(Convert.ToInt32(Item.TabelaItens.Rows[i]["NSEQITMMOV"])));
                         }
                         else
                         {
@@ -237,7 +237,19 @@ namespace AppFatureClient
                     // Validação para carregar o valor do Prazo de Fabricação
                     string PrazoFabricacao = AppLib.Context.poolConnection.Get("Start").ExecGetField("", "SELECT PRAZO FROM TMOVCOMPL WHERE CODCOLIGADA = ? AND IDMOV = ?", new object[] { AppLib.Context.Empresa, (int)campoInteiroIDMOV.Get() }).ToString();
 
-                    cbPrazoFabricacao.SelectedValue = PrazoFabricacao;
+                    if (PrazoFabricacao == "99")
+                    {
+                        cbPrazoFabricacao.SelectedValue = PrazoFabricacao;
+                        DateTime? DataEntrega = Convert.ToDateTime(AppLib.Context.poolConnection.Get("Start").ExecGetField(null, "SELECT DATAENTREGA FROM TMOV WHERE CODCOLIGADA = ? AND IDMOV = ?", new object[] { AppLib.Context.Empresa, (int)campoInteiroIDMOV.Get() }));
+                        campoDataENTREGA.Set(DataEntrega);
+
+                        //campoDataENTREGA.dateTimePicker1.Value = Convert.ToDateTime(DataEntrega);
+                        //campoDataENTREGA.maskedTextBox1.Text = Convert.ToDateTime(DataEntrega).ToShortDateString();
+                    }
+                    else
+                    {
+                        cbPrazoFabricacao.SelectedValue = PrazoFabricacao;
+                    }
 
                     CarregaCamposDesconto();
 
@@ -290,7 +302,7 @@ namespace AppFatureClient
 
                         for (int i = 0; i < dtItens.Rows.Count; i++)
                         {
-                            composicaoItem = GetItemComposicao(dtItens.Rows[i]["NSEQITMMOV"].ToString());
+                            composicaoItem = GetItemComposicao(Convert.ToInt32(dtItens.Rows[i]["NSEQITMMOV"]));
                         }
 
                         // Carrega os itens no objeto 
@@ -755,6 +767,9 @@ namespace AppFatureClient
             else
             {
                 FormOrcamentoItem f = new FormOrcamentoItem();
+                f.CODCOLIGADA = AppLib.Context.Empresa;
+                f.IDMOV = Convert.ToInt32(campoInteiroIDMOV.Get());
+                f.NSEQITEMMOV = 0;
                 f.CODCFO = campoLookupCODCFO.Get();
                 f.AplicaProd = campoListaAplicacao.Get();
                 f.consumidorFinal = cbConsumidorFinal.Checked;
@@ -795,7 +810,7 @@ namespace AppFatureClient
 
                 if (f.acao == AcaoForcada.Salvar)
                 {
-                    f.xTITMMOV.NSEQITEMMOV = NseqPrevio.ToString();
+                    f.xTITMMOV.NSEQITEMMOV = NseqPrevio;
 
                     f.xTITMMOV.NUMEROSEQUENCIAL = NseqPrevio;
 
@@ -848,7 +863,7 @@ namespace AppFatureClient
                     row = gvItensMovimento.GetDataRow(gvItensMovimento.GetSelectedRows()[i]);
 
                     item = new TITMMOV();
-                    item = Itens.Where(x => x.NSEQITEMMOV == row["NSEQITMMOV"].ToString()).First();
+                    item = Itens.Where(x => x.NSEQITEMMOV == Convert.ToInt32(row["NSEQITMMOV"])).First();
 
                     Itens.Remove(item);
                 }
@@ -1586,7 +1601,9 @@ namespace AppFatureClient
             TITMMOV reg = new TITMMOV();
             System.Data.DataRow dr = gvItensMovimento.GetDataRow(gvItensMovimento.GetSelectedRows()[0]);
 
-            reg.NSEQITEMMOV = dr["NSEQITMMOV"].ToString();
+            reg.CODCOLIGADA = AppLib.Context.Empresa;
+            reg.IDMOV = Convert.ToInt32(campoInteiroIDMOV.Get());
+            reg.NSEQITEMMOV = Convert.ToInt32(dr["NSEQITMMOV"]);
             reg.NUMEROSEQUENCIAL = Convert.ToInt32(dr["NUMEROSEQUENCIAL"]);
             reg.AJUSTEVALOR = dr["AJUSTEVALOR"] == DBNull.Value ? 0 : Convert.ToDecimal(dr["AJUSTEVALOR"]);
             reg.ALIQUOTAIPI = dr["ALIQUOTAIPI"] == DBNull.Value ? 0 : Convert.ToDecimal(dr["ALIQUOTAIPI"]);
@@ -1679,7 +1696,8 @@ namespace AppFatureClient
             FormOrcamentoItem f = new FormOrcamentoItem();
 
             indice = gvItensMovimento.GetDataSourceRowIndex(gvItensMovimento.GetSelectedRows()[0]);
-            f.IDMOV = CopiaDeMovimento == true ? IDMOVCOPIADO.ToString() : campoInteiroIDMOV.Get().ToString();
+            f.CODCOLIGADA = AppLib.Context.Empresa;
+            f.IDMOV = CopiaDeMovimento == true ? IDMOVCOPIADO : Convert.ToInt32(campoInteiroIDMOV.Get());
             f.tipoVenda = campoLista1.Get();
             f.edita = true;
             f.CODCFO = campoLookupCODCFO.Get();
@@ -1687,7 +1705,7 @@ namespace AppFatureClient
             f.AplicaProd = campoListaAplicacao.Get();
             f.xTITMMOV = reg;
             f.AtualizarForm();
-            f.NSEQITEM = reg.NSEQITEMMOV;
+            f.NSEQITEMMOV = reg.NSEQITEMMOV;
             f.consumidorFinal = cbConsumidorFinal.Checked;
             f.descItem = rbItem.Checked;
             f.POSSUIBENEFICIO = cePossuiBeneficio.Checked;
@@ -1714,9 +1732,9 @@ namespace AppFatureClient
             {
                 f.xTITMMOV.NUMEROSEQUENCIAL = NumeroSequencial;
 
-                if (f.xTITMMOV.NSEQITEMMOV == "0")
+                if (f.xTITMMOV.NSEQITEMMOV == 0)
                 {
-                    f.xTITMMOV.NSEQITEMMOV = New.Class.EnviromentHelper.NSEQITEMMOV.ToString();
+                    f.xTITMMOV.NSEQITEMMOV = New.Class.EnviromentHelper.NSEQITEMMOV;
                 }
 
                 New.Models.OrcamentoItens orc = new New.Models.OrcamentoItens();
@@ -1975,7 +1993,7 @@ namespace AppFatureClient
             }
         }
 
-        private List<ItemComposicao> GetItemComposicao(string nSeqItem)
+        private List<ItemComposicao> GetItemComposicao(int nSeqItem)
         {
             string Comando = String.Format(@"select * from ZORCAMENTOITEMCOMPOSTO 
 
@@ -1997,7 +2015,7 @@ namespace AppFatureClient
                     {
                         if (Itens[i].COMPOSICAO.Count > 0)
                         {
-                            if (Itens[i].COMPOSICAO[0].NSEQ.ToString() == nSeqItem)
+                            if (Itens[i].COMPOSICAO[0].NSEQ == nSeqItem)
                             {
                                 return Itens[i].COMPOSICAO;
                             }
@@ -2196,6 +2214,9 @@ namespace AppFatureClient
                     break;
                 case "09":
                     prazo = 20;
+                    break;
+                case "99":
+                    prazo = 0;
                     break;
                 default:
                     prazo = 0;
@@ -3927,18 +3948,28 @@ WHERE CODCOLIGADA = ?
                     return;
                 }
 
-                int prazodias = GetPrazo(cbPrazoFabricacao.SelectedValue.ToString());
-
-                DateTime tmpDate = Convert.ToDateTime(dteDataEmissao.Value);
-                while (prazodias > 0)
+                if (cbPrazoFabricacao.SelectedValue.ToString() == "99")
                 {
-                    tmpDate = tmpDate.AddDays(1);
-                    if (tmpDate.DayOfWeek < DayOfWeek.Saturday &&
-                        tmpDate.DayOfWeek > DayOfWeek.Sunday)
-                        prazodias--;
+                    campoDataENTREGA.Edita = true;
+                    campoDataENTREGA.maskedTextBox1.Enabled = true;
                 }
+                else
+                {
+                    int prazodias = GetPrazo(cbPrazoFabricacao.SelectedValue.ToString());
 
-                campoDataENTREGA.Set(tmpDate);
+                    DateTime tmpDate = Convert.ToDateTime(dteDataEmissao.Value);
+                    while (prazodias > 0)
+                    {
+                        tmpDate = tmpDate.AddDays(1);
+                        if (tmpDate.DayOfWeek < DayOfWeek.Saturday &&
+                            tmpDate.DayOfWeek > DayOfWeek.Sunday)
+                            prazodias--;
+                    }
+
+                    campoDataENTREGA.Edita = false;
+                    campoDataENTREGA.maskedTextBox1.Enabled = false;
+                    campoDataENTREGA.Set(tmpDate);
+                }
             }
             catch (Exception ex)
             {
@@ -3964,18 +3995,28 @@ WHERE CODCOLIGADA = ?
                     return;
                 }
 
-                int prazodias = GetPrazo(cbPrazoFabricacao.SelectedValue.ToString());
-
-                DateTime tmpDate = Convert.ToDateTime(dteDataEmissao.Value);
-                while (prazodias > 0)
+                if (cbPrazoFabricacao.SelectedValue.ToString() == "99")
                 {
-                    tmpDate = tmpDate.AddDays(1);
-                    if (tmpDate.DayOfWeek < DayOfWeek.Saturday &&
-                        tmpDate.DayOfWeek > DayOfWeek.Sunday)
-                        prazodias--;
+                    campoDataENTREGA.Edita = true;
+                    campoDataENTREGA.maskedTextBox1.Enabled = true;
                 }
+                else
+                {
+                    int prazodias = GetPrazo(cbPrazoFabricacao.SelectedValue.ToString());
 
-                campoDataENTREGA.Set(tmpDate);
+                    DateTime tmpDate = Convert.ToDateTime(dteDataEmissao.Value);
+                    while (prazodias > 0)
+                    {
+                        tmpDate = tmpDate.AddDays(1);
+                        if (tmpDate.DayOfWeek < DayOfWeek.Saturday &&
+                            tmpDate.DayOfWeek > DayOfWeek.Sunday)
+                            prazodias--;
+                    }
+
+                    campoDataENTREGA.Edita = false;
+                    campoDataENTREGA.maskedTextBox1.Enabled = false;
+                    campoDataENTREGA.Set(tmpDate);
+                }
             }
             catch (Exception ex)
             {

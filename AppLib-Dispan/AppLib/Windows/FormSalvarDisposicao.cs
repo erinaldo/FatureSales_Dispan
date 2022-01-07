@@ -241,6 +241,9 @@ WHERE GRID = ?
             {
                 for (int i = 0; i < listGridProps.Count; i++)
                 {
+                    /*
+                     * ALTERADO O MÉTODO DEVIDO LENTIDÃO
+                     * 
                     AppLib.ORM.Jit ZVISAOUSUARIO = new AppLib.ORM.Jit(AppLib.Context.poolConnection.Get(Conexao), "ZVISAOUSUARIO");
                     ZVISAOUSUARIO.Set("GRID", NomeGrid);
                     ZVISAOUSUARIO.Set("USUARIO", Usuario);
@@ -271,6 +274,35 @@ WHERE GRID = ?
                     ZVISAOUSUARIO.Set("FORMATO", listGridProps[i].Formato);
 
                     if (ZVISAOUSUARIO.Insert() > 0)
+                    {
+                        // OK
+                    }
+                    else
+                    {
+                        AppLib.Windows.FormMessageDefault.ShowError("Erro ao limpar configurações grid " + nomeFiltro + " usuario " + Usuario + " filtro " + nomeFiltro + " sequencia " + i);
+                        return false;
+                    }
+                    */
+
+                    string sSql = @"INSERT INTO ZVISAOUSUARIO (GRID,
+USUARIO,
+FILTRO,
+SEQUENCIA,
+COLUNA,
+AGRUPAR,
+VISIVEL,
+LARGURA,
+ALINHAMENTO,
+FORMATO) VALUES(?,?,?,?,?,?,?,?,?,?)";
+
+                    int retorno = AppLib.Context.poolConnection.Get(Conexao).ExecTransaction(sSql, NomeGrid, Usuario, nomeFiltro, listGridProps[i].Sequencia, listGridProps[i].Coluna,
+                        ((listGridProps[i].Agrupar) ? 1 : 0),
+                        ((listGridProps[i].Visivel) ? 1 : 0),
+                        listGridProps[i].Largura,
+                        listGridProps[i].Alinhamento.ToString().Substring(0, 1),
+                        listGridProps[i].Formato);
+
+                    if (retorno > 0)
                     {
                         // OK
                     }

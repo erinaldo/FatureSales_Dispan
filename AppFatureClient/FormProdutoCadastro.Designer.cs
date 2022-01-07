@@ -107,6 +107,7 @@
             AppLib.Windows.CodigoNome codigoNome76 = new AppLib.Windows.CodigoNome();
             AppLib.Windows.CodigoNome codigoNome77 = new AppLib.Windows.CodigoNome();
             AppLib.Windows.CodigoNome codigoNome78 = new AppLib.Windows.CodigoNome();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormProdutoCadastro));
             AppLib.Windows.CodigoNome codigoNome79 = new AppLib.Windows.CodigoNome();
             AppLib.Windows.CodigoNome codigoNome80 = new AppLib.Windows.CodigoNome();
             AppLib.Windows.CodigoNome codigoNome81 = new AppLib.Windows.CodigoNome();
@@ -115,7 +116,8 @@
             AppLib.Windows.CodigoNome codigoNome84 = new AppLib.Windows.CodigoNome();
             AppLib.Windows.CodigoNome codigoNome85 = new AppLib.Windows.CodigoNome();
             AppLib.Windows.CodigoNome codigoNome86 = new AppLib.Windows.CodigoNome();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormProdutoCadastro));
+            AppLib.Windows.CodigoNome codigoNome87 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome88 = new AppLib.Windows.CodigoNome();
             AppLib.Windows.Query query1 = new AppLib.Windows.Query();
             AppLib.Windows.Query query2 = new AppLib.Windows.Query();
             AppLib.Windows.Query query3 = new AppLib.Windows.Query();
@@ -218,8 +220,6 @@
             this.campoTexto10 = new AppLib.Windows.CampoTexto();
             this.label26 = new System.Windows.Forms.Label();
             this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.listaSituacaoMercadoria = new AppLib.Windows.CampoLista();
-            this.label71 = new System.Windows.Forms.Label();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
             this.campoLista4 = new AppLib.Windows.CampoLista();
             this.label29 = new System.Windows.Forms.Label();
@@ -367,6 +367,15 @@
             this.toolStripDropDownButton4 = new System.Windows.Forms.ToolStripDropDownButton();
             this.tabPage14 = new System.Windows.Forms.TabPage();
             this.gridData2 = new AppLib.Windows.GridData();
+            this.tabPage17 = new System.Windows.Forms.TabPage();
+            this.listaSituacaoMercadoria = new AppLib.Windows.CampoLista();
+            this.label71 = new System.Windows.Forms.Label();
+            this.campoTexto7 = new AppLib.Windows.CampoTexto();
+            this.label80 = new System.Windows.Forms.Label();
+            this.label79 = new System.Windows.Forms.Label();
+            this.campoLookup17 = new AppLib.Windows.CampoLookup();
+            this.campoLista6 = new AppLib.Windows.CampoLista();
+            this.label77 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -419,6 +428,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.gvTributos)).BeginInit();
             this.toolStrip2.SuspendLayout();
             this.tabPage14.SuspendLayout();
+            this.tabPage17.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -440,6 +450,7 @@
             this.tabControl1.Controls.Add(this.tabPage15);
             this.tabControl1.Controls.Add(this.tabPage16);
             this.tabControl1.Controls.Add(this.tabPage14);
+            this.tabControl1.Controls.Add(this.tabPage17);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Location = new System.Drawing.Point(0, 39);
             this.tabControl1.Name = "tabControl1";
@@ -455,13 +466,13 @@
             this.mnCopiarProduto,
             this.mnColarProduto});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(110, 48);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(123, 52);
             this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
             // 
             // mnCopiarProduto
             // 
             this.mnCopiarProduto.Name = "mnCopiarProduto";
-            this.mnCopiarProduto.Size = new System.Drawing.Size(109, 22);
+            this.mnCopiarProduto.Size = new System.Drawing.Size(122, 24);
             this.mnCopiarProduto.Text = "Copiar";
             this.mnCopiarProduto.Click += new System.EventHandler(this.mnCopiarProduto_Click);
             // 
@@ -469,7 +480,7 @@
             // 
             this.mnColarProduto.Enabled = false;
             this.mnColarProduto.Name = "mnColarProduto";
-            this.mnColarProduto.Size = new System.Drawing.Size(109, 22);
+            this.mnColarProduto.Size = new System.Drawing.Size(122, 24);
             this.mnColarProduto.Text = "Colar";
             this.mnColarProduto.Click += new System.EventHandler(this.mnColarProduto_Click);
             // 
@@ -636,7 +647,7 @@
             this.label57.AutoSize = true;
             this.label57.Location = new System.Drawing.Point(299, 9);
             this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(33, 13);
+            this.label57.Size = new System.Drawing.Size(36, 14);
             this.label57.TabIndex = 66;
             this.label57.Text = "Nível ";
             this.label57.Visible = false;
@@ -703,7 +714,7 @@
             this.campoTexto20.Default = null;
             this.campoTexto20.Edita = true;
             this.campoTexto20.Enabled = false;
-            this.campoTexto20.Location = new System.Drawing.Point(222, 109);
+            this.campoTexto20.Location = new System.Drawing.Point(115, 107);
             this.campoTexto20.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.campoTexto20.MaximoCaracteres = 10;
             this.campoTexto20.Name = "campoTexto20";
@@ -715,9 +726,9 @@
             // label56
             // 
             this.label56.AutoSize = true;
-            this.label56.Location = new System.Drawing.Point(219, 92);
+            this.label56.Location = new System.Drawing.Point(112, 90);
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(87, 13);
+            this.label56.Size = new System.Drawing.Size(97, 14);
             this.label56.TabIndex = 65;
             this.label56.Text = "Código Reduzido";
             // 
@@ -859,7 +870,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(12, 16);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(109, 13);
+            this.label8.Size = new System.Drawing.Size(122, 14);
             this.label8.TabIndex = 39;
             this.label8.Text = "Código do Fabricante";
             // 
@@ -894,7 +905,7 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(13, 58);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(169, 13);
+            this.label9.Size = new System.Drawing.Size(194, 14);
             this.label9.TabIndex = 41;
             this.label9.Text = "Número do Produto no Fabricante";
             // 
@@ -945,7 +956,7 @@
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(12, 27);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(126, 13);
+            this.label12.Size = new System.Drawing.Size(141, 14);
             this.label12.TabIndex = 47;
             this.label12.Text = "Data da Última Alteração";
             // 
@@ -969,7 +980,7 @@
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(145, 27);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(139, 13);
+            this.label13.Size = new System.Drawing.Size(155, 14);
             this.label13.TabIndex = 49;
             this.label13.Text = "Usuário da Última Alteração";
             // 
@@ -1005,7 +1016,7 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(12, 27);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(107, 13);
+            this.label10.Size = new System.Drawing.Size(118, 14);
             this.label10.TabIndex = 43;
             this.label10.Text = "Data Cadastramento";
             // 
@@ -1029,7 +1040,7 @@
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(178, 27);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(82, 13);
+            this.label11.Size = new System.Drawing.Size(88, 14);
             this.label11.TabIndex = 45;
             this.label11.Text = "Usuário Criação";
             // 
@@ -1052,7 +1063,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(5, 132);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(78, 13);
+            this.label7.Size = new System.Drawing.Size(86, 14);
             this.label7.TabIndex = 37;
             this.label7.Text = "Nome Fantasia";
             // 
@@ -1068,7 +1079,7 @@
             this.campoLista3.Lista = new AppLib.Windows.CodigoNome[] {
         codigoNome1,
         codigoNome2};
-            this.campoLista3.Location = new System.Drawing.Point(115, 108);
+            this.campoLista3.Location = new System.Drawing.Point(8, 106);
             this.campoLista3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.campoLista3.Name = "campoLista3";
             this.campoLista3.Query = 0;
@@ -1079,9 +1090,9 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(112, 92);
+            this.label6.Location = new System.Drawing.Point(5, 90);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(41, 13);
+            this.label6.Size = new System.Drawing.Size(44, 14);
             this.label6.TabIndex = 35;
             this.label6.Text = "Inativo";
             // 
@@ -1097,22 +1108,24 @@
             this.campoLista2.Lista = new AppLib.Windows.CodigoNome[] {
         codigoNome3,
         codigoNome4};
-            this.campoLista2.Location = new System.Drawing.Point(9, 108);
+            this.campoLista2.Location = new System.Drawing.Point(339, 25);
             this.campoLista2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.campoLista2.Name = "campoLista2";
             this.campoLista2.Query = 0;
-            this.campoLista2.Size = new System.Drawing.Size(100, 21);
+            this.campoLista2.Size = new System.Drawing.Size(34, 21);
             this.campoLista2.Tabela = "TPRODUTO";
             this.campoLista2.TabIndex = 4;
+            this.campoLista2.Visible = false;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(6, 91);
+            this.label5.Location = new System.Drawing.Point(336, 8);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(62, 13);
+            this.label5.Size = new System.Drawing.Size(70, 14);
             this.label5.TabIndex = 33;
             this.label5.Text = "Último Nível";
+            this.label5.Visible = false;
             // 
             // campoTexto2
             // 
@@ -1134,7 +1147,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(250, 48);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(78, 13);
+            this.label4.Size = new System.Drawing.Size(85, 14);
             this.label4.TabIndex = 31;
             this.label4.Text = "Código Auxiliar";
             // 
@@ -1157,7 +1170,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(7, 48);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(96, 13);
+            this.label3.Size = new System.Drawing.Size(110, 14);
             this.label3.TabIndex = 29;
             this.label3.Text = "Código do Produto";
             // 
@@ -1186,7 +1199,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(112, 10);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(27, 13);
+            this.label2.Size = new System.Drawing.Size(31, 14);
             this.label2.TabIndex = 27;
             this.label2.Text = "Tipo";
             // 
@@ -1195,7 +1208,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(6, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 13);
+            this.label1.Size = new System.Drawing.Size(75, 14);
             this.label1.TabIndex = 26;
             this.label1.Text = "Identificador";
             // 
@@ -1272,7 +1285,7 @@
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(6, 147);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(91, 13);
+            this.label15.Size = new System.Drawing.Size(99, 14);
             this.label15.TabIndex = 2;
             this.label15.Text = "Descrição Auxiliar";
             // 
@@ -1295,7 +1308,7 @@
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(6, 11);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(53, 13);
+            this.label14.Size = new System.Drawing.Size(58, 14);
             this.label14.TabIndex = 0;
             this.label14.Text = "Descrição";
             // 
@@ -1342,7 +1355,7 @@
             this.label19.AutoSize = true;
             this.label19.Location = new System.Drawing.Point(119, 21);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(105, 13);
+            this.label19.Size = new System.Drawing.Size(120, 14);
             this.label19.TabIndex = 41;
             this.label19.Text = "Quantidade Volumes";
             // 
@@ -1392,7 +1405,7 @@
             this.label18.AutoSize = true;
             this.label18.Location = new System.Drawing.Point(121, 21);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(44, 13);
+            this.label18.Size = new System.Drawing.Size(47, 14);
             this.label18.TabIndex = 43;
             this.label18.Text = "Largura";
             // 
@@ -1401,7 +1414,7 @@
             this.label17.AutoSize = true;
             this.label17.Location = new System.Drawing.Point(15, 21);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(70, 13);
+            this.label17.Size = new System.Drawing.Size(80, 14);
             this.label17.TabIndex = 41;
             this.label17.Text = "Comprimento";
             // 
@@ -1435,7 +1448,7 @@
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(13, 21);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(59, 13);
+            this.label16.Size = new System.Drawing.Size(67, 14);
             this.label16.TabIndex = 40;
             this.label16.Text = "Peso Bruto";
             // 
@@ -1491,7 +1504,7 @@
             this.label24.AutoSize = true;
             this.label24.Location = new System.Drawing.Point(18, 16);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(172, 13);
+            this.label24.Size = new System.Drawing.Size(189, 14);
             this.label24.TabIndex = 7;
             this.label24.Text = "Natureza Orçamentária/Financeira";
             this.label24.Visible = false;
@@ -1543,7 +1556,7 @@
             this.label23.AutoSize = true;
             this.label23.Location = new System.Drawing.Point(18, 191);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(88, 13);
+            this.label23.Size = new System.Drawing.Size(101, 14);
             this.label23.TabIndex = 6;
             this.label23.Text = "Local de Estoque";
             this.label23.Visible = false;
@@ -1577,7 +1590,7 @@
             this.label22.AutoSize = true;
             this.label22.Location = new System.Drawing.Point(18, 149);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(95, 13);
+            this.label22.Size = new System.Drawing.Size(107, 14);
             this.label22.TabIndex = 4;
             this.label22.Text = "Familia de Produto";
             // 
@@ -1610,7 +1623,7 @@
             this.label21.AutoSize = true;
             this.label21.Location = new System.Drawing.Point(18, 107);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(92, 13);
+            this.label21.Size = new System.Drawing.Size(106, 14);
             this.label21.TabIndex = 2;
             this.label21.Text = "Grupo de Produto";
             // 
@@ -1619,7 +1632,7 @@
             this.label20.AutoSize = true;
             this.label20.Location = new System.Drawing.Point(18, 65);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(83, 13);
+            this.label20.Size = new System.Drawing.Size(97, 14);
             this.label20.TabIndex = 1;
             this.label20.Text = "Tipo de Produto";
             // 
@@ -1683,7 +1696,7 @@
             this.label27.AutoSize = true;
             this.label27.Location = new System.Drawing.Point(6, 64);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(48, 13);
+            this.label27.Size = new System.Drawing.Size(53, 14);
             this.label27.TabIndex = 6;
             this.label27.Text = "Histórico";
             // 
@@ -1706,7 +1719,7 @@
             this.label25.AutoSize = true;
             this.label25.Location = new System.Drawing.Point(6, 11);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(65, 13);
+            this.label25.Size = new System.Drawing.Size(70, 14);
             this.label25.TabIndex = 2;
             this.label25.Text = "Observação";
             // 
@@ -1729,14 +1742,12 @@
             this.label26.AutoSize = true;
             this.label26.Location = new System.Drawing.Point(360, 11);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(37, 13);
+            this.label26.Size = new System.Drawing.Size(43, 14);
             this.label26.TabIndex = 4;
             this.label26.Text = "Kg / M";
             // 
             // tabPage7
             // 
-            this.tabPage7.Controls.Add(this.listaSituacaoMercadoria);
-            this.tabPage7.Controls.Add(this.label71);
             this.tabPage7.Controls.Add(this.groupBox10);
             this.tabPage7.Controls.Add(this.groupBox9);
             this.tabPage7.Location = new System.Drawing.Point(4, 22);
@@ -1747,53 +1758,6 @@
             this.tabPage7.Text = "Outros Dados";
             this.tabPage7.UseVisualStyleBackColor = true;
             this.tabPage7.Click += new System.EventHandler(this.tabPage7_Click);
-            // 
-            // listaSituacaoMercadoria
-            // 
-            this.listaSituacaoMercadoria.Campo = "SITUACAOMERCADORIA";
-            this.listaSituacaoMercadoria.Default = null;
-            this.listaSituacaoMercadoria.Edita = true;
-            codigoNome7.Codigo = "01";
-            codigoNome7.Nome = "Produto para Revenda";
-            codigoNome8.Codigo = "02";
-            codigoNome8.Nome = "Materia Prima";
-            codigoNome9.Codigo = "03";
-            codigoNome9.Nome = "Produtos em Elaboração";
-            codigoNome10.Codigo = "04";
-            codigoNome10.Nome = "Produto Acabado";
-            codigoNome11.Codigo = "08";
-            codigoNome11.Nome = "Embalagem";
-            codigoNome12.Codigo = "09";
-            codigoNome12.Nome = "Subproduto";
-            codigoNome13.Codigo = "10";
-            codigoNome13.Nome = "Produto Intermediário";
-            codigoNome14.Codigo = "15";
-            codigoNome14.Nome = "Outros Insumos";
-            this.listaSituacaoMercadoria.Lista = new AppLib.Windows.CodigoNome[] {
-        codigoNome7,
-        codigoNome8,
-        codigoNome9,
-        codigoNome10,
-        codigoNome11,
-        codigoNome12,
-        codigoNome13,
-        codigoNome14};
-            this.listaSituacaoMercadoria.Location = new System.Drawing.Point(16, 120);
-            this.listaSituacaoMercadoria.Name = "listaSituacaoMercadoria";
-            this.listaSituacaoMercadoria.Query = 4;
-            this.listaSituacaoMercadoria.Size = new System.Drawing.Size(339, 21);
-            this.listaSituacaoMercadoria.Tabela = "TPRDFISCAL";
-            this.listaSituacaoMercadoria.TabIndex = 49;
-            this.listaSituacaoMercadoria.AposSelecao += new AppLib.Windows.CampoLista.AposSelecaoHandler(this.listaSituacaoMercadoria_AposSelecao);
-            // 
-            // label71
-            // 
-            this.label71.AutoSize = true;
-            this.label71.Location = new System.Drawing.Point(13, 104);
-            this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(119, 13);
-            this.label71.TabIndex = 48;
-            this.label71.Text = "Situação da Mercadoria";
             // 
             // groupBox10
             // 
@@ -1811,39 +1775,39 @@
             this.campoLista4.Campo = "REFERENCIACP";
             this.campoLista4.Default = "0";
             this.campoLista4.Edita = true;
-            codigoNome15.Codigo = "0";
-            codigoNome15.Nome = "Nacional, exceto as indicadas nos códigos 3,4,5 e 8";
-            codigoNome16.Codigo = "1";
-            codigoNome16.Nome = "Estrangeira - Importação direta, exceto a indicada no código 6";
-            codigoNome17.Codigo = "2";
-            codigoNome17.Nome = "Estrangeira - Adquirida no mercado interno, exceto a indicada no código 7";
-            codigoNome18.Codigo = "3";
-            codigoNome18.Nome = "Nacional, mercadoria ou bem com Conteúdo de Importação superior a 40% e inferior " +
+            codigoNome7.Codigo = "0";
+            codigoNome7.Nome = "Nacional, exceto as indicadas nos códigos 3,4,5 e 8";
+            codigoNome8.Codigo = "1";
+            codigoNome8.Nome = "Estrangeira - Importação direta, exceto a indicada no código 6";
+            codigoNome9.Codigo = "2";
+            codigoNome9.Nome = "Estrangeira - Adquirida no mercado interno, exceto a indicada no código 7";
+            codigoNome10.Codigo = "3";
+            codigoNome10.Nome = "Nacional, mercadoria ou bem com Conteúdo de Importação superior a 40% e inferior " +
     "a 70%";
-            codigoNome19.Codigo = "4";
-            codigoNome19.Nome = "Nacional, produção em conformidade com o Decreto-Lei n° 288/67, e as Leis n°s 8.2" +
+            codigoNome11.Codigo = "4";
+            codigoNome11.Nome = "Nacional, produção em conformidade com o Decreto-Lei n° 288/67, e as Leis n°s 8.2" +
     "48/91, 8.387/91, 10.176/01 e 11.484/01";
-            codigoNome20.Codigo = "5";
-            codigoNome20.Nome = "Nacional, mercadoria ou bem com conteúdo de Importação inferior ou igual a 40% (q" +
+            codigoNome12.Codigo = "5";
+            codigoNome12.Nome = "Nacional, mercadoria ou bem com conteúdo de Importação inferior ou igual a 40% (q" +
     "uarenta por cento)";
-            codigoNome21.Codigo = "6";
-            codigoNome21.Nome = "Estrangeira - Importação direta, sem similar nacional, constante em lista de Reso" +
+            codigoNome13.Codigo = "6";
+            codigoNome13.Nome = "Estrangeira - Importação direta, sem similar nacional, constante em lista de Reso" +
     "lução CAMEX";
-            codigoNome22.Codigo = "7";
-            codigoNome22.Nome = "Estrangeira - Adquirida no mercado interno, sem similar nacional, constante em li" +
+            codigoNome14.Codigo = "7";
+            codigoNome14.Nome = "Estrangeira - Adquirida no mercado interno, sem similar nacional, constante em li" +
     "sta de Resolução COMEX";
-            codigoNome23.Codigo = "8";
-            codigoNome23.Nome = "Nacional, mercadoria ou nem com Conteúdo de Importação superior a 70%";
+            codigoNome15.Codigo = "8";
+            codigoNome15.Nome = "Nacional, mercadoria ou nem com Conteúdo de Importação superior a 70%";
             this.campoLista4.Lista = new AppLib.Windows.CodigoNome[] {
-        codigoNome15,
-        codigoNome16,
-        codigoNome17,
-        codigoNome18,
-        codigoNome19,
-        codigoNome20,
-        codigoNome21,
-        codigoNome22,
-        codigoNome23};
+        codigoNome7,
+        codigoNome8,
+        codigoNome9,
+        codigoNome10,
+        codigoNome11,
+        codigoNome12,
+        codigoNome13,
+        codigoNome14,
+        codigoNome15};
             this.campoLista4.Location = new System.Drawing.Point(16, 36);
             this.campoLista4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.campoLista4.Name = "campoLista4";
@@ -1857,7 +1821,7 @@
             this.label29.AutoSize = true;
             this.label29.Location = new System.Drawing.Point(13, 21);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(44, 13);
+            this.label29.Size = new System.Drawing.Size(50, 14);
             this.label29.TabIndex = 46;
             this.label29.Text = "Número";
             // 
@@ -1891,7 +1855,7 @@
             this.label28.AutoSize = true;
             this.label28.Location = new System.Drawing.Point(119, 21);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(44, 13);
+            this.label28.Size = new System.Drawing.Size(50, 14);
             this.label28.TabIndex = 45;
             this.label28.Text = "Número";
             // 
@@ -1962,7 +1926,7 @@
             this.label40.AutoSize = true;
             this.label40.Location = new System.Drawing.Point(12, 27);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(43, 13);
+            this.label40.Size = new System.Drawing.Size(46, 14);
             this.label40.TabIndex = 47;
             this.label40.Text = "Inferior";
             // 
@@ -1971,7 +1935,7 @@
             this.label41.AutoSize = true;
             this.label41.Location = new System.Drawing.Point(118, 27);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(47, 13);
+            this.label41.Size = new System.Drawing.Size(52, 14);
             this.label41.TabIndex = 49;
             this.label41.Text = "Superior";
             // 
@@ -2029,7 +1993,7 @@
             this.label38.AutoSize = true;
             this.label38.Location = new System.Drawing.Point(19, 27);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(43, 13);
+            this.label38.Size = new System.Drawing.Size(46, 14);
             this.label38.TabIndex = 47;
             this.label38.Text = "Inferior";
             // 
@@ -2038,7 +2002,7 @@
             this.label39.AutoSize = true;
             this.label39.Location = new System.Drawing.Point(125, 27);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(47, 13);
+            this.label39.Size = new System.Drawing.Size(52, 14);
             this.label39.TabIndex = 49;
             this.label39.Text = "Superior";
             // 
@@ -2297,7 +2261,7 @@
             this.label34.AutoSize = true;
             this.label34.Location = new System.Drawing.Point(13, 156);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(54, 13);
+            this.label34.Size = new System.Drawing.Size(61, 14);
             this.label34.TabIndex = 4;
             this.label34.Text = "Tabela 25";
             // 
@@ -2306,7 +2270,7 @@
             this.label33.AutoSize = true;
             this.label33.Location = new System.Drawing.Point(13, 127);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(54, 13);
+            this.label33.Size = new System.Drawing.Size(61, 14);
             this.label33.TabIndex = 3;
             this.label33.Text = "Tabela 20";
             // 
@@ -2315,7 +2279,7 @@
             this.label32.AutoSize = true;
             this.label32.Location = new System.Drawing.Point(13, 98);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(54, 13);
+            this.label32.Size = new System.Drawing.Size(61, 14);
             this.label32.TabIndex = 2;
             this.label32.Text = "Tabela 15";
             // 
@@ -2324,7 +2288,7 @@
             this.label31.AutoSize = true;
             this.label31.Location = new System.Drawing.Point(13, 69);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(54, 13);
+            this.label31.Size = new System.Drawing.Size(61, 14);
             this.label31.TabIndex = 1;
             this.label31.Text = "Tabela 10";
             // 
@@ -2347,7 +2311,7 @@
             this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label36.Location = new System.Drawing.Point(385, 24);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(66, 13);
+            this.label36.Size = new System.Drawing.Size(84, 17);
             this.label36.TabIndex = 11;
             this.label36.Text = "Data-Base";
             // 
@@ -2381,7 +2345,7 @@
             this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label35.Location = new System.Drawing.Point(85, 24);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(45, 13);
+            this.label35.Size = new System.Drawing.Size(56, 17);
             this.label35.TabIndex = 5;
             this.label35.Text = "Moeda";
             // 
@@ -2390,7 +2354,7 @@
             this.label30.AutoSize = true;
             this.label30.Location = new System.Drawing.Point(13, 40);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(41, 13);
+            this.label30.Size = new System.Drawing.Size(44, 14);
             this.label30.TabIndex = 0;
             this.label30.Text = "Padrão";
             // 
@@ -2439,7 +2403,7 @@
             this.label76.AutoSize = true;
             this.label76.Location = new System.Drawing.Point(3, 109);
             this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(84, 13);
+            this.label76.Size = new System.Drawing.Size(93, 14);
             this.label76.TabIndex = 6;
             this.label76.Text = "Saldo Disponivel";
             // 
@@ -2461,7 +2425,7 @@
             this.label75.AutoSize = true;
             this.label75.Location = new System.Drawing.Point(3, 67);
             this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(68, 13);
+            this.label75.Size = new System.Drawing.Size(77, 14);
             this.label75.TabIndex = 4;
             this.label75.Text = "Saldo Pedido";
             // 
@@ -2483,7 +2447,7 @@
             this.label74.AutoSize = true;
             this.label74.Location = new System.Drawing.Point(3, 25);
             this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(62, 13);
+            this.label74.Size = new System.Drawing.Size(68, 14);
             this.label74.TabIndex = 2;
             this.label74.Text = "Saldo Fisico";
             // 
@@ -2531,7 +2495,7 @@
             this.label44.AutoSize = true;
             this.label44.Location = new System.Drawing.Point(20, 109);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(94, 13);
+            this.label44.Size = new System.Drawing.Size(108, 14);
             this.label44.TabIndex = 5;
             this.label44.Text = "Unidade de Venda";
             // 
@@ -2564,7 +2528,7 @@
             this.label43.AutoSize = true;
             this.label43.Location = new System.Drawing.Point(20, 67);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(101, 13);
+            this.label43.Size = new System.Drawing.Size(114, 14);
             this.label43.TabIndex = 3;
             this.label43.Text = "Unidade de Compra";
             // 
@@ -2597,7 +2561,7 @@
             this.label42.AutoSize = true;
             this.label42.Location = new System.Drawing.Point(20, 25);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(105, 13);
+            this.label42.Size = new System.Drawing.Size(119, 14);
             this.label42.TabIndex = 1;
             this.label42.Text = "Unidade de Controle";
             // 
@@ -2664,7 +2628,7 @@
             this.label47.AutoSize = true;
             this.label47.Location = new System.Drawing.Point(12, 27);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(30, 13);
+            this.label47.Size = new System.Drawing.Size(32, 14);
             this.label47.TabIndex = 47;
             this.label47.Text = "Data";
             // 
@@ -2673,7 +2637,7 @@
             this.label48.AutoSize = true;
             this.label48.Location = new System.Drawing.Point(118, 27);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(31, 13);
+            this.label48.Size = new System.Drawing.Size(34, 14);
             this.label48.TabIndex = 49;
             this.label48.Text = "Valor";
             // 
@@ -2728,7 +2692,7 @@
             this.label45.AutoSize = true;
             this.label45.Location = new System.Drawing.Point(12, 27);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(30, 13);
+            this.label45.Size = new System.Drawing.Size(32, 14);
             this.label45.TabIndex = 47;
             this.label45.Text = "Data";
             // 
@@ -2737,7 +2701,7 @@
             this.label46.AutoSize = true;
             this.label46.Location = new System.Drawing.Point(118, 27);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(31, 13);
+            this.label46.Size = new System.Drawing.Size(34, 14);
             this.label46.TabIndex = 49;
             this.label46.Text = "Valor";
             // 
@@ -2771,7 +2735,7 @@
             this.label55.AutoSize = true;
             this.label55.Location = new System.Drawing.Point(6, 487);
             this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(308, 13);
+            this.label55.Size = new System.Drawing.Size(352, 14);
             this.label55.TabIndex = 41;
             this.label55.Text = "Imprime Tabela de Preço (Necessário preencher o valor do IPI)";
             // 
@@ -2817,7 +2781,7 @@
             this.label54.AutoSize = true;
             this.label54.Location = new System.Drawing.Point(6, 449);
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(64, 13);
+            this.label54.Size = new System.Drawing.Size(69, 14);
             this.label54.TabIndex = 38;
             this.label54.Text = "Medida Fixa";
             // 
@@ -2840,7 +2804,7 @@
             this.label53.AutoSize = true;
             this.label53.Location = new System.Drawing.Point(6, 330);
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(90, 13);
+            this.label53.Size = new System.Drawing.Size(99, 14);
             this.label53.TabIndex = 36;
             this.label53.Text = "Descrição Padrão";
             // 
@@ -2863,7 +2827,7 @@
             this.label52.AutoSize = true;
             this.label52.Location = new System.Drawing.Point(8, 211);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(155, 13);
+            this.label52.Size = new System.Drawing.Size(172, 14);
             this.label52.TabIndex = 33;
             this.label52.Text = "Descrição para Financiamentos";
             // 
@@ -2886,7 +2850,7 @@
             this.label51.AutoSize = true;
             this.label51.Location = new System.Drawing.Point(6, 92);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(147, 13);
+            this.label51.Size = new System.Drawing.Size(165, 14);
             this.label51.TabIndex = 31;
             this.label51.Text = "Descrição para Anexo BNDES";
             // 
@@ -2920,7 +2884,7 @@
             this.label50.AutoSize = true;
             this.label50.Location = new System.Drawing.Point(6, 50);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(97, 13);
+            this.label50.Size = new System.Drawing.Size(108, 14);
             this.label50.TabIndex = 29;
             this.label50.Text = "Controla Dimensão";
             // 
@@ -2943,7 +2907,7 @@
             this.label49.AutoSize = true;
             this.label49.Location = new System.Drawing.Point(6, 11);
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(195, 13);
+            this.label49.Size = new System.Drawing.Size(222, 14);
             this.label49.TabIndex = 27;
             this.label49.Text = "Código da Atividades Economica - P100";
             // 
@@ -3010,8 +2974,9 @@
             this.cbCodigoDP.Name = "cbCodigoDP";
             this.cbCodigoDP.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cbCodigoDP.Size = new System.Drawing.Size(108, 20);
+            this.cbCodigoDP.Size = new System.Drawing.Size(108, 22);
             this.cbCodigoDP.TabIndex = 128;
+            this.cbCodigoDP.SelectedIndexChanged += new System.EventHandler(this.cbCodigoDP_SelectedIndexChanged);
             // 
             // groupBox21
             // 
@@ -3033,7 +2998,7 @@
             this.tbPrecoRevenda.Properties.Mask.EditMask = "n2";
             this.tbPrecoRevenda.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
             this.tbPrecoRevenda.Properties.Mask.UseMaskAsDisplayFormat = true;
-            this.tbPrecoRevenda.Size = new System.Drawing.Size(101, 20);
+            this.tbPrecoRevenda.Size = new System.Drawing.Size(101, 22);
             this.tbPrecoRevenda.TabIndex = 129;
             // 
             // chkCalculadoFormulado
@@ -3051,7 +3016,7 @@
             this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label37.Location = new System.Drawing.Point(4, 12);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(95, 13);
+            this.label37.Size = new System.Drawing.Size(119, 17);
             this.label37.TabIndex = 123;
             this.label37.Text = "Preço Revenda";
             // 
@@ -3075,7 +3040,7 @@
             this.tbPrecoAcabado.Properties.Mask.EditMask = "n2";
             this.tbPrecoAcabado.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
             this.tbPrecoAcabado.Properties.Mask.UseMaskAsDisplayFormat = true;
-            this.tbPrecoAcabado.Size = new System.Drawing.Size(105, 20);
+            this.tbPrecoAcabado.Size = new System.Drawing.Size(105, 22);
             this.tbPrecoAcabado.TabIndex = 128;
             // 
             // cePrecoFixo
@@ -3093,7 +3058,7 @@
             this.label73.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label73.Location = new System.Drawing.Point(6, 17);
             this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(94, 13);
+            this.label73.Size = new System.Drawing.Size(118, 17);
             this.label73.TabIndex = 122;
             this.label73.Text = "Preço Acabado";
             // 
@@ -3127,7 +3092,7 @@
             this.label72.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label72.Location = new System.Drawing.Point(17, 21);
             this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(51, 13);
+            this.label72.Size = new System.Drawing.Size(66, 17);
             this.label72.TabIndex = 120;
             this.label72.Text = "Formula";
             // 
@@ -3137,7 +3102,7 @@
             this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label69.Location = new System.Drawing.Point(8, 18);
             this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(24, 13);
+            this.label69.Size = new System.Drawing.Size(29, 17);
             this.label69.TabIndex = 119;
             this.label69.Text = "DP";
             // 
@@ -3184,7 +3149,7 @@
             this.tbComprimento.Properties.Mask.EditMask = "n2";
             this.tbComprimento.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
             this.tbComprimento.Properties.Mask.UseMaskAsDisplayFormat = true;
-            this.tbComprimento.Size = new System.Drawing.Size(184, 20);
+            this.tbComprimento.Size = new System.Drawing.Size(184, 22);
             this.tbComprimento.TabIndex = 138;
             // 
             // tbAltura
@@ -3196,7 +3161,7 @@
             this.tbAltura.Properties.Mask.EditMask = "n2";
             this.tbAltura.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
             this.tbAltura.Properties.Mask.UseMaskAsDisplayFormat = true;
-            this.tbAltura.Size = new System.Drawing.Size(184, 20);
+            this.tbAltura.Size = new System.Drawing.Size(184, 22);
             this.tbAltura.TabIndex = 137;
             // 
             // tbLargura
@@ -3208,7 +3173,7 @@
             this.tbLargura.Properties.Mask.EditMask = "n2";
             this.tbLargura.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
             this.tbLargura.Properties.Mask.UseMaskAsDisplayFormat = true;
-            this.tbLargura.Size = new System.Drawing.Size(184, 20);
+            this.tbLargura.Size = new System.Drawing.Size(184, 22);
             this.tbLargura.TabIndex = 136;
             // 
             // medidaD
@@ -3216,22 +3181,22 @@
             this.medidaD.Campo = null;
             this.medidaD.Default = null;
             this.medidaD.Edita = true;
-            codigoNome24.Codigo = null;
-            codigoNome24.Nome = "Selecione";
-            codigoNome25.Codigo = "200";
-            codigoNome25.Nome = "15";
-            codigoNome26.Codigo = "250";
-            codigoNome26.Nome = "12";
-            codigoNome27.Codigo = "300";
-            codigoNome27.Nome = "10";
-            codigoNome28.Codigo = "500";
-            codigoNome28.Nome = "6";
+            codigoNome16.Codigo = null;
+            codigoNome16.Nome = "Selecione";
+            codigoNome17.Codigo = "200";
+            codigoNome17.Nome = "15";
+            codigoNome18.Codigo = "250";
+            codigoNome18.Nome = "12";
+            codigoNome19.Codigo = "300";
+            codigoNome19.Nome = "10";
+            codigoNome20.Codigo = "500";
+            codigoNome20.Nome = "6";
             this.medidaD.Lista = new AppLib.Windows.CodigoNome[] {
-        codigoNome24,
-        codigoNome25,
-        codigoNome26,
-        codigoNome27,
-        codigoNome28};
+        codigoNome16,
+        codigoNome17,
+        codigoNome18,
+        codigoNome19,
+        codigoNome20};
             this.medidaD.Location = new System.Drawing.Point(117, 93);
             this.medidaD.Name = "medidaD";
             this.medidaD.Query = 0;
@@ -3245,25 +3210,25 @@
             this.raio.Campo = null;
             this.raio.Default = null;
             this.raio.Edita = true;
-            codigoNome29.Codigo = null;
-            codigoNome29.Nome = "Selecione";
-            codigoNome30.Codigo = "150";
-            codigoNome30.Nome = "ELETROCALHA";
-            codigoNome31.Codigo = "200";
-            codigoNome31.Nome = "ELETROCALHA";
-            codigoNome32.Codigo = "300";
-            codigoNome32.Nome = "ELETROCALHA";
-            codigoNome33.Codigo = "320";
-            codigoNome33.Nome = "LEITO";
-            codigoNome34.Codigo = "520";
-            codigoNome34.Nome = "LEITO";
+            codigoNome21.Codigo = null;
+            codigoNome21.Nome = "Selecione";
+            codigoNome22.Codigo = "150";
+            codigoNome22.Nome = "ELETROCALHA";
+            codigoNome23.Codigo = "200";
+            codigoNome23.Nome = "ELETROCALHA";
+            codigoNome24.Codigo = "300";
+            codigoNome24.Nome = "ELETROCALHA";
+            codigoNome25.Codigo = "320";
+            codigoNome25.Nome = "LEITO";
+            codigoNome26.Codigo = "520";
+            codigoNome26.Nome = "LEITO";
             this.raio.Lista = new AppLib.Windows.CodigoNome[] {
-        codigoNome29,
-        codigoNome30,
-        codigoNome31,
-        codigoNome32,
-        codigoNome33,
-        codigoNome34};
+        codigoNome21,
+        codigoNome22,
+        codigoNome23,
+        codigoNome24,
+        codigoNome25,
+        codigoNome26};
             this.raio.Location = new System.Drawing.Point(117, 119);
             this.raio.Name = "raio";
             this.raio.Query = 0;
@@ -3277,16 +3242,16 @@
             this.listaTipoInox.Default = null;
             this.listaTipoInox.Edita = true;
             this.listaTipoInox.Enabled = false;
-            codigoNome35.Codigo = null;
-            codigoNome35.Nome = "Selecione";
-            codigoNome36.Codigo = "304";
-            codigoNome36.Nome = "INOX";
-            codigoNome37.Codigo = "316";
-            codigoNome37.Nome = "INOX";
+            codigoNome27.Codigo = null;
+            codigoNome27.Nome = "Selecione";
+            codigoNome28.Codigo = "304";
+            codigoNome28.Nome = "INOX";
+            codigoNome29.Codigo = "316";
+            codigoNome29.Nome = "INOX";
             this.listaTipoInox.Lista = new AppLib.Windows.CodigoNome[] {
-        codigoNome35,
-        codigoNome36,
-        codigoNome37};
+        codigoNome27,
+        codigoNome28,
+        codigoNome29};
             this.listaTipoInox.Location = new System.Drawing.Point(534, 68);
             this.listaTipoInox.Name = "listaTipoInox";
             this.listaTipoInox.Query = 0;
@@ -3300,16 +3265,16 @@
             this.listaRaio.Campo = null;
             this.listaRaio.Default = null;
             this.listaRaio.Edita = true;
-            codigoNome38.Codigo = null;
-            codigoNome38.Nome = "Selecione";
-            codigoNome39.Codigo = "1";
-            codigoNome39.Nome = "CURVILINEO";
-            codigoNome40.Codigo = "2";
-            codigoNome40.Nome = "SECCIONADO";
+            codigoNome30.Codigo = null;
+            codigoNome30.Nome = "Selecione";
+            codigoNome31.Codigo = "1";
+            codigoNome31.Nome = "CURVILINEO";
+            codigoNome32.Codigo = "2";
+            codigoNome32.Nome = "SECCIONADO";
             this.listaRaio.Lista = new AppLib.Windows.CodigoNome[] {
-        codigoNome38,
-        codigoNome39,
-        codigoNome40};
+        codigoNome30,
+        codigoNome31,
+        codigoNome32};
             this.listaRaio.Location = new System.Drawing.Point(117, 145);
             this.listaRaio.Name = "listaRaio";
             this.listaRaio.Query = 0;
@@ -3323,7 +3288,7 @@
             this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label70.Location = new System.Drawing.Point(49, 153);
             this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(62, 13);
+            this.label70.Size = new System.Drawing.Size(78, 17);
             this.label70.TabIndex = 127;
             this.label70.Text = "Tipo Raio";
             // 
@@ -3333,7 +3298,7 @@
             this.label61.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label61.Location = new System.Drawing.Point(61, 23);
             this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(50, 13);
+            this.label61.Size = new System.Drawing.Size(65, 17);
             this.label61.TabIndex = 122;
             this.label61.Text = "Largura";
             // 
@@ -3343,7 +3308,7 @@
             this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label60.Location = new System.Drawing.Point(71, 49);
             this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(40, 13);
+            this.label60.Size = new System.Drawing.Size(51, 17);
             this.label60.TabIndex = 123;
             this.label60.Text = "Altura";
             // 
@@ -3353,7 +3318,7 @@
             this.label59.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label59.Location = new System.Drawing.Point(32, 75);
             this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(79, 13);
+            this.label59.Size = new System.Drawing.Size(102, 17);
             this.label59.TabIndex = 124;
             this.label59.Text = "Comprimento";
             // 
@@ -3363,7 +3328,7 @@
             this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label58.Location = new System.Drawing.Point(17, 101);
             this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(94, 13);
+            this.label58.Size = new System.Drawing.Size(119, 17);
             this.label58.TabIndex = 125;
             this.label58.Text = "Distanciamento";
             // 
@@ -3373,7 +3338,7 @@
             this.label65.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label65.Location = new System.Drawing.Point(78, 127);
             this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(33, 13);
+            this.label65.Size = new System.Drawing.Size(41, 17);
             this.label65.TabIndex = 126;
             this.label65.Text = "Raio";
             // 
@@ -3382,49 +3347,49 @@
             this.listaProduto.Campo = null;
             this.listaProduto.Default = null;
             this.listaProduto.Edita = true;
-            codigoNome41.Codigo = "Selecione";
-            codigoNome41.Nome = "";
-            codigoNome42.Codigo = "Eletrocalha";
-            codigoNome42.Nome = "";
-            codigoNome43.Codigo = "PARAFUSO";
-            codigoNome43.Nome = "";
-            codigoNome44.Codigo = "LEITO";
+            codigoNome33.Codigo = "Selecione";
+            codigoNome33.Nome = "";
+            codigoNome34.Codigo = "Eletrocalha";
+            codigoNome34.Nome = "";
+            codigoNome35.Codigo = "PARAFUSO";
+            codigoNome35.Nome = "";
+            codigoNome36.Codigo = "LEITO";
+            codigoNome36.Nome = null;
+            codigoNome37.Codigo = "TAMPA";
+            codigoNome37.Nome = null;
+            codigoNome38.Codigo = "ACESSORIO PARA ELETROCALHA";
+            codigoNome38.Nome = null;
+            codigoNome39.Codigo = "ACESSORIO PARA PERFILADO";
+            codigoNome39.Nome = null;
+            codigoNome40.Codigo = "ACESSORIO PARA LEITO";
+            codigoNome40.Nome = null;
+            codigoNome41.Codigo = "TAMPAS PARA ACESSORIO ELETROCALHA";
+            codigoNome41.Nome = null;
+            codigoNome42.Codigo = "TAMPAS PARA PERFILADO";
+            codigoNome42.Nome = null;
+            codigoNome43.Codigo = "TAMPAS PARA ACESSORIO LEITO";
+            codigoNome43.Nome = null;
+            codigoNome44.Codigo = "SEPTO DIVISOR";
             codigoNome44.Nome = null;
-            codigoNome45.Codigo = "TAMPA";
+            codigoNome45.Codigo = "ARAMADO";
             codigoNome45.Nome = null;
-            codigoNome46.Codigo = "ACESSORIO PARA ELETROCALHA";
+            codigoNome46.Codigo = "VERGALHAO";
             codigoNome46.Nome = null;
-            codigoNome47.Codigo = "ACESSORIO PARA PERFILADO";
-            codigoNome47.Nome = null;
-            codigoNome48.Codigo = "ACESSORIO PARA LEITO";
-            codigoNome48.Nome = null;
-            codigoNome49.Codigo = "TAMPAS PARA ACESSORIO ELETROCALHA";
-            codigoNome49.Nome = null;
-            codigoNome50.Codigo = "TAMPAS PARA PERFILADO";
-            codigoNome50.Nome = null;
-            codigoNome51.Codigo = "TAMPAS PARA ACESSORIO LEITO";
-            codigoNome51.Nome = null;
-            codigoNome52.Codigo = "SEPTO DIVISOR";
-            codigoNome52.Nome = null;
-            codigoNome53.Codigo = "ARAMADO";
-            codigoNome53.Nome = null;
-            codigoNome54.Codigo = "VERGALHAO";
-            codigoNome54.Nome = null;
             this.listaProduto.Lista = new AppLib.Windows.CodigoNome[] {
+        codigoNome33,
+        codigoNome34,
+        codigoNome35,
+        codigoNome36,
+        codigoNome37,
+        codigoNome38,
+        codigoNome39,
+        codigoNome40,
         codigoNome41,
         codigoNome42,
         codigoNome43,
         codigoNome44,
         codigoNome45,
-        codigoNome46,
-        codigoNome47,
-        codigoNome48,
-        codigoNome49,
-        codigoNome50,
-        codigoNome51,
-        codigoNome52,
-        codigoNome53,
-        codigoNome54};
+        codigoNome46};
             this.listaProduto.Location = new System.Drawing.Point(436, 148);
             this.listaProduto.Name = "listaProduto";
             this.listaProduto.Query = 0;
@@ -3438,7 +3403,7 @@
             this.label68.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label68.Location = new System.Drawing.Point(329, 156);
             this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(101, 13);
+            this.label68.Size = new System.Drawing.Size(128, 17);
             this.label68.TabIndex = 120;
             this.label68.Text = "Tabela de Preço";
             // 
@@ -3447,16 +3412,16 @@
             this.listaSepto.Campo = null;
             this.listaSepto.Default = null;
             this.listaSepto.Edita = true;
-            codigoNome55.Codigo = null;
-            codigoNome55.Nome = "Selecione";
-            codigoNome56.Codigo = "1";
-            codigoNome56.Nome = "Sim";
-            codigoNome57.Codigo = "0";
-            codigoNome57.Nome = "Não";
+            codigoNome47.Codigo = null;
+            codigoNome47.Nome = "Selecione";
+            codigoNome48.Codigo = "1";
+            codigoNome48.Nome = "Sim";
+            codigoNome49.Codigo = "0";
+            codigoNome49.Nome = "Não";
             this.listaSepto.Lista = new AppLib.Windows.CodigoNome[] {
-        codigoNome55,
-        codigoNome56,
-        codigoNome57};
+        codigoNome47,
+        codigoNome48,
+        codigoNome49};
             this.listaSepto.Location = new System.Drawing.Point(436, 121);
             this.listaSepto.Name = "listaSepto";
             this.listaSepto.Query = 0;
@@ -3470,7 +3435,7 @@
             this.label66.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label66.Location = new System.Drawing.Point(387, 130);
             this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(40, 13);
+            this.label66.Size = new System.Drawing.Size(50, 17);
             this.label66.TabIndex = 116;
             this.label66.Text = "Septo";
             // 
@@ -3479,37 +3444,37 @@
             this.listaChapa.Campo = null;
             this.listaChapa.Default = null;
             this.listaChapa.Edita = true;
-            codigoNome58.Codigo = null;
-            codigoNome58.Nome = "Selecione";
-            codigoNome59.Codigo = "A";
-            codigoNome59.Nome = "14";
-            codigoNome60.Codigo = "B";
-            codigoNome60.Nome = "16";
-            codigoNome61.Codigo = "C";
-            codigoNome61.Nome = "18";
-            codigoNome62.Codigo = "D";
-            codigoNome62.Nome = "19";
-            codigoNome63.Codigo = "E";
-            codigoNome63.Nome = "20";
-            codigoNome64.Codigo = "F";
-            codigoNome64.Nome = "22";
-            codigoNome65.Codigo = "G";
-            codigoNome65.Nome = "24";
-            codigoNome66.Codigo = "H";
-            codigoNome66.Nome = "26";
-            codigoNome67.Codigo = "X";
-            codigoNome67.Nome = "13";
+            codigoNome50.Codigo = null;
+            codigoNome50.Nome = "Selecione";
+            codigoNome51.Codigo = "A";
+            codigoNome51.Nome = "14";
+            codigoNome52.Codigo = "B";
+            codigoNome52.Nome = "16";
+            codigoNome53.Codigo = "C";
+            codigoNome53.Nome = "18";
+            codigoNome54.Codigo = "D";
+            codigoNome54.Nome = "19";
+            codigoNome55.Codigo = "E";
+            codigoNome55.Nome = "20";
+            codigoNome56.Codigo = "F";
+            codigoNome56.Nome = "22";
+            codigoNome57.Codigo = "G";
+            codigoNome57.Nome = "24";
+            codigoNome58.Codigo = "H";
+            codigoNome58.Nome = "26";
+            codigoNome59.Codigo = "X";
+            codigoNome59.Nome = "13";
             this.listaChapa.Lista = new AppLib.Windows.CodigoNome[] {
+        codigoNome50,
+        codigoNome51,
+        codigoNome52,
+        codigoNome53,
+        codigoNome54,
+        codigoNome55,
+        codigoNome56,
+        codigoNome57,
         codigoNome58,
-        codigoNome59,
-        codigoNome60,
-        codigoNome61,
-        codigoNome62,
-        codigoNome63,
-        codigoNome64,
-        codigoNome65,
-        codigoNome66,
-        codigoNome67};
+        codigoNome59};
             this.listaChapa.Location = new System.Drawing.Point(436, 41);
             this.listaChapa.Name = "listaChapa";
             this.listaChapa.Query = 0;
@@ -3522,43 +3487,43 @@
             this.listaAcabamento.Campo = null;
             this.listaAcabamento.Default = null;
             this.listaAcabamento.Edita = true;
-            codigoNome68.Codigo = null;
-            codigoNome68.Nome = "Selecione";
-            codigoNome69.Codigo = "PZ";
-            codigoNome69.Nome = "Pré-Zincado";
-            codigoNome70.Codigo = "GE";
-            codigoNome70.Nome = "Galv. Eletrolitico";
-            codigoNome71.Codigo = "NAT";
-            codigoNome71.Nome = "Natural";
-            codigoNome72.Codigo = "INOX";
-            codigoNome72.Nome = "Aço Inox";
-            codigoNome73.Codigo = "GF";
-            codigoNome73.Nome = "Galv. a Fogo";
-            codigoNome74.Codigo = "AL";
-            codigoNome74.Nome = "Aluminio";
-            codigoNome75.Codigo = "GL";
-            codigoNome75.Nome = "Galvalume";
-            codigoNome76.Codigo = "PVC";
-            codigoNome76.Nome = "PVC";
-            codigoNome77.Codigo = "MIN";
-            codigoNome77.Nome = "Minimizada";
-            codigoNome78.Codigo = "BC";
-            codigoNome78.Nome = "Bicromatizado";
-            codigoNome79.Codigo = "CD";
-            codigoNome79.Nome = "Cadmiado";
+            codigoNome60.Codigo = null;
+            codigoNome60.Nome = "Selecione";
+            codigoNome61.Codigo = "PZ";
+            codigoNome61.Nome = "Pré-Zincado";
+            codigoNome62.Codigo = "GE";
+            codigoNome62.Nome = "Galv. Eletrolitico";
+            codigoNome63.Codigo = "NAT";
+            codigoNome63.Nome = "Natural";
+            codigoNome64.Codigo = "INOX";
+            codigoNome64.Nome = "Aço Inox";
+            codigoNome65.Codigo = "GF";
+            codigoNome65.Nome = "Galv. a Fogo";
+            codigoNome66.Codigo = "AL";
+            codigoNome66.Nome = "Aluminio";
+            codigoNome67.Codigo = "GL";
+            codigoNome67.Nome = "Galvalume";
+            codigoNome68.Codigo = "PVC";
+            codigoNome68.Nome = "PVC";
+            codigoNome69.Codigo = "MIN";
+            codigoNome69.Nome = "Minimizada";
+            codigoNome70.Codigo = "BC";
+            codigoNome70.Nome = "Bicromatizado";
+            codigoNome71.Codigo = "CD";
+            codigoNome71.Nome = "Cadmiado";
             this.listaAcabamento.Lista = new AppLib.Windows.CodigoNome[] {
+        codigoNome60,
+        codigoNome61,
+        codigoNome62,
+        codigoNome63,
+        codigoNome64,
+        codigoNome65,
+        codigoNome66,
+        codigoNome67,
         codigoNome68,
         codigoNome69,
         codigoNome70,
-        codigoNome71,
-        codigoNome72,
-        codigoNome73,
-        codigoNome74,
-        codigoNome75,
-        codigoNome76,
-        codigoNome77,
-        codigoNome78,
-        codigoNome79};
+        codigoNome71};
             this.listaAcabamento.Location = new System.Drawing.Point(436, 68);
             this.listaAcabamento.Name = "listaAcabamento";
             this.listaAcabamento.Query = 0;
@@ -3573,7 +3538,7 @@
             this.label64.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label64.Location = new System.Drawing.Point(353, 76);
             this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(77, 13);
+            this.label64.Size = new System.Drawing.Size(97, 17);
             this.label64.TabIndex = 100;
             this.label64.Text = "Acabamento";
             // 
@@ -3582,16 +3547,16 @@
             this.listaVirola.Campo = null;
             this.listaVirola.Default = null;
             this.listaVirola.Edita = true;
-            codigoNome80.Codigo = null;
-            codigoNome80.Nome = "Selecione";
-            codigoNome81.Codigo = "1";
-            codigoNome81.Nome = "Sim";
-            codigoNome82.Codigo = "0";
-            codigoNome82.Nome = "Não";
+            codigoNome72.Codigo = null;
+            codigoNome72.Nome = "Selecione";
+            codigoNome73.Codigo = "1";
+            codigoNome73.Nome = "Sim";
+            codigoNome74.Codigo = "0";
+            codigoNome74.Nome = "Não";
             this.listaVirola.Lista = new AppLib.Windows.CodigoNome[] {
-        codigoNome80,
-        codigoNome81,
-        codigoNome82};
+        codigoNome72,
+        codigoNome73,
+        codigoNome74};
             this.listaVirola.Location = new System.Drawing.Point(436, 94);
             this.listaVirola.Name = "listaVirola";
             this.listaVirola.Query = 0;
@@ -3604,19 +3569,19 @@
             this.listaComplemento.Campo = null;
             this.listaComplemento.Default = null;
             this.listaComplemento.Edita = true;
-            codigoNome83.Codigo = null;
-            codigoNome83.Nome = "Selecione";
-            codigoNome84.Codigo = "0";
-            codigoNome84.Nome = "Aparafusada";
-            codigoNome85.Codigo = "1";
-            codigoNome85.Nome = "Com fexo";
-            codigoNome86.Codigo = "2";
-            codigoNome86.Nome = "Com cantoneira";
+            codigoNome75.Codigo = null;
+            codigoNome75.Nome = "Selecione";
+            codigoNome76.Codigo = "0";
+            codigoNome76.Nome = "Aparafusada";
+            codigoNome77.Codigo = "1";
+            codigoNome77.Nome = "Com fexo";
+            codigoNome78.Codigo = "2";
+            codigoNome78.Nome = "Com cantoneira";
             this.listaComplemento.Lista = new AppLib.Windows.CodigoNome[] {
-        codigoNome83,
-        codigoNome84,
-        codigoNome85,
-        codigoNome86};
+        codigoNome75,
+        codigoNome76,
+        codigoNome77,
+        codigoNome78};
             this.listaComplemento.Location = new System.Drawing.Point(436, 14);
             this.listaComplemento.Name = "listaComplemento";
             this.listaComplemento.Query = 0;
@@ -3630,7 +3595,7 @@
             this.label63.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label63.Location = new System.Drawing.Point(387, 50);
             this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(43, 13);
+            this.label63.Size = new System.Drawing.Size(54, 17);
             this.label63.TabIndex = 92;
             this.label63.Text = "Chapa";
             // 
@@ -3640,7 +3605,7 @@
             this.label62.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label62.Location = new System.Drawing.Point(391, 102);
             this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(39, 13);
+            this.label62.Size = new System.Drawing.Size(50, 17);
             this.label62.TabIndex = 94;
             this.label62.Text = "Virola";
             // 
@@ -3650,7 +3615,7 @@
             this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label67.Location = new System.Drawing.Point(348, 22);
             this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(82, 13);
+            this.label67.Size = new System.Drawing.Size(105, 17);
             this.label67.TabIndex = 105;
             this.label67.Text = "Complemento";
             // 
@@ -3785,7 +3750,7 @@
             this.btnNovo.Image = ((System.Drawing.Image)(resources.GetObject("btnNovo.Image")));
             this.btnNovo.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnNovo.Name = "btnNovo";
-            this.btnNovo.Size = new System.Drawing.Size(58, 26);
+            this.btnNovo.Size = new System.Drawing.Size(67, 26);
             this.btnNovo.Text = "Novo";
             this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
             // 
@@ -3794,7 +3759,7 @@
             this.btnEditar.Image = ((System.Drawing.Image)(resources.GetObject("btnEditar.Image")));
             this.btnEditar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(61, 26);
+            this.btnEditar.Size = new System.Drawing.Size(69, 26);
             this.btnEditar.Text = "Editar";
             this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
@@ -3803,7 +3768,7 @@
             this.btnExcluir.Image = ((System.Drawing.Image)(resources.GetObject("btnExcluir.Image")));
             this.btnExcluir.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnExcluir.Name = "btnExcluir";
-            this.btnExcluir.Size = new System.Drawing.Size(64, 26);
+            this.btnExcluir.Size = new System.Drawing.Size(74, 26);
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
@@ -3817,7 +3782,7 @@
             this.btnPesquisar.Image = ((System.Drawing.Image)(resources.GetObject("btnPesquisar.Image")));
             this.btnPesquisar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnPesquisar.Name = "btnPesquisar";
-            this.btnPesquisar.Size = new System.Drawing.Size(79, 26);
+            this.btnPesquisar.Size = new System.Drawing.Size(91, 26);
             this.btnPesquisar.Text = "Pesquisar";
             this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
             // 
@@ -3826,7 +3791,7 @@
             this.btnAgrupar.Image = ((System.Drawing.Image)(resources.GetObject("btnAgrupar.Image")));
             this.btnAgrupar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnAgrupar.Name = "btnAgrupar";
-            this.btnAgrupar.Size = new System.Drawing.Size(72, 26);
+            this.btnAgrupar.Size = new System.Drawing.Size(83, 26);
             this.btnAgrupar.Text = "Agrupar";
             this.btnAgrupar.Click += new System.EventHandler(this.btnAgrupar_Click);
             // 
@@ -3835,7 +3800,7 @@
             this.btnFiltros.Image = ((System.Drawing.Image)(resources.GetObject("btnFiltros.Image")));
             this.btnFiltros.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnFiltros.Name = "btnFiltros";
-            this.btnFiltros.Size = new System.Drawing.Size(62, 26);
+            this.btnFiltros.Size = new System.Drawing.Size(69, 26);
             this.btnFiltros.Text = "Filtros";
             // 
             // toolStripDropDownButton1
@@ -3847,25 +3812,25 @@
             this.toolStripDropDownButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton1.Image")));
             this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
-            this.toolStripDropDownButton1.Size = new System.Drawing.Size(67, 26);
+            this.toolStripDropDownButton1.Size = new System.Drawing.Size(75, 26);
             this.toolStripDropDownButton1.Text = "Visão";
             // 
             // btnAtualizar
             // 
             this.btnAtualizar.Name = "btnAtualizar";
-            this.btnAtualizar.Size = new System.Drawing.Size(164, 22);
+            this.btnAtualizar.Size = new System.Drawing.Size(203, 26);
             this.btnAtualizar.Text = "Atualizar";
             // 
             // btnSelecionarColunas
             // 
             this.btnSelecionarColunas.Name = "btnSelecionarColunas";
-            this.btnSelecionarColunas.Size = new System.Drawing.Size(164, 22);
+            this.btnSelecionarColunas.Size = new System.Drawing.Size(203, 26);
             this.btnSelecionarColunas.Text = "Selecionar Colunas";
             // 
             // btnSalvarLayout
             // 
             this.btnSalvarLayout.Name = "btnSalvarLayout";
-            this.btnSalvarLayout.Size = new System.Drawing.Size(164, 22);
+            this.btnSalvarLayout.Size = new System.Drawing.Size(203, 26);
             this.btnSalvarLayout.Text = "Salvar Layout";
             // 
             // toolStripSeparator2
@@ -3878,7 +3843,7 @@
             this.toolStripDropDownButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton2.Image")));
             this.toolStripDropDownButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton2.Name = "toolStripDropDownButton2";
-            this.toolStripDropDownButton2.Size = new System.Drawing.Size(78, 26);
+            this.toolStripDropDownButton2.Size = new System.Drawing.Size(89, 26);
             this.toolStripDropDownButton2.Text = "Anexos";
             // 
             // toolStripDropDownButton3
@@ -3889,19 +3854,19 @@
             this.toolStripDropDownButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton3.Image")));
             this.toolStripDropDownButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton3.Name = "toolStripDropDownButton3";
-            this.toolStripDropDownButton3.Size = new System.Drawing.Size(90, 26);
+            this.toolStripDropDownButton3.Size = new System.Drawing.Size(105, 26);
             this.toolStripDropDownButton3.Text = "Processos";
             // 
             // btnConcluirProjeto
             // 
             this.btnConcluirProjeto.Name = "btnConcluirProjeto";
-            this.btnConcluirProjeto.Size = new System.Drawing.Size(150, 22);
+            this.btnConcluirProjeto.Size = new System.Drawing.Size(188, 26);
             this.btnConcluirProjeto.Text = "Concluir Projeto";
             // 
             // btnReabrirProjeto
             // 
             this.btnReabrirProjeto.Name = "btnReabrirProjeto";
-            this.btnReabrirProjeto.Size = new System.Drawing.Size(150, 22);
+            this.btnReabrirProjeto.Size = new System.Drawing.Size(188, 26);
             this.btnReabrirProjeto.Text = "Reabrir Projeto";
             // 
             // toolStripDropDownButton4
@@ -3909,7 +3874,7 @@
             this.toolStripDropDownButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton4.Image")));
             this.toolStripDropDownButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton4.Name = "toolStripDropDownButton4";
-            this.toolStripDropDownButton4.Size = new System.Drawing.Size(84, 26);
+            this.toolStripDropDownButton4.Size = new System.Drawing.Size(98, 26);
             this.toolStripDropDownButton4.Text = "Exportar";
             // 
             // tabPage14
@@ -3962,6 +3927,154 @@
             this.gridData2.Novo += new AppLib.Windows.GridData.NovoHandler(this.gridData2_Novo);
             this.gridData2.Editar += new AppLib.Windows.GridData.EditarHandler(this.gridData2_Editar);
             this.gridData2.Excluir += new AppLib.Windows.GridData.ExcluirHandler(this.gridData2_Excluir);
+            // 
+            // tabPage17
+            // 
+            this.tabPage17.Controls.Add(this.listaSituacaoMercadoria);
+            this.tabPage17.Controls.Add(this.label71);
+            this.tabPage17.Controls.Add(this.campoTexto7);
+            this.tabPage17.Controls.Add(this.label80);
+            this.tabPage17.Controls.Add(this.label79);
+            this.tabPage17.Controls.Add(this.campoLookup17);
+            this.tabPage17.Controls.Add(this.campoLista6);
+            this.tabPage17.Controls.Add(this.label77);
+            this.tabPage17.Location = new System.Drawing.Point(4, 22);
+            this.tabPage17.Name = "tabPage17";
+            this.tabPage17.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage17.Size = new System.Drawing.Size(678, 352);
+            this.tabPage17.TabIndex = 11;
+            this.tabPage17.Text = "Dados Fiscais";
+            this.tabPage17.UseVisualStyleBackColor = true;
+            // 
+            // listaSituacaoMercadoria
+            // 
+            this.listaSituacaoMercadoria.Campo = "SITUACAOMERCADORIA";
+            this.listaSituacaoMercadoria.Default = null;
+            this.listaSituacaoMercadoria.Edita = true;
+            codigoNome79.Codigo = "01";
+            codigoNome79.Nome = "Produto para Revenda";
+            codigoNome80.Codigo = "02";
+            codigoNome80.Nome = "Materia Prima";
+            codigoNome81.Codigo = "03";
+            codigoNome81.Nome = "Produtos em Elaboração";
+            codigoNome82.Codigo = "04";
+            codigoNome82.Nome = "Produto Acabado";
+            codigoNome83.Codigo = "08";
+            codigoNome83.Nome = "Embalagem";
+            codigoNome84.Codigo = "09";
+            codigoNome84.Nome = "Subproduto";
+            codigoNome85.Codigo = "10";
+            codigoNome85.Nome = "Produto Intermediário";
+            codigoNome86.Codigo = "15";
+            codigoNome86.Nome = "Outros Insumos";
+            this.listaSituacaoMercadoria.Lista = new AppLib.Windows.CodigoNome[] {
+        codigoNome79,
+        codigoNome80,
+        codigoNome81,
+        codigoNome82,
+        codigoNome83,
+        codigoNome84,
+        codigoNome85,
+        codigoNome86};
+            this.listaSituacaoMercadoria.Location = new System.Drawing.Point(9, 75);
+            this.listaSituacaoMercadoria.Name = "listaSituacaoMercadoria";
+            this.listaSituacaoMercadoria.Query = 4;
+            this.listaSituacaoMercadoria.Size = new System.Drawing.Size(339, 21);
+            this.listaSituacaoMercadoria.Tabela = "TPRDFISCAL";
+            this.listaSituacaoMercadoria.TabIndex = 69;
+            this.listaSituacaoMercadoria.AposSelecao += new AppLib.Windows.CampoLista.AposSelecaoHandler(this.listaSituacaoMercadoria_AposSelecao);
+            // 
+            // label71
+            // 
+            this.label71.AutoSize = true;
+            this.label71.Location = new System.Drawing.Point(6, 59);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(132, 14);
+            this.label71.TabIndex = 68;
+            this.label71.Text = "Situação da Mercadoria";
+            // 
+            // campoTexto7
+            // 
+            this.campoTexto7.Campo = "CODIGOCEST";
+            this.campoTexto7.Default = null;
+            this.campoTexto7.Edita = true;
+            this.campoTexto7.Location = new System.Drawing.Point(9, 165);
+            this.campoTexto7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.campoTexto7.MaximoCaracteres = null;
+            this.campoTexto7.Name = "campoTexto7";
+            this.campoTexto7.Query = 4;
+            this.campoTexto7.Size = new System.Drawing.Size(182, 20);
+            this.campoTexto7.Tabela = "TPRDFISCAL";
+            this.campoTexto7.TabIndex = 66;
+            // 
+            // label80
+            // 
+            this.label80.AutoSize = true;
+            this.label80.Location = new System.Drawing.Point(6, 147);
+            this.label80.Name = "label80";
+            this.label80.Size = new System.Drawing.Size(77, 14);
+            this.label80.TabIndex = 67;
+            this.label80.Text = "Código CEST";
+            // 
+            // label79
+            // 
+            this.label79.AutoSize = true;
+            this.label79.Location = new System.Drawing.Point(6, 99);
+            this.label79.Name = "label79";
+            this.label79.Size = new System.Drawing.Size(118, 14);
+            this.label79.TabIndex = 41;
+            this.label79.Text = "Conta Contábil Sped";
+            // 
+            // campoLookup17
+            // 
+            this.campoLookup17.AutoSize = true;
+            this.campoLookup17.Campo = "CODCONTA";
+            this.campoLookup17.ColunaCodigo = "CODCONTA";
+            this.campoLookup17.ColunaDescricao = "DESCRICAO";
+            this.campoLookup17.ColunaIdentificador = null;
+            this.campoLookup17.ColunaTabela = "CCONTA";
+            this.campoLookup17.Conexao = "Start";
+            this.campoLookup17.Default = null;
+            this.campoLookup17.Edita = true;
+            this.campoLookup17.EditaLookup = false;
+            this.campoLookup17.Location = new System.Drawing.Point(9, 117);
+            this.campoLookup17.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.campoLookup17.MaximoCaracteres = null;
+            this.campoLookup17.Name = "campoLookup17";
+            this.campoLookup17.NomeGrid = null;
+            this.campoLookup17.Query = 4;
+            this.campoLookup17.Size = new System.Drawing.Size(651, 25);
+            this.campoLookup17.Tabela = "TPRDFISCAL";
+            this.campoLookup17.TabIndex = 40;
+            // 
+            // campoLista6
+            // 
+            this.campoLista6.Campo = "TIPOTRIBUTACAO";
+            this.campoLista6.Default = "0";
+            this.campoLista6.Edita = true;
+            codigoNome87.Codigo = "0";
+            codigoNome87.Nome = "Tributação do ICMS/IPI";
+            codigoNome88.Codigo = "1";
+            codigoNome88.Nome = "Tributação pelo ISS";
+            this.campoLista6.Lista = new AppLib.Windows.CodigoNome[] {
+        codigoNome87,
+        codigoNome88};
+            this.campoLista6.Location = new System.Drawing.Point(9, 29);
+            this.campoLista6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.campoLista6.Name = "campoLista6";
+            this.campoLista6.Query = 4;
+            this.campoLista6.Size = new System.Drawing.Size(182, 21);
+            this.campoLista6.Tabela = "TPRDFISCAL";
+            this.campoLista6.TabIndex = 28;
+            // 
+            // label77
+            // 
+            this.label77.AutoSize = true;
+            this.label77.Location = new System.Drawing.Point(6, 11);
+            this.label77.Name = "label77";
+            this.label77.Size = new System.Drawing.Size(111, 14);
+            this.label77.TabIndex = 29;
+            this.label77.Text = "Tipo de Tributação";
             // 
             // FormProdutoCadastro
             // 
@@ -4058,7 +4171,6 @@
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
             this.tabPage7.ResumeLayout(false);
-            this.tabPage7.PerformLayout();
             this.groupBox10.ResumeLayout(false);
             this.groupBox10.PerformLayout();
             this.groupBox9.ResumeLayout(false);
@@ -4108,6 +4220,8 @@
             this.toolStrip2.ResumeLayout(false);
             this.toolStrip2.PerformLayout();
             this.tabPage14.ResumeLayout(false);
+            this.tabPage17.ResumeLayout(false);
+            this.tabPage17.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -4294,8 +4408,6 @@
         private System.Windows.Forms.Label label26;
         private AppLib.Windows.CampoLista listaSepto;
         private System.Windows.Forms.Label label66;
-        private System.Windows.Forms.Label label71;
-        private AppLib.Windows.CampoLista listaSituacaoMercadoria;
         private AppLib.Windows.CampoLista listaProduto;
         private System.Windows.Forms.Label label68;
         private System.Windows.Forms.GroupBox groupBox19;
@@ -4361,5 +4473,14 @@
         private System.Windows.Forms.ToolStripMenuItem btnReabrirProjeto;
         public System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton4;
         private DevExpress.XtraEditors.ComboBoxEdit cbCodigoDP;
+        private System.Windows.Forms.TabPage tabPage17;
+        private AppLib.Windows.CampoLista campoLista6;
+        private System.Windows.Forms.Label label77;
+        private AppLib.Windows.CampoTexto campoTexto7;
+        private System.Windows.Forms.Label label80;
+        private System.Windows.Forms.Label label79;
+        private AppLib.Windows.CampoLookup campoLookup17;
+        private AppLib.Windows.CampoLista listaSituacaoMercadoria;
+        private System.Windows.Forms.Label label71;
     }
 }

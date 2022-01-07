@@ -46,6 +46,7 @@ namespace AppLib.Windows
 
         #region CONSTRUTORES
 
+        public int IDPRD { get; set; }
         public String CODPRODUTO { get; set; }
         public Decimal QUANTIDADE { get; set; }
         public String TIPOINOX { get; set; }

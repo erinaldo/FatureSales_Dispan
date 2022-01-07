@@ -360,7 +360,22 @@ WHERE NOT((SELECT TOP 1 CODPERFIL FROM GUSRPERFIL WHERE CODUSUARIO = GUSUARIO.CO
 
                             string VersaoAtual = lblVersao.Text;
 
-                            if (Convert.ToInt64(VersaoClient.Replace(".", "")) > Convert.ToInt64(VersaoAtual.Replace(".", "")))
+                            string sVersaoClient = VersaoClient.Replace(".", "");
+                            string sVersaoAtual = VersaoAtual.Replace(".", "");
+
+                            if (sVersaoClient.Length > sVersaoAtual.Length)
+                            {
+                                sVersaoClient = sVersaoClient.Substring(0, sVersaoAtual.Length);
+                            }
+                            else if (sVersaoClient.Length < sVersaoAtual.Length)
+                            {
+                                sVersaoAtual = sVersaoAtual.Substring(0, sVersaoClient.Length);
+                            }
+
+                            Int64 iVersaoClient = Convert.ToInt64(sVersaoClient);
+                            Int64 iVersaoAtual = Convert.ToInt64(sVersaoAtual);
+
+                            if (iVersaoClient > iVersaoAtual)
                             {
                                 if (MessageBox.Show("ATENÇÃO !!!.\n\rVersão do Aplicativo [" + lblVersao.Text + "] diferente da versão exigida [" + VersaoClient + "].", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning) == DialogResult.OK)
                                 {

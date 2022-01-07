@@ -11,6 +11,10 @@ namespace AppFatureClient
 {
     public partial class FormOrcamentoItem : AppLib.Windows.FormCadastroObject
     {
+        public int CODCOLIGADA { get; set; }
+        public int IDMOV { get; set; }
+        public int NSEQITEMMOV { get; set; }
+
         public List<TITMMOV> Itens;
         public TITMMOV xTITMMOV = new TITMMOV();
         public AcaoForcada acao { get; set; }
@@ -20,8 +24,6 @@ namespace AppFatureClient
         public string CODCFO { get; set; }
         public string CODETD { get; set; }
         public string AplicaProd { get; set; }
-        public string NSEQITEM { get; set; }
-        public string IDMOV { get; set; }
         public bool consumidorFinal { get; set; }
         public bool descItem { get; set; }
         public bool POSSUIBENEFICIO { get; set; }
@@ -41,6 +43,7 @@ namespace AppFatureClient
 
         private string codigoDP = "";
         private bool isPrecoCarregado = false;
+        private bool isProdutoComposto = false;
 
         public FormOrcamentoItem()
         {
@@ -145,8 +148,8 @@ namespace AppFatureClient
                 }
                 else
                 {
-                    if (!isPrecoCarregado)
-                    {
+                    //if (!isPrecoCarregado)
+                    //{
                         string IDPRD = AppLib.Context.poolConnection.Get("Start").ExecGetField("", "SELECT IDPRD FROM TPRODUTO WHERE CODCOLPRD = ? AND CODIGOPRD = ?", new object[] { AppLib.Context.Empresa, CODPRD }).ToString();
 
                         total = CalculoPreco.CacularPreco(IDPRD, listaTipoInox.Get(), "", "").PRECO;
@@ -160,7 +163,7 @@ namespace AppFatureClient
                         }
 
                         tbPrecoTabela.EditValue = total;
-                    }
+                    //}
                 }
 
                 if (edita == true)
@@ -233,7 +236,7 @@ namespace AppFatureClient
 
             gridControl1.DataSource = new DataTable();
 
-            IDMOV = "";
+            IDMOV = 0;
             xTITMMOV = new TITMMOV();
             xTITMMOV.COMPOSICAO = new List<ItemComposicao>();
 
@@ -303,7 +306,7 @@ namespace AppFatureClient
         {
             try
             {
-                if (!String.IsNullOrWhiteSpace(IDMOV))
+                if (IDMOV > 0)
                 {
                     string sql = String.Format(@"select CODCOLIGADA, 
 	                                                   IDMOV, 
@@ -317,7 +320,7 @@ namespace AppFatureClient
 	                                                   from TTRBMOV 
 	                                                   where CODCOLIGADA = '1'
 	                                                   and IDMOV = '{0}'
-	                                                   and NSEQITMMOV = '{1}'", IDMOV, NSEQITEM);
+	                                                   and NSEQITMMOV = '{1}'", IDMOV, NSEQITEMMOV);
 
                     gridData1.Consulta = sql.Split(' ');
                     gridData1.Atualizar();
@@ -394,6 +397,9 @@ namespace AppFatureClient
                                 if ((int)dt.Rows[0]["FLAGCOMPLEMENTO"] == 0) { listaComplemento.Set(null); }
                                 if ((int)dt.Rows[0]["FLAGPESO"] == 0) { peso.Set(null); }
 
+                                if ((int)dt.Rows[0]["FLAGCOMPOSTO"] == 1) { isProdutoComposto = true; }
+                                else { isProdutoComposto = false; }
+
                                 verificaDP = false;
                                 AtualizaGridItem(null, null);
                                 EventosFiltragem(true);
@@ -432,7 +438,7 @@ namespace AppFatureClient
 
                             // Carrega Distanciamento 
 
-                            string distanciamento = AppLib.Context.poolConnection.Get("Start").ExecGetField("", @"SELECT DISTANCIAMENTO FROM TITMMOVCOMPL WHERE IDMOV = ? AND NSEQITMMOV = ?", new object[] { IDMOV, NSEQITEM }).ToString();
+                            string distanciamento = AppLib.Context.poolConnection.Get("Start").ExecGetField("", @"SELECT DISTANCIAMENTO FROM TITMMOVCOMPL WHERE IDMOV = ? AND NSEQITMMOV = ?", new object[] { IDMOV, NSEQITEMMOV }).ToString();
 
                             switch (distanciamento)
                             {
@@ -1019,7 +1025,8 @@ namespace AppFatureClient
         {
             try
             {
-                if (campoDP.textEdit1.Text == "800" || (campoDP.textEdit1.Text == "801" || (campoDP.textEdit1.Text == "802" || (campoDP.textEdit1.Text == "803" || (campoDP.textEdit1.Text == "804" || (campoDP.textEdit1.Text == "805"))))))
+                //if (campoDP.textEdit1.Text == "800" || (campoDP.textEdit1.Text == "801" || (campoDP.textEdit1.Text == "802" || (campoDP.textEdit1.Text == "803" || (campoDP.textEdit1.Text == "804" || (campoDP.textEdit1.Text == "805"))))))
+                if(isProdutoComposto)
                 {
                     if (edita == false)
                     {
@@ -1067,12 +1074,16 @@ namespace AppFatureClient
                             ItemComposicao it = new ItemComposicao();
                             it.CODCOLIGADA = 1;
                             it.CODFILIAL = 1;
-                            it.IDMOV = IDMOV == null ? 0 : int.Parse(IDMOV);
+                            it.IDMOV = IDMOV;
                             it.IDPRD = (int)dt.Rows[i]["IDPRD"];
                             it.CODIGOPRD = (String)dt.Rows[i]["CODIGOPRD"];
                             it.CODIGOAUXILIAR = (String)dt.Rows[i]["CODIGOAUXILIAR"];
                             it.NOMEFANTASIA = (String)dt.Rows[i]["NOMEFANTASIA"];
                             it.NSEQ = Nseq;
+
+                            it.PRECOUNITARIO = (decimal)dt.Rows[i]["PRECO"];
+                            it.QUANTIDADE = (decimal)dt.Rows[i]["QTDUSADA"];
+                            it.TOTAL = (decimal)dt.Rows[i]["TOTAL"];
 
                             if (medidaD.comboBox1.Text == " - Selecione")
                             {
@@ -1102,12 +1113,14 @@ namespace AppFatureClient
                                 if ((decimal)dt.Rows[i]["PRECO"] > 0)
                                 {
                                     it.PRECOUNITARIO = (decimal)dt.Rows[i]["PRECO"];
+                                    it.TOTAL = it.QUANTIDADE * it.PRECOUNITARIO;
                                 }
                                 else
                                 {
                                     RetornoPreco retorno = CalculoPreco.CacularPreco(it.CODIGOPRD, listaTipoInox.Get(), "", "");
 
                                     it.PRECOUNITARIO = retorno.PRECO;
+                                    it.TOTAL = it.QUANTIDADE * it.PRECOUNITARIO;
                                 }
                             }
 
@@ -1138,7 +1151,7 @@ namespace AppFatureClient
                                                 AND TPRODUTO.IDPRD = ZORCAMENTOITEMCOMPOSTO.IDPRD
                                                 AND ZORCAMENTOITEMCOMPOSTO.CODCOLIGADA = {0}
                                                 AND ZORCAMENTOITEMCOMPOSTO.IDMOV = '{1}'
-                                                AND ZORCAMENTOITEMCOMPOSTO.NSEQ = {2}", AppLib.Context.Empresa, IDMOV, NSEQITEM);
+                                                AND ZORCAMENTOITEMCOMPOSTO.NSEQ = {2}", AppLib.Context.Empresa, IDMOV, NSEQITEMMOV);
 
                         DataTable dt = MetodosSQL.GetDT(sql);
 
@@ -1152,11 +1165,12 @@ namespace AppFatureClient
                                 ItemComposicao it = new ItemComposicao();
                                 it.CODCOLIGADA = 1;
                                 it.CODFILIAL = 1;
-                                it.IDMOV = IDMOV == null ? 0 : int.Parse(IDMOV);
+                                it.IDMOV = IDMOV;
                                 it.IDPRD = (int)item["IDPRD"];
                                 it.CODIGOPRD = (String)item["CODIGOPRD"];
                                 it.CODIGOAUXILIAR = (String)item["CODIGOAUXILIAR"];
                                 it.NOMEFANTASIA = (String)item["NOMEFANTASIA"];
+                                it.PRECOUNITARIO = (decimal)item["PRECOUNITARIO"];
                                 it.QUANTIDADE = (decimal)item["QUANTIDADE"];
                                 it.TOTAL = (decimal)item["TOTAL"];
 
@@ -1165,12 +1179,14 @@ namespace AppFatureClient
                                 if ((decimal)item["PRECOUNITARIO"] > 0)
                                 {
                                     it.PRECOUNITARIO = (decimal)item["PRECOUNITARIO"];
+                                    it.TOTAL = it.PRECOUNITARIO * it.QUANTIDADE;
                                 }
                                 else
                                 {
                                     RetornoPreco retorno = CalculoPreco.CacularPreco(it.CODIGOPRD, listaTipoInox.Get(), "", "");
 
                                     it.PRECOUNITARIO = retorno.PRECO;
+                                    it.TOTAL = it.PRECOUNITARIO * it.QUANTIDADE;
                                 }
 
                                 listaItemComposicao.Add(it);
@@ -1184,14 +1200,13 @@ namespace AppFatureClient
                         }
                     }
                 }
-
                 else
                 {
                     xTITMMOV.COMPOSICAO = new List<ItemComposicao>();
 
                     try
                     {
-                        AppLib.Context.poolConnection.Get(this.Conexao).ExecTransaction("DELETE FROM ZORCAMENTOITEMCOMPOSTO WHERE CODCOLIGADA = ? AND IDMOV = ? AND NSEQ = ?", new object[] { AppLib.Context.Empresa, IDMOV, NSEQITEM });
+                        AppLib.Context.poolConnection.Get(this.Conexao).ExecTransaction("DELETE FROM ZORCAMENTOITEMCOMPOSTO WHERE CODCOLIGADA = ? AND IDMOV = ? AND NSEQ = ?", new object[] { AppLib.Context.Empresa, IDMOV, NSEQITEMMOV });
                     }
                     catch (Exception)
                     {
@@ -1472,7 +1487,7 @@ namespace AppFatureClient
             }
             else
             {
-                tbNumeroSequencial.Text = NSEQITEM.ToString();
+                tbNumeroSequencial.Text = NSEQITEMMOV.ToString();
             }
         }
 
@@ -1774,7 +1789,8 @@ namespace AppFatureClient
 
                 tbQuantidade.Focus();
 
-                if (campoDP.textEdit1.Text == "800" || (campoDP.textEdit1.Text == "801" || (campoDP.textEdit1.Text == "802" || (campoDP.textEdit1.Text == "803" || (campoDP.textEdit1.Text == "804" || (campoDP.textEdit1.Text == "805"))))))
+                //if (campoDP.textEdit1.Text == "800" || (campoDP.textEdit1.Text == "801" || (campoDP.textEdit1.Text == "802" || (campoDP.textEdit1.Text == "803" || (campoDP.textEdit1.Text == "804" || (campoDP.textEdit1.Text == "805"))))))
+                if(isProdutoComposto)
                 {
                     medidaD.Enabled = true;
                 }
@@ -1799,8 +1815,6 @@ namespace AppFatureClient
                 MessageBox.Show("Erro ao obter dados do produto.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
-
-
             tbQuantidade.Focus();
             tbQuantidade.Select();
         }
@@ -1820,7 +1834,7 @@ namespace AppFatureClient
                 xTITMMOV.NUMEROCCF = dr["NUMEROCCF"].ToString();
             }
 
-            xTITMMOV.NSEQITEMMOV = Nseq.ToString();
+            xTITMMOV.NSEQITEMMOV = Nseq;
             xTITMMOV.NUMEROSEQUENCIAL = numeroSequencial;
             xTITMMOV.CODIGOPRD = CODPRD;
             xTITMMOV.CODAUXILIAR = campoLookupPRODUTO.textBoxCODIGO.Text;
@@ -2051,6 +2065,7 @@ namespace AppFatureClient
                     ItemComposicao remov = (ItemComposicao)lista[0];
 
                     FormAlteraItemComposicao frm = new FormAlteraItemComposicao();
+                    frm.IDPRD = remov.IDPRD;
                     frm.CODPRODUTO = remov.CODIGOPRD;
                     frm.QUANTIDADE = remov.QUANTIDADE;
                     frm.TIPOINOX = listaTipoInox.Get();
@@ -2058,6 +2073,17 @@ namespace AppFatureClient
 
                     if (frm.RETORNO != null && !String.IsNullOrEmpty(frm.RETORNO.CODIGOPRD))
                     {
+                        if (xTITMMOV.COMPOSICAO != null)
+                        {
+                            foreach (ItemComposicao comp in xTITMMOV.COMPOSICAO)
+                            {
+                                if(comp.IDPRD == frm.RETORNO.IDPRD)
+                                {
+                                    comp.QUANTIDADE = frm.RETORNO.QUANTIDADE;
+                                }
+                            }
+                        }
+
                         gridData2.Atualizar();
                         CarregaPreco();
                     }
@@ -2235,7 +2261,8 @@ namespace AppFatureClient
         {
             if (!string.IsNullOrEmpty(campoDP.Get()))
             {
-                if (campoDP.textEdit1.Text == "800" || (campoDP.textEdit1.Text == "801" || (campoDP.textEdit1.Text == "802" || (campoDP.textEdit1.Text == "803" || (campoDP.textEdit1.Text == "804" || (campoDP.textEdit1.Text == "805"))))))
+                //if (campoDP.textEdit1.Text == "800" || (campoDP.textEdit1.Text == "801" || (campoDP.textEdit1.Text == "802" || (campoDP.textEdit1.Text == "803" || (campoDP.textEdit1.Text == "804" || (campoDP.textEdit1.Text == "805"))))))
+                if(isProdutoComposto)
                 {
                     if (!string.IsNullOrEmpty(medidaD.comboBox1.Text) && medidaD.comboBox1.Text != " - Selecione")
                     {
@@ -2251,11 +2278,12 @@ namespace AppFatureClient
                                 {
                                     if (itemComposicao[i].CODIGOPRD.StartsWith("14"))
                                     {
-                                        //xTITMMOV.COMPOSICAO[i].QUANTIDADE = Convert.ToDecimal(quantidadeByDistanciamento);
+                                        xTITMMOV.COMPOSICAO[i].QUANTIDADE = Convert.ToDecimal(quantidadeByDistanciamento);
+                                        xTITMMOV.COMPOSICAO[i].TOTAL = xTITMMOV.COMPOSICAO[i].QUANTIDADE * xTITMMOV.COMPOSICAO[i].PRECOUNITARIO;
 
-                                        //gridData2.Atualizar();
+                                        gridData2.Atualizar();
 
-                                        //CarregaPreco();
+                                        CarregaPreco();
                                     }
                                 }
                             }
@@ -2486,6 +2514,17 @@ namespace AppFatureClient
         private void campoDP_KeyPress(object sender, KeyPressEventArgs e)
         {
             e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
+        }
+
+        private void FormOrcamentoItem_AposSalvar(object sender, EventArgs e)
+        {
+            if (xTITMMOV.COMPOSICAO != null)
+            {
+                foreach (ItemComposicao comp in xTITMMOV.COMPOSICAO)
+                {
+                    
+                }
+            }
         }
     }
 }

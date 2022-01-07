@@ -451,7 +451,7 @@ WHERE TPRODUTO.IDPRD = {0}", Convert.ToInt32(TabelaItens.Rows[i]["IDPRD"]));
                     item.HISTORICOLONGO = TabelaItens.Rows[i]["HISTORICOLONGO"].ToString();
                     item.IDNAT = Convert.ToInt32(TabelaItens.Rows[i]["IDNAT"]);
                     item.IDPRD = Convert.ToInt32(TabelaItens.Rows[i]["IDPRD"]);
-                    item.NSEQITEMMOV = TabelaItens.Rows[i]["NSEQITMMOV"].ToString();
+                    item.NSEQITEMMOV = Convert.ToInt32(TabelaItens.Rows[i]["NSEQITMMOV"]);
                     item.NUMEROSEQUENCIAL = Convert.ToInt32(TabelaItens.Rows[i]["NUMEROSEQUENCIAL"]);
                     item.NUMEROCCF = TabelaItens.Rows[i]["NUMEROCCF"].ToString();
                     item.NUMEROCFOP = TabelaItens.Rows[i]["NUMEROCFOP"].ToString();
@@ -482,7 +482,7 @@ WHERE TPRODUTO.IDPRD = {0}", Convert.ToInt32(TabelaItens.Rows[i]["IDPRD"]));
                             // Inserir os outros códigos referentes à composição
                             if (item.CODAUXILIAR.Contains("DP800") || ((item.CODAUXILIAR.Contains("DP801") || ((item.CODAUXILIAR.Contains("DP802") || (item.CODAUXILIAR.Contains("DP803") || ((item.CODAUXILIAR.Contains("DP804") || ((item.CODAUXILIAR.Contains("DP805")))))))))))
                             {
-                                if (listComp[0].NSEQ.ToString() == item.NSEQITEMMOV)
+                                if (listComp[0].NSEQ == item.NSEQITEMMOV)
                                 {
                                     item.COMPOSICAO = listComp;
                                 }

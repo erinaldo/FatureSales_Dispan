@@ -1240,6 +1240,12 @@ namespace AppLib.Windows
                     //peso.Checked = (int)row["FLAGPESO"] == 1 ? true : false;
                     txtFormula.Set((String)row["FORMULAPRECO"]);
 
+                    if (row["FLAGCOMPOSTO"] != DBNull.Value)
+                    {
+                        chkComposto.Checked = (int)row["FLAGCOMPOSTO"] == 1 ? true : false;
+                    }
+
+                    /*
                     if (row["USAPRECOFIXO"] != DBNull.Value)
                     {
                         chkUsaPrecoFixo.Checked = (int)row["USAPRECOFIXO"] == 1 ? true : false;
@@ -1251,7 +1257,8 @@ namespace AppLib.Windows
                         {
                             dteDataValidade.DateTime = Convert.ToDateTime(row["DATAVALPRECOFIXO"]);
                         }
-                    }                         
+                    }
+                    */
                 }
             }
             catch (Exception ex)
@@ -1262,11 +1269,13 @@ namespace AppLib.Windows
 
         private Boolean Salvar()
         {
+            /*
             if (chkUsaPrecoFixo.Checked && dteDataValidade.EditValue == null)
             {
                 MessageBox.Show("Favor preencher a Data de Validade.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return false;
             }
+            */
 
             try
             {
@@ -1276,7 +1285,7 @@ namespace AppLib.Windows
 
                 sql = String.Format(@"insert into ZTPRODUTOREGRA values (1, 1, /*CODDP*/ '{0}', /*LARGURA*/ '{1}', /*ALTURA*/ '{2}', /*COMPRIMENTO*/ '{3}', /*DISTANCIAMENTO*/ '{4}',
 										 /*CHAPA*/ '{5}', /*ACABAMENTO*/ '{6}', /*VIROLA*/ '{7}', /*RAIO*/ '{8}', /*TIPORAIO*/ '{9}',  
-										 /*SEPTO*/ '{10}', /*COMPLEMENTO*/ '{11}', /*PESO*/ '{12}', /*FORMULAPRECO*/ '{13}', /*RECMODIFEDON*/ getdate(), /*RECMODIFIEDBY*/ '{14}', /*USAPRECOFIXO*/ {15}, /*DATAVALPRECOFIXO*/ '{16}')",
+										 /*SEPTO*/ '{10}', /*COMPLEMENTO*/ '{11}', /*PESO*/ '{12}', /*FORMULAPRECO*/ '{13}', /*RECMODIFEDON*/ getdate(), /*RECMODIFIEDBY*/ '{14}', NULL, NULL, /*FLAGCOMPOSTO*/ {15})",
                                          /*CODDP*/ campoDP.Get(),
                                          /*LARGURA*/ largura.Checked ? 1 : 0,
                                          /*ALTURA*/ altura.Checked ? 1 : 0,
@@ -1292,17 +1301,19 @@ namespace AppLib.Windows
                                          /*PESO*/ 0,
                                          /*FORMULAPRECO*/ txtFormula.Get(),
                                          /*RECMODIFIEDBY*/ AppLib.Context.Usuario,
-                                         /*USAPRECOFIXO*/ chkUsaPrecoFixo.Checked ? 1 : 0,
-                                         /*DATAVALPRECOFIXO*/ dteDataValidade.Text == "" ? null : Convert.ToDateTime(dteDataValidade.DateTime).ToString("yyy-MM-dd"));
+                                         /*FLAGCOMPOSTO*/ chkComposto.Checked ? 1 : 0
+                                         );
 
                 MetodosSQL.ExecQuery(sql);
 
+                /*
                 if (chkUsaPrecoFixo.Checked)
                 {
                     sql = String.Format("UPDATE ZTPRODUTOCOMPL SET USAPRECOFIXO = 1 WHERE CODCOLIGADA = {0} AND CODDP = '{1}'", AppLib.Context.Empresa, campoDP.Get());
 
                     MetodosSQL.ExecQuery(sql);
                 }
+                */
 
                 return true;
             }
@@ -1311,7 +1322,6 @@ namespace AppLib.Windows
                 MessageBox.Show(ex.Message);
                 return false;
             }
-
         }
 
         private void raio_CheckedChanged(object sender, EventArgs e)

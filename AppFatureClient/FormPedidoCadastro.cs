@@ -549,8 +549,8 @@ WHERE CODCOLIGADA = ?
             f.AplicaProd = campoListaAplicacao.Get();
             f.xTITMMOV = reg;
             f.AtualizarForm();
-            f.IDMOV = campoInteiroIDMOV.Get().ToString();
-            f.NSEQITEM = reg.NSEQITEMMOV;
+            f.IDMOV = Convert.ToInt32(campoInteiroIDMOV.Get());
+            f.NSEQITEMMOV = reg.NSEQITEMMOV;
             f.consumidorFinal = cbConsumidorFinal.Checked;
             f.ShowDialog();
 
@@ -804,7 +804,7 @@ WHERE TITMMOV.CODCOLIGADA = TPRD.CODCOLIGADA
                                 titmmov.IDNAT = int.Parse(dt.Rows[i]["IDNAT"].ToString());
                             }
 
-                            titmmov.NSEQITEMMOV = dt.Rows[i]["NSEQITMMOV"].ToString();
+                            titmmov.NSEQITEMMOV = Convert.ToInt32(dt.Rows[i]["NSEQITMMOV"]);
                             if (!String.IsNullOrWhiteSpace(dt.Rows[i]["DATAENTREGA"].ToString()))
                             {
                                 titmmov.DATAENTREGA = (DateTime)dt.Rows[i]["DATAENTREGA"];

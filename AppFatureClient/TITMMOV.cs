@@ -8,7 +8,9 @@ namespace AppFatureClient
 {
     public class TITMMOV
     {
-        public string NSEQITEMMOV { get; set; }
+        public int CODCOLIGADA { get; set; }
+        public int IDMOV { get; set; }
+        public int NSEQITEMMOV { get; set; }
         public int NUMEROSEQUENCIAL { get; set; }
         public string NUMITEMPEDIDO { get; set; }
         public string CODAUXILIAR { get; set; }

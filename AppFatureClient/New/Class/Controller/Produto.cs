@@ -400,14 +400,10 @@ WHERE
 
             DataTable dtDP = AppLib.Context.poolConnection.Get("Start").ExecQuery(@"SELECT DISTINCT(CODDP) CODDP FROM ZTPRODUTOREGRA WHERE CODCOLIGADA = ?", new object[] { AppLib.Context.Empresa });
 
-            /*
             for (int i = 0; i < dtDP.Rows.Count; i++)
             {
                 combo.Items.Add(dtDP.Rows[i]["CODDP"].ToString());
             }
-            */
-
-            combo.Items.AddRange(dtDP.Rows[0].ItemArray.Select(x => x.ToString()).ToArray());
 
             control.RepositoryItems.Add(combo);
             view.Columns["COD_DP"].ColumnEdit = combo;

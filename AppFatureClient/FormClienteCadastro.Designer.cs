@@ -29,30 +29,30 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormClienteCadastro));
-            AppLib.Windows.CodigoNome codigoNome1 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome2 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome3 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome4 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome5 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome6 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome7 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome8 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome9 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome10 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome11 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome12 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome13 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome14 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome15 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome16 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome17 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome18 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome19 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome20 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome21 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.Query query1 = new AppLib.Windows.Query();
-            AppLib.Windows.Query query2 = new AppLib.Windows.Query();
-            AppLib.Windows.Query query3 = new AppLib.Windows.Query();
+            AppLib.Windows.CodigoNome codigoNome43 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome44 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome45 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome46 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome47 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome48 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome49 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome50 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome51 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome52 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome53 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome54 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome55 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome56 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome57 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome58 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome59 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome60 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome61 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome62 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome63 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.Query query7 = new AppLib.Windows.Query();
+            AppLib.Windows.Query query8 = new AppLib.Windows.Query();
+            AppLib.Windows.Query query9 = new AppLib.Windows.Query();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.btnSiteSintegra = new DevExpress.XtraEditors.SimpleButton();
@@ -219,15 +219,15 @@
             // 
             // simpleButtonOK
             // 
-            this.simpleButtonOK.Location = new System.Drawing.Point(717, 15);
+            this.simpleButtonOK.Location = new System.Drawing.Point(556, 17);
             // 
             // simpleButtonCANCELAR
             // 
-            this.simpleButtonCANCELAR.Location = new System.Drawing.Point(807, 15);
+            this.simpleButtonCANCELAR.Location = new System.Drawing.Point(643, 17);
             // 
             // simpleButtonSALVAR
             // 
-            this.simpleButtonSALVAR.Location = new System.Drawing.Point(627, 15);
+            this.simpleButtonSALVAR.Location = new System.Drawing.Point(466, 17);
             // 
             // panel1
             // 
@@ -335,7 +335,7 @@
             this.label64.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label64.Location = new System.Drawing.Point(157, 35);
             this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(138, 13);
+            this.label64.Size = new System.Drawing.Size(184, 17);
             this.label64.TabIndex = 62;
             this.label64.Text = "Usuário da Última Alteração";
             // 
@@ -358,7 +358,7 @@
             this.label65.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label65.Location = new System.Drawing.Point(6, 35);
             this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(110, 13);
+            this.label65.Size = new System.Drawing.Size(145, 17);
             this.label65.TabIndex = 60;
             this.label65.Text = "Data Última Alteração";
             // 
@@ -394,7 +394,7 @@
             this.label63.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label63.Location = new System.Drawing.Point(146, 35);
             this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(82, 13);
+            this.label63.Size = new System.Drawing.Size(109, 17);
             this.label63.TabIndex = 62;
             this.label63.Text = "Usuário Criação";
             // 
@@ -417,7 +417,7 @@
             this.label62.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label62.Location = new System.Drawing.Point(6, 35);
             this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(69, 13);
+            this.label62.Size = new System.Drawing.Size(90, 17);
             this.label62.TabIndex = 60;
             this.label62.Text = "Data Criação";
             // 
@@ -439,16 +439,16 @@
             this.campoLista2.Campo = "CONTRIBUINTE";
             this.campoLista2.Default = null;
             this.campoLista2.Edita = true;
-            codigoNome1.Codigo = "1";
-            codigoNome1.Nome = "Contribuinte ICMS";
-            codigoNome2.Codigo = "2";
-            codigoNome2.Nome = "Contribuinte Isento";
-            codigoNome3.Codigo = "0";
-            codigoNome3.Nome = "Não Contribuinte";
+            codigoNome43.Codigo = "1";
+            codigoNome43.Nome = "Contribuinte ICMS";
+            codigoNome44.Codigo = "2";
+            codigoNome44.Nome = "Contribuinte Isento";
+            codigoNome45.Codigo = "0";
+            codigoNome45.Nome = "Não Contribuinte";
             this.campoLista2.Lista = new AppLib.Windows.CodigoNome[] {
-        codigoNome1,
-        codigoNome2,
-        codigoNome3};
+        codigoNome43,
+        codigoNome44,
+        codigoNome45};
             this.campoLista2.Location = new System.Drawing.Point(8, 183);
             this.campoLista2.Name = "campoLista2";
             this.campoLista2.Query = 0;
@@ -461,7 +461,7 @@
             this.label61.AutoSize = true;
             this.label61.Location = new System.Drawing.Point(232, 248);
             this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(129, 13);
+            this.label61.Size = new System.Drawing.Size(146, 14);
             this.label61.TabIndex = 57;
             this.label61.Text = "Documentos Estrangeiros";
             // 
@@ -483,13 +483,13 @@
             this.campoLista3.Campo = "NACIONALIDADE";
             this.campoLista3.Default = null;
             this.campoLista3.Edita = true;
-            codigoNome4.Codigo = "0";
-            codigoNome4.Nome = "Brasileira";
-            codigoNome5.Codigo = "1";
-            codigoNome5.Nome = "Estrangeira";
+            codigoNome46.Codigo = "0";
+            codigoNome46.Nome = "Brasileira";
+            codigoNome47.Codigo = "1";
+            codigoNome47.Nome = "Estrangeira";
             this.campoLista3.Lista = new AppLib.Windows.CodigoNome[] {
-        codigoNome4,
-        codigoNome5};
+        codigoNome46,
+        codigoNome47};
             this.campoLista3.Location = new System.Drawing.Point(8, 262);
             this.campoLista3.Name = "campoLista3";
             this.campoLista3.Query = 0;
@@ -503,7 +503,7 @@
             this.label60.AutoSize = true;
             this.label60.Location = new System.Drawing.Point(5, 246);
             this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(73, 13);
+            this.label60.Size = new System.Drawing.Size(80, 14);
             this.label60.TabIndex = 54;
             this.label60.Text = "Nacionalidade";
             // 
@@ -512,7 +512,7 @@
             this.label59.AutoSize = true;
             this.label59.Location = new System.Drawing.Point(5, 168);
             this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(109, 13);
+            this.label59.Size = new System.Drawing.Size(123, 14);
             this.label59.TabIndex = 52;
             this.label59.Text = "Contribuinte do ICMS";
             // 
@@ -550,7 +550,7 @@
             this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label58.Location = new System.Drawing.Point(5, 325);
             this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(77, 13);
+            this.label58.Size = new System.Drawing.Size(102, 17);
             this.label58.TabIndex = 49;
             this.label58.Text = "Representante";
             // 
@@ -571,7 +571,7 @@
             this.campoLookupCODRPR.Name = "campoLookupCODRPR";
             this.campoLookupCODRPR.NomeGrid = null;
             this.campoLookupCODRPR.Query = 2;
-            this.campoLookupCODRPR.Size = new System.Drawing.Size(619, 24);
+            this.campoLookupCODRPR.Size = new System.Drawing.Size(619, 25);
             this.campoLookupCODRPR.Tabela = "FCFODEF";
             this.campoLookupCODRPR.TabIndex = 9;
             this.campoLookupCODRPR.SetFormConsulta += new AppLib.Windows.CampoLookup.SetFormConsultaHandler(this.campoLookupCODRPR_SetFormConsulta);
@@ -610,7 +610,7 @@
             this.label55.AutoSize = true;
             this.label55.Location = new System.Drawing.Point(256, 11);
             this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(32, 13);
+            this.label55.Size = new System.Drawing.Size(35, 14);
             this.label55.TabIndex = 45;
             this.label55.Text = "Ativo";
             // 
@@ -619,13 +619,13 @@
             this.campoLista1.Campo = "ATIVO";
             this.campoLista1.Default = "1";
             this.campoLista1.Edita = true;
-            codigoNome6.Codigo = "1";
-            codigoNome6.Nome = "Sim";
-            codigoNome7.Codigo = "0";
-            codigoNome7.Nome = "Não";
+            codigoNome48.Codigo = "1";
+            codigoNome48.Nome = "Sim";
+            codigoNome49.Codigo = "0";
+            codigoNome49.Nome = "Não";
             this.campoLista1.Lista = new AppLib.Windows.CodigoNome[] {
-        codigoNome6,
-        codigoNome7};
+        codigoNome48,
+        codigoNome49};
             this.campoLista1.Location = new System.Drawing.Point(253, 27);
             this.campoLista1.Name = "campoLista1";
             this.campoLista1.Query = 0;
@@ -651,7 +651,7 @@
             this.label54.AutoSize = true;
             this.label54.Location = new System.Drawing.Point(5, 286);
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(55, 13);
+            this.label54.Size = new System.Drawing.Size(60, 14);
             this.label54.TabIndex = 43;
             this.label54.Text = "SUFRAMA";
             // 
@@ -678,7 +678,7 @@
             this.label53.AutoSize = true;
             this.label53.Location = new System.Drawing.Point(423, 286);
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(87, 13);
+            this.label53.Size = new System.Drawing.Size(100, 14);
             this.label53.TabIndex = 42;
             this.label53.Text = "Limite de Crédtio";
             // 
@@ -687,34 +687,34 @@
             this.campoListaRAMOATV.Campo = "RAMOATIV";
             this.campoListaRAMOATV.Default = null;
             this.campoListaRAMOATV.Edita = true;
-            codigoNome8.Codigo = "1";
-            codigoNome8.Nome = "Comércio";
-            codigoNome9.Codigo = "2";
-            codigoNome9.Nome = "Indústria";
-            codigoNome10.Codigo = "4";
-            codigoNome10.Nome = "Serviços";
-            codigoNome11.Codigo = "8";
-            codigoNome11.Nome = "Associação";
-            codigoNome12.Codigo = "16";
-            codigoNome12.Nome = "Produtor Rural";
-            codigoNome13.Codigo = "7";
-            codigoNome13.Nome = "Serviços/Industria/Comercio";
-            codigoNome14.Codigo = "6";
-            codigoNome14.Nome = "Serviços/Industria";
-            codigoNome15.Codigo = "5";
-            codigoNome15.Nome = "Serviços/Comercio";
-            codigoNome16.Codigo = "3";
-            codigoNome16.Nome = "Industria/Comercio";
+            codigoNome50.Codigo = "1";
+            codigoNome50.Nome = "Comércio";
+            codigoNome51.Codigo = "2";
+            codigoNome51.Nome = "Indústria";
+            codigoNome52.Codigo = "4";
+            codigoNome52.Nome = "Serviços";
+            codigoNome53.Codigo = "8";
+            codigoNome53.Nome = "Associação";
+            codigoNome54.Codigo = "16";
+            codigoNome54.Nome = "Produtor Rural";
+            codigoNome55.Codigo = "7";
+            codigoNome55.Nome = "Serviços/Industria/Comercio";
+            codigoNome56.Codigo = "6";
+            codigoNome56.Nome = "Serviços/Industria";
+            codigoNome57.Codigo = "5";
+            codigoNome57.Nome = "Serviços/Comercio";
+            codigoNome58.Codigo = "3";
+            codigoNome58.Nome = "Industria/Comercio";
             this.campoListaRAMOATV.Lista = new AppLib.Windows.CodigoNome[] {
-        codigoNome8,
-        codigoNome9,
-        codigoNome10,
-        codigoNome11,
-        codigoNome12,
-        codigoNome13,
-        codigoNome14,
-        codigoNome15,
-        codigoNome16};
+        codigoNome50,
+        codigoNome51,
+        codigoNome52,
+        codigoNome53,
+        codigoNome54,
+        codigoNome55,
+        codigoNome56,
+        codigoNome57,
+        codigoNome58};
             this.campoListaRAMOATV.Location = new System.Drawing.Point(8, 223);
             this.campoListaRAMOATV.Name = "campoListaRAMOATV";
             this.campoListaRAMOATV.Query = 0;
@@ -728,7 +728,7 @@
             this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label43.Location = new System.Drawing.Point(5, 207);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(114, 13);
+            this.label43.Size = new System.Drawing.Size(144, 17);
             this.label43.TabIndex = 40;
             this.label43.Text = "Ramo de Atividade";
             // 
@@ -750,7 +750,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(407, 167);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(77, 13);
+            this.label7.Size = new System.Drawing.Size(85, 14);
             this.label7.TabIndex = 30;
             this.label7.Text = "Insc. Municipal";
             // 
@@ -759,7 +759,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(189, 168);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(75, 13);
+            this.label6.Size = new System.Drawing.Size(82, 14);
             this.label6.TabIndex = 29;
             this.label6.Text = "Insc. Estadual";
             // 
@@ -796,7 +796,7 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(407, 127);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(67, 13);
+            this.label5.Size = new System.Drawing.Size(81, 17);
             this.label5.TabIndex = 26;
             this.label5.Text = "CPF/CNPJ";
             // 
@@ -805,13 +805,13 @@
             this.campoLista1PESSOAFISOUJUR.Campo = "PESSOAFISOUJUR";
             this.campoLista1PESSOAFISOUJUR.Default = null;
             this.campoLista1PESSOAFISOUJUR.Edita = true;
-            codigoNome17.Codigo = "F";
-            codigoNome17.Nome = "Pessoa Física";
-            codigoNome18.Codigo = "J";
-            codigoNome18.Nome = "Pessoa Jurídica";
+            codigoNome59.Codigo = "F";
+            codigoNome59.Nome = "Pessoa Física";
+            codigoNome60.Codigo = "J";
+            codigoNome60.Nome = "Pessoa Jurídica";
             this.campoLista1PESSOAFISOUJUR.Lista = new AppLib.Windows.CodigoNome[] {
-        codigoNome17,
-        codigoNome18};
+        codigoNome59,
+        codigoNome60};
             this.campoLista1PESSOAFISOUJUR.Location = new System.Drawing.Point(192, 144);
             this.campoLista1PESSOAFISOUJUR.Name = "campoLista1PESSOAFISOUJUR";
             this.campoLista1PESSOAFISOUJUR.Query = 0;
@@ -826,7 +826,7 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(189, 128);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(61, 13);
+            this.label4.Size = new System.Drawing.Size(78, 17);
             this.label4.TabIndex = 24;
             this.label4.Text = "Categoria";
             // 
@@ -836,7 +836,7 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(5, 128);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(82, 13);
+            this.label3.Size = new System.Drawing.Size(103, 17);
             this.label3.TabIndex = 23;
             this.label3.Text = "Classificação";
             // 
@@ -845,16 +845,16 @@
             this.campoLista1PAGREC.Campo = "PAGREC";
             this.campoLista1PAGREC.Default = null;
             this.campoLista1PAGREC.Edita = true;
-            codigoNome19.Codigo = "1";
-            codigoNome19.Nome = "Cliente";
-            codigoNome20.Codigo = "2";
-            codigoNome20.Nome = "Fornecedor";
-            codigoNome21.Codigo = "3";
-            codigoNome21.Nome = "Ambos";
+            codigoNome61.Codigo = "1";
+            codigoNome61.Nome = "Cliente";
+            codigoNome62.Codigo = "2";
+            codigoNome62.Nome = "Fornecedor";
+            codigoNome63.Codigo = "3";
+            codigoNome63.Nome = "Ambos";
             this.campoLista1PAGREC.Lista = new AppLib.Windows.CodigoNome[] {
-        codigoNome19,
-        codigoNome20,
-        codigoNome21};
+        codigoNome61,
+        codigoNome62,
+        codigoNome63};
             this.campoLista1PAGREC.Location = new System.Drawing.Point(8, 144);
             this.campoLista1PAGREC.Name = "campoLista1PAGREC";
             this.campoLista1PAGREC.Query = 0;
@@ -881,7 +881,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(5, 89);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(39, 13);
+            this.label2.Size = new System.Drawing.Size(49, 17);
             this.label2.TabIndex = 20;
             this.label2.Text = "Nome";
             // 
@@ -891,7 +891,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(5, 50);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(91, 13);
+            this.label1.Size = new System.Drawing.Size(116, 17);
             this.label1.TabIndex = 19;
             this.label1.Text = "Nome Fantasia";
             // 
@@ -914,7 +914,7 @@
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.Location = new System.Drawing.Point(5, 11);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(46, 13);
+            this.label21.Size = new System.Drawing.Size(58, 17);
             this.label21.TabIndex = 17;
             this.label21.Text = "Código";
             // 
@@ -1040,7 +1040,7 @@
             this.label44.AutoSize = true;
             this.label44.Location = new System.Drawing.Point(6, 299);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(25, 13);
+            this.label44.Size = new System.Drawing.Size(25, 14);
             this.label44.TabIndex = 52;
             this.label44.Text = "Fax";
             // 
@@ -1088,7 +1088,7 @@
             this.label42.AutoSize = true;
             this.label42.Location = new System.Drawing.Point(251, 299);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(46, 13);
+            this.label42.Size = new System.Drawing.Size(51, 14);
             this.label42.TabIndex = 48;
             this.label42.Text = "Contato";
             // 
@@ -1097,7 +1097,7 @@
             this.label41.AutoSize = true;
             this.label41.Location = new System.Drawing.Point(112, 260);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(40, 13);
+            this.label41.Size = new System.Drawing.Size(42, 14);
             this.label41.TabIndex = 47;
             this.label41.Text = "Celular";
             // 
@@ -1106,7 +1106,7 @@
             this.label40.AutoSize = true;
             this.label40.Location = new System.Drawing.Point(6, 260);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(49, 13);
+            this.label40.Size = new System.Drawing.Size(56, 14);
             this.label40.TabIndex = 46;
             this.label40.Text = "Telefone";
             // 
@@ -1128,7 +1128,7 @@
             this.label18.AutoSize = true;
             this.label18.Location = new System.Drawing.Point(251, 260);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(35, 13);
+            this.label18.Size = new System.Drawing.Size(37, 14);
             this.label18.TabIndex = 44;
             this.label18.Text = "E-Mail";
             // 
@@ -1147,7 +1147,7 @@
             this.label17.AutoSize = true;
             this.label17.Location = new System.Drawing.Point(6, 218);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(50, 13);
+            this.label17.Size = new System.Drawing.Size(56, 14);
             this.label17.TabIndex = 19;
             this.label17.Text = "Municipio";
             // 
@@ -1168,7 +1168,7 @@
             this.campoLookup1CODETD.Name = "campoLookup1CODETD";
             this.campoLookup1CODETD.NomeGrid = null;
             this.campoLookup1CODETD.Query = 0;
-            this.campoLookup1CODETD.Size = new System.Drawing.Size(305, 24);
+            this.campoLookup1CODETD.Size = new System.Drawing.Size(305, 25);
             this.campoLookup1CODETD.Tabela = "FCFO";
             this.campoLookup1CODETD.TabIndex = 9;
             this.campoLookup1CODETD.SetFormConsulta += new AppLib.Windows.CampoLookup.SetFormConsultaHandler(this.campoLookup1CODETD_SetFormConsulta);
@@ -1190,7 +1190,7 @@
             this.campoLookup1CODMUNICIPIO.Name = "campoLookup1CODMUNICIPIO";
             this.campoLookup1CODMUNICIPIO.NomeGrid = null;
             this.campoLookup1CODMUNICIPIO.Query = 0;
-            this.campoLookup1CODMUNICIPIO.Size = new System.Drawing.Size(550, 24);
+            this.campoLookup1CODMUNICIPIO.Size = new System.Drawing.Size(550, 25);
             this.campoLookup1CODMUNICIPIO.Tabela = "FCFO";
             this.campoLookup1CODMUNICIPIO.TabIndex = 10;
             this.campoLookup1CODMUNICIPIO.SetFormConsulta += new AppLib.Windows.CampoLookup.SetFormConsultaHandler(this.campoLookup1CODMUNICIPIO_SetFormConsulta);
@@ -1201,7 +1201,7 @@
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(251, 176);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(40, 13);
+            this.label16.Size = new System.Drawing.Size(44, 14);
             this.label16.TabIndex = 16;
             this.label16.Text = "Estado";
             // 
@@ -1210,7 +1210,7 @@
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(6, 176);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(26, 13);
+            this.label15.Size = new System.Drawing.Size(27, 14);
             this.label15.TabIndex = 15;
             this.label15.Text = "Pais";
             // 
@@ -1231,7 +1231,7 @@
             this.campoLookup1IDPAIS.Name = "campoLookup1IDPAIS";
             this.campoLookup1IDPAIS.NomeGrid = null;
             this.campoLookup1IDPAIS.Query = 0;
-            this.campoLookup1IDPAIS.Size = new System.Drawing.Size(239, 24);
+            this.campoLookup1IDPAIS.Size = new System.Drawing.Size(239, 25);
             this.campoLookup1IDPAIS.Tabela = "FCFO";
             this.campoLookup1IDPAIS.TabIndex = 8;
             this.campoLookup1IDPAIS.SetFormConsulta += new AppLib.Windows.CampoLookup.SetFormConsultaHandler(this.campoLookup1IDPAIS_SetFormConsulta);
@@ -1255,7 +1255,7 @@
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(251, 132);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(35, 13);
+            this.label14.Size = new System.Drawing.Size(37, 14);
             this.label14.TabIndex = 12;
             this.label14.Text = "Bairro";
             // 
@@ -1264,7 +1264,7 @@
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(6, 135);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(58, 13);
+            this.label13.Size = new System.Drawing.Size(65, 14);
             this.label13.TabIndex = 11;
             this.label13.Text = "Tipo Bairro";
             // 
@@ -1285,7 +1285,7 @@
             this.campoLookup1TIPOBAIRRO.Name = "campoLookup1TIPOBAIRRO";
             this.campoLookup1TIPOBAIRRO.NomeGrid = null;
             this.campoLookup1TIPOBAIRRO.Query = 0;
-            this.campoLookup1TIPOBAIRRO.Size = new System.Drawing.Size(239, 24);
+            this.campoLookup1TIPOBAIRRO.Size = new System.Drawing.Size(239, 25);
             this.campoLookup1TIPOBAIRRO.Tabela = "FCFO";
             this.campoLookup1TIPOBAIRRO.TabIndex = 6;
             this.campoLookup1TIPOBAIRRO.SetFormConsulta += new AppLib.Windows.CampoLookup.SetFormConsultaHandler(this.campoLookup1TIPOBAIRRO_SetFormConsulta);
@@ -1308,7 +1308,7 @@
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(6, 92);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(72, 13);
+            this.label12.Size = new System.Drawing.Size(83, 14);
             this.label12.TabIndex = 8;
             this.label12.Text = "Complemento";
             // 
@@ -1317,7 +1317,7 @@
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(562, 52);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(44, 13);
+            this.label11.Size = new System.Drawing.Size(50, 14);
             this.label11.TabIndex = 7;
             this.label11.Text = "Número";
             // 
@@ -1352,7 +1352,7 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(251, 53);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(26, 13);
+            this.label10.Size = new System.Drawing.Size(27, 14);
             this.label10.TabIndex = 4;
             this.label10.Text = "Rua";
             // 
@@ -1361,7 +1361,7 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(6, 52);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(64, 13);
+            this.label9.Size = new System.Drawing.Size(73, 14);
             this.label9.TabIndex = 3;
             this.label9.Text = "Tipo de Rua";
             // 
@@ -1382,7 +1382,7 @@
             this.campoLookup1TIPORUA.Name = "campoLookup1TIPORUA";
             this.campoLookup1TIPORUA.NomeGrid = null;
             this.campoLookup1TIPORUA.Query = 0;
-            this.campoLookup1TIPORUA.Size = new System.Drawing.Size(239, 24);
+            this.campoLookup1TIPORUA.Size = new System.Drawing.Size(239, 25);
             this.campoLookup1TIPORUA.Tabela = "FCFO";
             this.campoLookup1TIPORUA.TabIndex = 2;
             this.campoLookup1TIPORUA.SetFormConsulta += new AppLib.Windows.CampoLookup.SetFormConsultaHandler(this.campoLookup1TIPORUA_SetFormConsulta);
@@ -1405,7 +1405,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(6, 13);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(26, 13);
+            this.label8.Size = new System.Drawing.Size(28, 14);
             this.label8.TabIndex = 0;
             this.label8.Text = "CEP";
             // 
@@ -1476,7 +1476,7 @@
             this.label45.AutoSize = true;
             this.label45.Location = new System.Drawing.Point(6, 299);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(25, 13);
+            this.label45.Size = new System.Drawing.Size(25, 14);
             this.label45.TabIndex = 60;
             this.label45.Text = "Fax";
             // 
@@ -1511,7 +1511,7 @@
             this.label46.AutoSize = true;
             this.label46.Location = new System.Drawing.Point(251, 299);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(46, 13);
+            this.label46.Size = new System.Drawing.Size(51, 14);
             this.label46.TabIndex = 57;
             this.label46.Text = "Contato";
             // 
@@ -1520,7 +1520,7 @@
             this.label47.AutoSize = true;
             this.label47.Location = new System.Drawing.Point(6, 260);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(49, 13);
+            this.label47.Size = new System.Drawing.Size(56, 14);
             this.label47.TabIndex = 56;
             this.label47.Text = "Telefone";
             // 
@@ -1543,7 +1543,7 @@
             this.label48.AutoSize = true;
             this.label48.Location = new System.Drawing.Point(251, 260);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(35, 13);
+            this.label48.Size = new System.Drawing.Size(37, 14);
             this.label48.TabIndex = 54;
             this.label48.Text = "E-Mail";
             this.label48.Visible = false;
@@ -1553,7 +1553,7 @@
             this.label19.AutoSize = true;
             this.label19.Location = new System.Drawing.Point(6, 218);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(50, 13);
+            this.label19.Size = new System.Drawing.Size(56, 14);
             this.label19.TabIndex = 39;
             this.label19.Text = "Municipio";
             // 
@@ -1574,7 +1574,7 @@
             this.campoLookup2CODETDPGTO.Name = "campoLookup2CODETDPGTO";
             this.campoLookup2CODETDPGTO.NomeGrid = null;
             this.campoLookup2CODETDPGTO.Query = 0;
-            this.campoLookup2CODETDPGTO.Size = new System.Drawing.Size(305, 24);
+            this.campoLookup2CODETDPGTO.Size = new System.Drawing.Size(305, 25);
             this.campoLookup2CODETDPGTO.Tabela = "FCFO";
             this.campoLookup2CODETDPGTO.TabIndex = 9;
             this.campoLookup2CODETDPGTO.SetFormConsulta += new AppLib.Windows.CampoLookup.SetFormConsultaHandler(this.campoLookup2CODETDPGTO_SetFormConsulta);
@@ -1596,7 +1596,7 @@
             this.campoLookup1CODMUNICIPIOPGTO.Name = "campoLookup1CODMUNICIPIOPGTO";
             this.campoLookup1CODMUNICIPIOPGTO.NomeGrid = null;
             this.campoLookup1CODMUNICIPIOPGTO.Query = 0;
-            this.campoLookup1CODMUNICIPIOPGTO.Size = new System.Drawing.Size(549, 24);
+            this.campoLookup1CODMUNICIPIOPGTO.Size = new System.Drawing.Size(549, 25);
             this.campoLookup1CODMUNICIPIOPGTO.Tabela = "FCFO";
             this.campoLookup1CODMUNICIPIOPGTO.TabIndex = 10;
             this.campoLookup1CODMUNICIPIOPGTO.SetFormConsulta += new AppLib.Windows.CampoLookup.SetFormConsultaHandler(this.campoLookup1CODMUNICIPIOPGTO_SetFormConsulta);
@@ -1607,7 +1607,7 @@
             this.label20.AutoSize = true;
             this.label20.Location = new System.Drawing.Point(251, 176);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(40, 13);
+            this.label20.Size = new System.Drawing.Size(44, 14);
             this.label20.TabIndex = 36;
             this.label20.Text = "Estado";
             // 
@@ -1616,7 +1616,7 @@
             this.label22.AutoSize = true;
             this.label22.Location = new System.Drawing.Point(6, 176);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(26, 13);
+            this.label22.Size = new System.Drawing.Size(27, 14);
             this.label22.TabIndex = 35;
             this.label22.Text = "Pais";
             // 
@@ -1637,7 +1637,7 @@
             this.campoLookup3IDPAISPGTO.Name = "campoLookup3IDPAISPGTO";
             this.campoLookup3IDPAISPGTO.NomeGrid = null;
             this.campoLookup3IDPAISPGTO.Query = 0;
-            this.campoLookup3IDPAISPGTO.Size = new System.Drawing.Size(239, 24);
+            this.campoLookup3IDPAISPGTO.Size = new System.Drawing.Size(239, 25);
             this.campoLookup3IDPAISPGTO.Tabela = "FCFO";
             this.campoLookup3IDPAISPGTO.TabIndex = 8;
             this.campoLookup3IDPAISPGTO.SetFormConsulta += new AppLib.Windows.CampoLookup.SetFormConsultaHandler(this.campoLookup3IDPAISPGTO_SetFormConsulta);
@@ -1660,7 +1660,7 @@
             this.label23.AutoSize = true;
             this.label23.Location = new System.Drawing.Point(251, 132);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(35, 13);
+            this.label23.Size = new System.Drawing.Size(37, 14);
             this.label23.TabIndex = 32;
             this.label23.Text = "Bairro";
             // 
@@ -1669,7 +1669,7 @@
             this.label24.AutoSize = true;
             this.label24.Location = new System.Drawing.Point(6, 135);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(58, 13);
+            this.label24.Size = new System.Drawing.Size(65, 14);
             this.label24.TabIndex = 31;
             this.label24.Text = "Tipo Bairro";
             // 
@@ -1690,7 +1690,7 @@
             this.campoLookup4TIPOBAIRROPGTO.Name = "campoLookup4TIPOBAIRROPGTO";
             this.campoLookup4TIPOBAIRROPGTO.NomeGrid = null;
             this.campoLookup4TIPOBAIRROPGTO.Query = 0;
-            this.campoLookup4TIPOBAIRROPGTO.Size = new System.Drawing.Size(240, 24);
+            this.campoLookup4TIPOBAIRROPGTO.Size = new System.Drawing.Size(240, 25);
             this.campoLookup4TIPOBAIRROPGTO.Tabela = "FCFO";
             this.campoLookup4TIPOBAIRROPGTO.TabIndex = 6;
             this.campoLookup4TIPOBAIRROPGTO.SetFormConsulta += new AppLib.Windows.CampoLookup.SetFormConsultaHandler(this.campoLookup4TIPOBAIRROPGTO_SetFormConsulta);
@@ -1713,7 +1713,7 @@
             this.label25.AutoSize = true;
             this.label25.Location = new System.Drawing.Point(6, 92);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(72, 13);
+            this.label25.Size = new System.Drawing.Size(83, 14);
             this.label25.TabIndex = 28;
             this.label25.Text = "Complemento";
             // 
@@ -1722,7 +1722,7 @@
             this.label26.AutoSize = true;
             this.label26.Location = new System.Drawing.Point(562, 52);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(44, 13);
+            this.label26.Size = new System.Drawing.Size(50, 14);
             this.label26.TabIndex = 27;
             this.label26.Text = "Número";
             // 
@@ -1757,7 +1757,7 @@
             this.label27.AutoSize = true;
             this.label27.Location = new System.Drawing.Point(251, 53);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(26, 13);
+            this.label27.Size = new System.Drawing.Size(27, 14);
             this.label27.TabIndex = 24;
             this.label27.Text = "Rua";
             // 
@@ -1766,7 +1766,7 @@
             this.label28.AutoSize = true;
             this.label28.Location = new System.Drawing.Point(6, 52);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(64, 13);
+            this.label28.Size = new System.Drawing.Size(73, 14);
             this.label28.TabIndex = 23;
             this.label28.Text = "Tipo de Rua";
             // 
@@ -1787,7 +1787,7 @@
             this.campoLookup5TIPORUAPGTO.Name = "campoLookup5TIPORUAPGTO";
             this.campoLookup5TIPORUAPGTO.NomeGrid = null;
             this.campoLookup5TIPORUAPGTO.Query = 0;
-            this.campoLookup5TIPORUAPGTO.Size = new System.Drawing.Size(240, 24);
+            this.campoLookup5TIPORUAPGTO.Size = new System.Drawing.Size(240, 25);
             this.campoLookup5TIPORUAPGTO.Tabela = "FCFO";
             this.campoLookup5TIPORUAPGTO.TabIndex = 2;
             this.campoLookup5TIPORUAPGTO.SetFormConsulta += new AppLib.Windows.CampoLookup.SetFormConsultaHandler(this.campoLookup5TIPORUAPGTO_SetFormConsulta);
@@ -1810,7 +1810,7 @@
             this.label29.AutoSize = true;
             this.label29.Location = new System.Drawing.Point(6, 13);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(26, 13);
+            this.label29.Size = new System.Drawing.Size(28, 14);
             this.label29.TabIndex = 20;
             this.label29.Text = "CEP";
             // 
@@ -1881,7 +1881,7 @@
             this.label49.AutoSize = true;
             this.label49.Location = new System.Drawing.Point(6, 299);
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(25, 13);
+            this.label49.Size = new System.Drawing.Size(25, 14);
             this.label49.TabIndex = 68;
             this.label49.Text = "Fax";
             // 
@@ -1916,7 +1916,7 @@
             this.label50.AutoSize = true;
             this.label50.Location = new System.Drawing.Point(251, 299);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(46, 13);
+            this.label50.Size = new System.Drawing.Size(51, 14);
             this.label50.TabIndex = 65;
             this.label50.Text = "Contato";
             // 
@@ -1925,7 +1925,7 @@
             this.label51.AutoSize = true;
             this.label51.Location = new System.Drawing.Point(6, 260);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(49, 13);
+            this.label51.Size = new System.Drawing.Size(56, 14);
             this.label51.TabIndex = 64;
             this.label51.Text = "Telefone";
             // 
@@ -1948,7 +1948,7 @@
             this.label52.AutoSize = true;
             this.label52.Location = new System.Drawing.Point(251, 260);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(35, 13);
+            this.label52.Size = new System.Drawing.Size(37, 14);
             this.label52.TabIndex = 62;
             this.label52.Text = "E-Mail";
             this.label52.Visible = false;
@@ -1958,7 +1958,7 @@
             this.label30.AutoSize = true;
             this.label30.Location = new System.Drawing.Point(6, 218);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(50, 13);
+            this.label30.Size = new System.Drawing.Size(56, 14);
             this.label30.TabIndex = 59;
             this.label30.Text = "Municipio";
             // 
@@ -1979,7 +1979,7 @@
             this.campoLookup2CODETDENTREGA.Name = "campoLookup2CODETDENTREGA";
             this.campoLookup2CODETDENTREGA.NomeGrid = null;
             this.campoLookup2CODETDENTREGA.Query = 0;
-            this.campoLookup2CODETDENTREGA.Size = new System.Drawing.Size(305, 24);
+            this.campoLookup2CODETDENTREGA.Size = new System.Drawing.Size(305, 25);
             this.campoLookup2CODETDENTREGA.Tabela = "FCFO";
             this.campoLookup2CODETDENTREGA.TabIndex = 9;
             this.campoLookup2CODETDENTREGA.SetFormConsulta += new AppLib.Windows.CampoLookup.SetFormConsultaHandler(this.campoLookup2CODETDENTREGA_SetFormConsulta);
@@ -2001,7 +2001,7 @@
             this.campoLookup1CODMUNICIPIOENTREGA.Name = "campoLookup1CODMUNICIPIOENTREGA";
             this.campoLookup1CODMUNICIPIOENTREGA.NomeGrid = null;
             this.campoLookup1CODMUNICIPIOENTREGA.Query = 0;
-            this.campoLookup1CODMUNICIPIOENTREGA.Size = new System.Drawing.Size(550, 24);
+            this.campoLookup1CODMUNICIPIOENTREGA.Size = new System.Drawing.Size(550, 25);
             this.campoLookup1CODMUNICIPIOENTREGA.Tabela = "FCFO";
             this.campoLookup1CODMUNICIPIOENTREGA.TabIndex = 10;
             this.campoLookup1CODMUNICIPIOENTREGA.SetFormConsulta += new AppLib.Windows.CampoLookup.SetFormConsultaHandler(this.campoLookup1CODMUNICIPIOENTREGA_SetFormConsulta);
@@ -2012,7 +2012,7 @@
             this.label31.AutoSize = true;
             this.label31.Location = new System.Drawing.Point(251, 176);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(40, 13);
+            this.label31.Size = new System.Drawing.Size(44, 14);
             this.label31.TabIndex = 56;
             this.label31.Text = "Estado";
             // 
@@ -2021,7 +2021,7 @@
             this.label32.AutoSize = true;
             this.label32.Location = new System.Drawing.Point(6, 176);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(26, 13);
+            this.label32.Size = new System.Drawing.Size(27, 14);
             this.label32.TabIndex = 55;
             this.label32.Text = "Pais";
             // 
@@ -2042,7 +2042,7 @@
             this.campoLookup3IDPAISENTREGA.Name = "campoLookup3IDPAISENTREGA";
             this.campoLookup3IDPAISENTREGA.NomeGrid = null;
             this.campoLookup3IDPAISENTREGA.Query = 0;
-            this.campoLookup3IDPAISENTREGA.Size = new System.Drawing.Size(239, 24);
+            this.campoLookup3IDPAISENTREGA.Size = new System.Drawing.Size(239, 25);
             this.campoLookup3IDPAISENTREGA.Tabela = "FCFO";
             this.campoLookup3IDPAISENTREGA.TabIndex = 8;
             this.campoLookup3IDPAISENTREGA.SetFormConsulta += new AppLib.Windows.CampoLookup.SetFormConsultaHandler(this.campoLookup3IDPAISENTREGA_SetFormConsulta);
@@ -2065,7 +2065,7 @@
             this.label33.AutoSize = true;
             this.label33.Location = new System.Drawing.Point(251, 132);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(35, 13);
+            this.label33.Size = new System.Drawing.Size(37, 14);
             this.label33.TabIndex = 52;
             this.label33.Text = "Bairro";
             // 
@@ -2074,7 +2074,7 @@
             this.label34.AutoSize = true;
             this.label34.Location = new System.Drawing.Point(6, 135);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(58, 13);
+            this.label34.Size = new System.Drawing.Size(65, 14);
             this.label34.TabIndex = 51;
             this.label34.Text = "Tipo Bairro";
             // 
@@ -2095,7 +2095,7 @@
             this.campoLookup4TIPOBAIRROENTREGA.Name = "campoLookup4TIPOBAIRROENTREGA";
             this.campoLookup4TIPOBAIRROENTREGA.NomeGrid = null;
             this.campoLookup4TIPOBAIRROENTREGA.Query = 0;
-            this.campoLookup4TIPOBAIRROENTREGA.Size = new System.Drawing.Size(239, 24);
+            this.campoLookup4TIPOBAIRROENTREGA.Size = new System.Drawing.Size(239, 25);
             this.campoLookup4TIPOBAIRROENTREGA.Tabela = "FCFO";
             this.campoLookup4TIPOBAIRROENTREGA.TabIndex = 6;
             this.campoLookup4TIPOBAIRROENTREGA.SetFormConsulta += new AppLib.Windows.CampoLookup.SetFormConsultaHandler(this.campoLookup4TIPOBAIRROENTREGA_SetFormConsulta);
@@ -2118,7 +2118,7 @@
             this.label35.AutoSize = true;
             this.label35.Location = new System.Drawing.Point(6, 92);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(72, 13);
+            this.label35.Size = new System.Drawing.Size(83, 14);
             this.label35.TabIndex = 48;
             this.label35.Text = "Complemento";
             // 
@@ -2127,7 +2127,7 @@
             this.label36.AutoSize = true;
             this.label36.Location = new System.Drawing.Point(562, 52);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(44, 13);
+            this.label36.Size = new System.Drawing.Size(50, 14);
             this.label36.TabIndex = 47;
             this.label36.Text = "Número";
             // 
@@ -2162,7 +2162,7 @@
             this.label37.AutoSize = true;
             this.label37.Location = new System.Drawing.Point(251, 53);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(26, 13);
+            this.label37.Size = new System.Drawing.Size(27, 14);
             this.label37.TabIndex = 44;
             this.label37.Text = "Rua";
             // 
@@ -2171,7 +2171,7 @@
             this.label38.AutoSize = true;
             this.label38.Location = new System.Drawing.Point(6, 52);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(64, 13);
+            this.label38.Size = new System.Drawing.Size(73, 14);
             this.label38.TabIndex = 43;
             this.label38.Text = "Tipo de Rua";
             // 
@@ -2192,7 +2192,7 @@
             this.campoLookup5TIPORUAENTREGA.Name = "campoLookup5TIPORUAENTREGA";
             this.campoLookup5TIPORUAENTREGA.NomeGrid = null;
             this.campoLookup5TIPORUAENTREGA.Query = 0;
-            this.campoLookup5TIPORUAENTREGA.Size = new System.Drawing.Size(239, 24);
+            this.campoLookup5TIPORUAENTREGA.Size = new System.Drawing.Size(239, 25);
             this.campoLookup5TIPORUAENTREGA.Tabela = "FCFO";
             this.campoLookup5TIPORUAENTREGA.TabIndex = 2;
             this.campoLookup5TIPORUAENTREGA.SetFormConsulta += new AppLib.Windows.CampoLookup.SetFormConsultaHandler(this.campoLookup5TIPORUAENTREGA_SetFormConsulta);
@@ -2215,7 +2215,7 @@
             this.label39.AutoSize = true;
             this.label39.Location = new System.Drawing.Point(6, 13);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(26, 13);
+            this.label39.Size = new System.Drawing.Size(28, 14);
             this.label39.TabIndex = 40;
             this.label39.Text = "CEP";
             // 
@@ -2251,7 +2251,7 @@
             this.label57.AutoSize = true;
             this.label57.Location = new System.Drawing.Point(5, 167);
             this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(106, 13);
+            this.label57.Size = new System.Drawing.Size(118, 14);
             this.label57.TabIndex = 4;
             this.label57.Text = "Históricos Anteriores";
             // 
@@ -2273,7 +2273,7 @@
             this.label56.AutoSize = true;
             this.label56.Location = new System.Drawing.Point(5, 11);
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(112, 13);
+            this.label56.Size = new System.Drawing.Size(126, 14);
             this.label56.TabIndex = 0;
             this.label56.Text = "Descrição do Histórico";
             // 
@@ -2285,40 +2285,40 @@
             this.ClientSize = new System.Drawing.Size(730, 594);
             this.Controls.Add(this.tabControl1);
             this.Name = "FormClienteCadastro";
-            query1.Conexao = "Start";
-            query1.Consulta = new string[] {
+            query7.Conexao = "Start";
+            query7.Consulta = new string[] {
         "SELECT *",
         "",
         "FROM FCFO",
         "WHERE FCFO.CODCOLIGADA = ?",
         "  AND FCFO.CODCFO = ?"};
-            query1.Parametros = new string[] {
+            query7.Parametros = new string[] {
         "CODCOLIGADA",
         "CODCFO"};
-            query2.Conexao = "Start";
-            query2.Consulta = new string[] {
+            query8.Conexao = "Start";
+            query8.Consulta = new string[] {
         "SELECT *",
         "",
         "FROM FCFOCOMPL",
         "WHERE FCFOCOMPL.CODCOLIGADA = ?",
         "  AND FCFOCOMPL.CODCFO = ?"};
-            query2.Parametros = new string[] {
+            query8.Parametros = new string[] {
         "CODCOLIGADA",
         "CODCFO"};
-            query3.Conexao = "Start";
-            query3.Consulta = new string[] {
+            query9.Conexao = "Start";
+            query9.Consulta = new string[] {
         "SELECT TOP 1 *",
         "",
         "FROM FCFODEF",
         "WHERE FCFODEF.CODCOLIGADA = 1",
         "  AND FCFODEF.CODCFO = ?",
         "  AND FCFODEF.CODCOLCFO IN (0,1)"};
-            query3.Parametros = new string[] {
+            query9.Parametros = new string[] {
         "CODCFO"};
             this.Querys = new AppLib.Windows.Query[] {
-        query1,
-        query2,
-        query3};
+        query7,
+        query8,
+        query9};
             this.TabelaPrincipal = "FCFO";
             this.Text = "Cadastro de Cliente";
             this.SalvarObject += new AppLib.Windows.FormCadastroObject.Salvar2Handler(this.FormClienteCadastro_Salvar2);

@@ -61,6 +61,8 @@ namespace AppFatureClient
             campoLista5.DisplayMember = "DisplayMember";
             campoLista5.ValueMember = "ValueMember";
 
+            campoTexto1.textEdit1.Properties.Mask.EditMask = "00.00.000.00000";
+
             this.edita = edita;
 
             this.Text = "Cadastro de Produtos";
@@ -97,6 +99,9 @@ namespace AppFatureClient
 
             tabControl1.TabPages.Remove(tabPage10);
             tabControl1.TabPages.Remove(tabPage8);
+            tabControl1.TabPages.Remove(tabPage15); //Composição
+
+            campoLista6.Set(null);
         }
 
         private void InserirEstados(object sender, EventArgs e)
@@ -200,6 +205,22 @@ namespace AppFatureClient
                             cePrecoFixo.Checked = false;
                             cePrecoFixo.Enabled = true;
                             listaProduto.Enabled = true;
+                        }
+
+                        if (dt.Rows[0]["FLAGCOMPOSTO"] != DBNull.Value)
+                        {
+                            if (Convert.ToInt32(dt.Rows[0]["FLAGCOMPOSTO"]) == 1)
+                            {
+                                tabControl1.TabPages.Add(tabPage15); //Composição
+                            }
+                            else
+                            {
+                                tabControl1.TabPages.Remove(tabPage15); //Composição
+                            }
+                        }
+                        else
+                        {
+                            tabControl1.TabPages.Remove(tabPage15); //Composição
                         }
                     }
                 }
@@ -482,10 +503,12 @@ namespace AppFatureClient
 
         private void campoTextoIDPRD_TextChanged(object sender, EventArgs e)
         {
+            
             string sSQL = @"SELECT CODIGOPRD FROM TPRD WHERE CODIGOPRD = ? AND CODCOLIGADA = ?";
             object CodigoPrd = AppLib.Context.poolConnection.Get(this.Conexao).ExecGetField(null, sSQL, new Object[] { campoTexto1.Get(), AppLib.Context.Empresa });
             if (CodigoPrd != null)
             {
+                /*
                 if (CodigoPrd.ToString().Length == 14)
                 {
                     campoLista5.SelectedIndex = 3;
@@ -505,14 +528,14 @@ namespace AppFatureClient
                 {
                     campoLista5.SelectedIndex = 0;
                 }
-
+                */
                 if (campoTexto2.Get() != null && campoTexto3.Get() != null)
                 {
                     this.Text = "Cadastro de Produtos - " + campoTexto2.Get().ToString() + " - " + campoTexto3.Get().ToString();
                 }
             }
         }
-
+        
         #region LOOKUP
 
         private bool campoLookup1_SetFormConsulta(object sender, EventArgs e)
@@ -949,7 +972,7 @@ namespace AppFatureClient
                 // Último Nível - Sim
                 if (campoLista2.comboBox1.SelectedIndex == 0)
                 {
-                    if (campoTexto1.Get().Length != 14)
+                    if (campoTexto1.Get().Length != 15)
                     {
                         MessageBox.Show("Código do Produto inválido.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         return false;
@@ -1194,6 +1217,63 @@ namespace AppFatureClient
                 {
                     MessageBox.Show("Favor informar a Tabela de Preço.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return false;
+                }
+            }
+
+            //Valida Composição
+            if (cbCodigoDP.SelectedItem != null)
+            {
+                if (Regex.IsMatch(cbCodigoDP.SelectedItem.ToString(), @"\d+"))
+                {
+                    string codigoDP = Regex.Match(cbCodigoDP.SelectedItem.ToString(), @"\d+").Value;
+
+                    if (codigoDP.Length == 3)
+                    {
+                        try
+                        {
+                            string sql = String.Format(@"select * from ZTPRODUTOREGRA where CODDP = '{0}'", codigoDP);
+                            DataTable dt = MetodosSQL.GetDT(sql);
+
+                            if (dt.Rows.Count > 0)
+                            {
+                                bool isProdutoComposto = false;
+
+                                if ((int)dt.Rows[0]["FLAGCOMPOSTO"] == 1) { isProdutoComposto = true; }
+                                else { isProdutoComposto = false; }
+
+                                if (isProdutoComposto)
+                                {
+                                    sql = String.Format(@"SELECT 
+	                                            TPRODUTO.CODIGOPRD,
+                                                TPRODUTO.IDPRD,
+	                                            TPRODUTO.CODIGOAUXILIAR,
+	                                            TPRODUTO.NOMEFANTASIA,
+	                                            ZTPRODUTOCOMPLEMENTO.QUANTIDADE as 'QTDUSADA',        
+                                                ZTPRODUTOCOMPLEMENTO.PRECO,       
+                                                TPRODUTO.INATIVO
+                                            FROM 
+	                                            TPRODUTO
+										
+                                                inner join ZTPRODUTOCOMPLEMENTO
+                                                on ZTPRODUTOCOMPLEMENTO.IDPRD = TPRODUTO.IDPRD
+
+                                            where ZTPRODUTOCOMPLEMENTO.IDPRDPRINCIPAL = {0}", campoTextoIDPRD.Get());
+
+                                    DataTable dtc = MetodosSQL.GetDT(sql);
+
+                                    if (dtc.Rows.Count <= 0)
+                                    {
+                                        throw new Exception("É obrigatório informar a composição do produto devido a regra.");
+                                    }
+                                }
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show(ex.Message, "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            return false;
+                        }
+                    }
                 }
             }
 
@@ -1765,7 +1845,7 @@ ORDER BY CODIGOPRD DESC";
             {
                 if (tbPrecoAcabado.EditValue != null)
                 {
-                    precoAcabado = tbPrecoAcabado.Text.ToString().Replace(",", ".");
+                    precoAcabado = tbPrecoAcabado.Text.ToString().Replace(".", "").Replace(",", ".");
                 }
                 else
                 {
@@ -1809,9 +1889,9 @@ ORDER BY CODIGOPRD DESC";
 														where IDPRD = {0}",
                                                              /*IDPRD*/ campoTextoIDPRD.Get(),
                                                                 /*CODDP*/ cbCodigoDP.EditValue != null ? cbCodigoDP.SelectedItem.ToString() : "",
-                                                                /*LARGURA*/ tbLargura.Enabled && !string.IsNullOrEmpty(tbLargura.Text) ? tbLargura.Text.Replace(",", ".") : "0",
-                                                                /*ALTURA*/ tbAltura.Enabled && !string.IsNullOrEmpty(tbAltura.Text) ? tbAltura.Text.Replace(",", ".") : "0",
-                                                                /*COMPRIMENTO*/ tbComprimento.Enabled && !string.IsNullOrEmpty(tbComprimento.Text) ? tbComprimento.Text.Replace(",", ".") : "0",
+                                                                /*LARGURA*/ tbLargura.Enabled && !string.IsNullOrEmpty(tbLargura.Text) ? tbLargura.Text.Replace(".", "").Replace(",", ".") : "0",
+                                                                /*ALTURA*/ tbAltura.Enabled && !string.IsNullOrEmpty(tbAltura.Text) ? tbAltura.Text.Replace(".", "").Replace(",", ".") : "0",
+                                                                /*COMPRIMENTO*/ tbComprimento.Enabled && !string.IsNullOrEmpty(tbComprimento.Text) ? tbComprimento.Text.Replace(".", "").Replace(",", ".") : "0",
                                                                 /*DISTANCIAMENTO*/ !string.IsNullOrEmpty(medidaD.Get()) ? medidaD.Get().ToString() : "0",
                                                                 ///*DISTANCIAMENTO*/ medidaD.comboBox1.Text == " - Selecione" ? "0" : medidaD.Get(),
                                                                 /*CHAPA*/ listaChapa.Enabled ? listaChapa.Get() : "",
@@ -1824,7 +1904,7 @@ ORDER BY CODIGOPRD DESC";
                                                                 /*PESO*/ 0 /*peso.Enabled ? peso.Get().ToString().Replace(",", ".") : "0"*/,
                                                                 /*TABELAPRECO*/ listaProduto.Get(),
                                                                 /*USAPRECOFIXO*/ cePrecoFixo.Checked ? 1 : 0,
-                                                                /*PRECOFIXO*/ cePrecoFixo.Checked ? tbPrecoAcabado.Text.Replace(",", ".") : "0",
+                                                                /*PRECOFIXO*/ cePrecoFixo.Checked ? tbPrecoAcabado.Text.Replace(".", "").Replace(",", ".") : "0",
                                                                 /* CALCULADO COMO ACABADO*/ chkCalculadoFormulado.Checked ? 1 : 0,
                                                                 /* PREÇO CALCULADO*/ precoAcabado);
                     }
@@ -1854,9 +1934,9 @@ ORDER BY CODIGOPRD DESC";
                                                         /*PRECOCALCULADO*/ {18})",
                                                                 /*IDPRD*/ campoTextoIDPRD.Get(),
                                                                 /*CODDP*/ cbCodigoDP.EditValue != null ? cbCodigoDP.SelectedItem.ToString() : "",
-                                                                /*LARGURA*/ tbLargura.Enabled && !string.IsNullOrEmpty(tbLargura.Text) ? tbLargura.Text.Replace(",", ".") : "0",
-                                                                /*ALTURA*/ tbAltura.Enabled && !string.IsNullOrEmpty(tbAltura.Text) ? tbAltura.Text.Replace(",", ".") : "0",
-                                                                /*COMPRIMENTO*/ tbComprimento.Enabled && !string.IsNullOrEmpty(tbComprimento.Text) ? tbComprimento.Text.Replace(",", ".") : "0",
+                                                                /*LARGURA*/ tbLargura.Enabled && !string.IsNullOrEmpty(tbLargura.Text) ? tbLargura.Text.Replace(".", "").Replace(",", ".") : "0",
+                                                                /*ALTURA*/ tbAltura.Enabled && !string.IsNullOrEmpty(tbAltura.Text) ? tbAltura.Text.Replace(".", "").Replace(",", ".") : "0",
+                                                                /*COMPRIMENTO*/ tbComprimento.Enabled && !string.IsNullOrEmpty(tbComprimento.Text) ? tbComprimento.Text.Replace(".", "").Replace(",", ".") : "0",
                                                                  /*DISTANCIAMENTO*/ !string.IsNullOrEmpty(medidaD.Get()) ? medidaD.Get().ToString() : "0",
                                                                 /*CHAPA*/ listaChapa.Enabled ? listaChapa.Get() : "",
                                                                 /*ACABAMENTO*/ listaAcabamento.Enabled ? listaAcabamento.Get() : "",
@@ -1868,7 +1948,7 @@ ORDER BY CODIGOPRD DESC";
                                                                 /*PESO*/ 0 /*peso.Enabled ? peso.Get().ToString().Replace(",", ".") : "0"*/,
                                                                 /*TABELAPRECO*/ listaProduto.Get(),
                                                                 /*USAPRECOFIXO*/ cePrecoFixo.Checked ? 1 : 0,
-                                                                /*PRECOFIXO*/  cePrecoFixo.Checked ? tbPrecoAcabado.Text.Replace(",", ".") : "0",
+                                                                /*PRECOFIXO*/  cePrecoFixo.Checked ? tbPrecoAcabado.Text.Replace(".", "").Replace(",", ".") : "0",
                                                                 /* CALCULADO COMO ACABADO*/ chkCalculadoFormulado.Checked ? 1 : 0,
                                                                 /* PREÇO CALCULADO*/ precoAcabado);
 
@@ -2734,6 +2814,10 @@ ORDER BY CODIGOPRD DESC";
                 {
                     // Situação da Mercadoria
                     listaSituacaoMercadoria.Set(dtTPRDFISCAL.Rows[i]["SITUACAOMERCADORIA"].ToString());
+                    campoLista6.Set(dtTPRDFISCAL.Rows[i]["TIPOTRIBUTACAO"].ToString());
+                    campoLookup17.Set(dtTPRDFISCAL.Rows[i]["CODCONTA"].ToString());
+                    campoLookup17.setDescricao();
+                    campoTexto7.Set(dtTPRDFISCAL.Rows[i]["CODIGOCEST"].ToString());
                 }
             }
 
@@ -3131,6 +3215,11 @@ ORDER BY CODIGOPRD DESC";
         }
 
         private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbCodigoDP_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
