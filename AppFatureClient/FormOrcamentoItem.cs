@@ -116,7 +116,6 @@ namespace AppFatureClient
                 {
                     c.Enabled = Habilitar;
                 }
-
             }
         }
 
@@ -198,7 +197,6 @@ namespace AppFatureClient
             txtNUMPEDIDO.Set(null);
             txtNuMITEMPEDIDO.Set(null);
 
-
             campoDP.Set(null);
             campoDP.Enabled = true;
             medidaA.Set(null);
@@ -232,7 +230,6 @@ namespace AppFatureClient
             listaRaio.Enabled = false;
             listaPintura.Enabled = false;
             txtCorPintura.Enabled = false;
-
 
             gridControl1.DataSource = new DataTable();
 
@@ -494,7 +491,6 @@ namespace AppFatureClient
                 MessageBox.Show("Insira um campo para o DP");
             }
         }
-
 
         private void AtualizaGridItem(object sender, EventArgs e)
         {
