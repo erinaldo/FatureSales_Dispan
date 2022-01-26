@@ -195,6 +195,7 @@ namespace AppFatureClient.New.Forms.Register
             dtAcabamento.Rows.Add("MIN", "Minimizada");
             dtAcabamento.Rows.Add("BC", "Bicromatizado");
             dtAcabamento.Rows.Add("CD", "Cadmiado");
+            dtAcabamento.Rows.Add("Geomet", "Geomet");
 
             cbAcabamento.DataSource = dtAcabamento;
             cbAcabamento.ValueMember = "Codigo";

@@ -449,6 +449,13 @@ namespace AppFatureClient.New.Forms.Vision
             New.Class.Controller.Produto produto = new New.Class.Controller.Produto();
             DataRow row = gvProdutos.GetDataRow(Convert.ToInt32(gvProdutos.GetSelectedRows().GetValue(0).ToString()));
 
+            string sSql = @"SELECT IDPRD FROM ZTPRODUTOCOMPL WHERE CODCOLIGADA = ? AND IDPRD = ?";
+            if (!AppLib.Context.poolConnection.Get("Start").ExecHasRows(sSql, AppLib.Context.Empresa, row["IDPRD"]))
+            {
+                sSql = @"INSERT INTO ZTPRODUTOCOMPL (CODCOLIGADA, CODFILIAL, IDPRD, CODDP) VALUES (?,?,?,?)";
+                AppLib.Context.poolConnection.Get("Start").ExecTransaction(sSql, AppLib.Context.Empresa, 1, row["IDPRD"], string.Empty);
+            }
+
             // Atualiza o Código do DP
             if (gvProdutos.FocusedColumn.FieldName == "COD_DP")
             {

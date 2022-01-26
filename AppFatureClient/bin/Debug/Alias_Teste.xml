@@ -6,7 +6,7 @@
       <DbType>SQL</DbType>
       <DbProviderType>SqlClient</DbProviderType>
       <ServerName>192.168.1.43</ServerName>
-      <DbName>CorporeRM_Fature</DbName>
+      <DbName>CorporeRM_Teste</DbName>
       <UserName>rm</UserName>
       <Password>\E9\25V\DDL\C8\BE\FD</Password>
     </Alias>  

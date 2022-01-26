@@ -276,7 +276,7 @@
             this.ribbonControl1.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2013;
             this.ribbonControl1.ShowApplicationButton = DevExpress.Utils.DefaultBoolean.False;
             this.ribbonControl1.ShowToolbarCustomizeItem = false;
-            this.ribbonControl1.Size = new System.Drawing.Size(912, 143);
+            this.ribbonControl1.Size = new System.Drawing.Size(1352, 175);
             this.ribbonControl1.StatusBar = this.ribbonStatusBar1;
             this.ribbonControl1.Toolbar.ShowCustomizeItem = false;
             // 
@@ -1066,10 +1066,10 @@
             this.ribbonStatusBar1.ItemLinks.Add(this.barStaticItem4);
             this.ribbonStatusBar1.ItemLinks.Add(this.barStaticItem5);
             this.ribbonStatusBar1.ItemLinks.Add(this.barStaticItem1);
-            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 433);
+            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 427);
             this.ribbonStatusBar1.Name = "ribbonStatusBar1";
             this.ribbonStatusBar1.Ribbon = this.ribbonControl1;
-            this.ribbonStatusBar1.Size = new System.Drawing.Size(912, 31);
+            this.ribbonStatusBar1.Size = new System.Drawing.Size(1352, 37);
             // 
             // popupMenu1
             // 
@@ -1705,7 +1705,7 @@
             this.AllowFormGlass = DevExpress.Utils.DefaultBoolean.True;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(912, 464);
+            this.ClientSize = new System.Drawing.Size(1352, 464);
             this.Controls.Add(this.documentViewer1);
             this.Controls.Add(this.ribbonStatusBar1);
             this.Controls.Add(this.ribbonControl1);

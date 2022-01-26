@@ -107,8 +107,8 @@
             AppLib.Windows.CodigoNome codigoNome76 = new AppLib.Windows.CodigoNome();
             AppLib.Windows.CodigoNome codigoNome77 = new AppLib.Windows.CodigoNome();
             AppLib.Windows.CodigoNome codigoNome78 = new AppLib.Windows.CodigoNome();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormProdutoCadastro));
             AppLib.Windows.CodigoNome codigoNome79 = new AppLib.Windows.CodigoNome();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormProdutoCadastro));
             AppLib.Windows.CodigoNome codigoNome80 = new AppLib.Windows.CodigoNome();
             AppLib.Windows.CodigoNome codigoNome81 = new AppLib.Windows.CodigoNome();
             AppLib.Windows.CodigoNome codigoNome82 = new AppLib.Windows.CodigoNome();
@@ -118,6 +118,7 @@
             AppLib.Windows.CodigoNome codigoNome86 = new AppLib.Windows.CodigoNome();
             AppLib.Windows.CodigoNome codigoNome87 = new AppLib.Windows.CodigoNome();
             AppLib.Windows.CodigoNome codigoNome88 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome89 = new AppLib.Windows.CodigoNome();
             AppLib.Windows.Query query1 = new AppLib.Windows.Query();
             AppLib.Windows.Query query2 = new AppLib.Windows.Query();
             AppLib.Windows.Query query3 = new AppLib.Windows.Query();
@@ -3511,6 +3512,8 @@
             codigoNome70.Nome = "Bicromatizado";
             codigoNome71.Codigo = "CD";
             codigoNome71.Nome = "Cadmiado";
+            codigoNome72.Codigo = "Geomet";
+            codigoNome72.Nome = "Geomet";
             this.listaAcabamento.Lista = new AppLib.Windows.CodigoNome[] {
         codigoNome60,
         codigoNome61,
@@ -3523,7 +3526,8 @@
         codigoNome68,
         codigoNome69,
         codigoNome70,
-        codigoNome71};
+        codigoNome71,
+        codigoNome72};
             this.listaAcabamento.Location = new System.Drawing.Point(436, 68);
             this.listaAcabamento.Name = "listaAcabamento";
             this.listaAcabamento.Query = 0;
@@ -3547,16 +3551,16 @@
             this.listaVirola.Campo = null;
             this.listaVirola.Default = null;
             this.listaVirola.Edita = true;
-            codigoNome72.Codigo = null;
-            codigoNome72.Nome = "Selecione";
-            codigoNome73.Codigo = "1";
-            codigoNome73.Nome = "Sim";
-            codigoNome74.Codigo = "0";
-            codigoNome74.Nome = "Não";
+            codigoNome73.Codigo = null;
+            codigoNome73.Nome = "Selecione";
+            codigoNome74.Codigo = "1";
+            codigoNome74.Nome = "Sim";
+            codigoNome75.Codigo = "0";
+            codigoNome75.Nome = "Não";
             this.listaVirola.Lista = new AppLib.Windows.CodigoNome[] {
-        codigoNome72,
         codigoNome73,
-        codigoNome74};
+        codigoNome74,
+        codigoNome75};
             this.listaVirola.Location = new System.Drawing.Point(436, 94);
             this.listaVirola.Name = "listaVirola";
             this.listaVirola.Query = 0;
@@ -3569,19 +3573,19 @@
             this.listaComplemento.Campo = null;
             this.listaComplemento.Default = null;
             this.listaComplemento.Edita = true;
-            codigoNome75.Codigo = null;
-            codigoNome75.Nome = "Selecione";
-            codigoNome76.Codigo = "0";
-            codigoNome76.Nome = "Aparafusada";
-            codigoNome77.Codigo = "1";
-            codigoNome77.Nome = "Com fexo";
-            codigoNome78.Codigo = "2";
-            codigoNome78.Nome = "Com cantoneira";
+            codigoNome76.Codigo = null;
+            codigoNome76.Nome = "Selecione";
+            codigoNome77.Codigo = "0";
+            codigoNome77.Nome = "Aparafusada";
+            codigoNome78.Codigo = "1";
+            codigoNome78.Nome = "Com fexo";
+            codigoNome79.Codigo = "2";
+            codigoNome79.Nome = "Com cantoneira";
             this.listaComplemento.Lista = new AppLib.Windows.CodigoNome[] {
-        codigoNome75,
         codigoNome76,
         codigoNome77,
-        codigoNome78};
+        codigoNome78,
+        codigoNome79};
             this.listaComplemento.Location = new System.Drawing.Point(436, 14);
             this.listaComplemento.Name = "listaComplemento";
             this.listaComplemento.Query = 0;
@@ -3951,31 +3955,31 @@
             this.listaSituacaoMercadoria.Campo = "SITUACAOMERCADORIA";
             this.listaSituacaoMercadoria.Default = null;
             this.listaSituacaoMercadoria.Edita = true;
-            codigoNome79.Codigo = "01";
-            codigoNome79.Nome = "Produto para Revenda";
-            codigoNome80.Codigo = "02";
-            codigoNome80.Nome = "Materia Prima";
-            codigoNome81.Codigo = "03";
-            codigoNome81.Nome = "Produtos em Elaboração";
-            codigoNome82.Codigo = "04";
-            codigoNome82.Nome = "Produto Acabado";
-            codigoNome83.Codigo = "08";
-            codigoNome83.Nome = "Embalagem";
-            codigoNome84.Codigo = "09";
-            codigoNome84.Nome = "Subproduto";
-            codigoNome85.Codigo = "10";
-            codigoNome85.Nome = "Produto Intermediário";
-            codigoNome86.Codigo = "15";
-            codigoNome86.Nome = "Outros Insumos";
+            codigoNome80.Codigo = "01";
+            codigoNome80.Nome = "Produto para Revenda";
+            codigoNome81.Codigo = "02";
+            codigoNome81.Nome = "Materia Prima";
+            codigoNome82.Codigo = "03";
+            codigoNome82.Nome = "Produtos em Elaboração";
+            codigoNome83.Codigo = "04";
+            codigoNome83.Nome = "Produto Acabado";
+            codigoNome84.Codigo = "08";
+            codigoNome84.Nome = "Embalagem";
+            codigoNome85.Codigo = "09";
+            codigoNome85.Nome = "Subproduto";
+            codigoNome86.Codigo = "10";
+            codigoNome86.Nome = "Produto Intermediário";
+            codigoNome87.Codigo = "15";
+            codigoNome87.Nome = "Outros Insumos";
             this.listaSituacaoMercadoria.Lista = new AppLib.Windows.CodigoNome[] {
-        codigoNome79,
         codigoNome80,
         codigoNome81,
         codigoNome82,
         codigoNome83,
         codigoNome84,
         codigoNome85,
-        codigoNome86};
+        codigoNome86,
+        codigoNome87};
             this.listaSituacaoMercadoria.Location = new System.Drawing.Point(9, 75);
             this.listaSituacaoMercadoria.Name = "listaSituacaoMercadoria";
             this.listaSituacaoMercadoria.Query = 4;
@@ -4052,13 +4056,13 @@
             this.campoLista6.Campo = "TIPOTRIBUTACAO";
             this.campoLista6.Default = "0";
             this.campoLista6.Edita = true;
-            codigoNome87.Codigo = "0";
-            codigoNome87.Nome = "Tributação do ICMS/IPI";
-            codigoNome88.Codigo = "1";
-            codigoNome88.Nome = "Tributação pelo ISS";
+            codigoNome88.Codigo = "0";
+            codigoNome88.Nome = "Tributação do ICMS/IPI";
+            codigoNome89.Codigo = "1";
+            codigoNome89.Nome = "Tributação pelo ISS";
             this.campoLista6.Lista = new AppLib.Windows.CodigoNome[] {
-        codigoNome87,
-        codigoNome88};
+        codigoNome88,
+        codigoNome89};
             this.campoLista6.Location = new System.Drawing.Point(9, 29);
             this.campoLista6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.campoLista6.Name = "campoLista6";

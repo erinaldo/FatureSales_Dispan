@@ -482,10 +482,23 @@ WHERE TPRODUTO.IDPRD = {0}", Convert.ToInt32(TabelaItens.Rows[i]["IDPRD"]));
                             // Inserir os outros códigos referentes à composição
                             if (item.CODAUXILIAR.Contains("DP800") || ((item.CODAUXILIAR.Contains("DP801") || ((item.CODAUXILIAR.Contains("DP802") || (item.CODAUXILIAR.Contains("DP803") || ((item.CODAUXILIAR.Contains("DP804") || ((item.CODAUXILIAR.Contains("DP805")))))))))))
                             {
+                                foreach(ItemComposicao itemComp in listComp)
+                                {
+                                    if (itemComp.NSEQ == item.NSEQITEMMOV)
+                                    {
+                                        if (item.COMPOSICAO == null)
+                                            item.COMPOSICAO = new List<ItemComposicao>();
+
+                                        item.COMPOSICAO.Add(itemComp);
+                                    }
+                                }
+
+                                /*
                                 if (listComp[0].NSEQ == item.NSEQITEMMOV)
                                 {
                                     item.COMPOSICAO = listComp;
                                 }
+                                */
                             }
                         }
                     }
@@ -602,6 +615,36 @@ WHERE TPRODUTO.IDPRD = {0}", Convert.ToInt32(TabelaItens.Rows[i]["IDPRD"]));
             }
 
             return composicao;
+        }
+
+        public TITMMOV GetItemBySeq(List<TITMMOV> listTITMMOV, int nseqitmmov)
+        {
+            TITMMOV itemTemp = new TITMMOV();
+
+            foreach (TITMMOV itemTITMMOV in listTITMMOV)
+            {
+                if(itemTITMMOV.NSEQITEMMOV == nseqitmmov)
+                {
+                    itemTemp = itemTITMMOV;
+                }
+            }
+
+            return itemTemp;
+        }
+
+        public TITMMOV GetItemByNumSeq(List<TITMMOV> listTITMMOV, int numseq)
+        {
+            TITMMOV itemTemp = new TITMMOV();
+
+            foreach (TITMMOV itemTITMMOV in listTITMMOV)
+            {
+                if (itemTITMMOV.NUMEROSEQUENCIAL == numseq)
+                {
+                    itemTemp = itemTITMMOV;
+                }
+            }
+
+            return itemTemp;
         }
 
         #endregion

@@ -331,7 +331,7 @@ WHERE
                 {
                     valorAtualizado = Convert.ToDecimal(row["PRECO_REVENDA"]);
 
-                    AppLib.Context.poolConnection.Get("Start").ExecTransaction(@"UPDATE TPRODUTODEF SET PRECO1 = ? WHERE CODCOLIGADA = ? AND IDPRD = ?", new object[] { UsaPrecoFixo, AppLib.Context.Empresa, Convert.ToInt32(row["IDPRD"]) });
+                    AppLib.Context.poolConnection.Get("Start").ExecTransaction(@"UPDATE TPRODUTODEF SET PRECO1 = ? WHERE CODCOLIGADA = ? AND IDPRD = ?", new object[] { valorAtualizado, AppLib.Context.Empresa, Convert.ToInt32(row["IDPRD"]) });
 
                     return;
                 }
@@ -450,6 +450,7 @@ WHERE
             combo.Items.Add("MIN");
             combo.Items.Add("BC");
             combo.Items.Add("CD");
+            combo.Items.Add("GEOMET");
 
             control.RepositoryItems.Add(combo);
             view.Columns["ACABAMENTO"].ColumnEdit = combo;

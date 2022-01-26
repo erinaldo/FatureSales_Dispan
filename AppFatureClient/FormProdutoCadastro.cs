@@ -669,7 +669,6 @@ namespace AppFatureClient
             gridData1.Parametros = new object[] { campoTexto14.Get(), campoTextoIDPRD.Get() };
         }
 
-
         #region FormProdutoCompostoCadastro
         private void gridData1_Editar(object sender, EventArgs e)
         {
@@ -1271,7 +1270,7 @@ namespace AppFatureClient
                         catch (Exception ex)
                         {
                             MessageBox.Show(ex.Message, "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                            return false;
+                            //return false;
                         }
                     }
                 }

@@ -30,21 +30,22 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormTabPrecoCadastro));
+            AppLib.Windows.CodigoNome codigoNome1 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome2 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome3 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome4 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome5 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome6 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome7 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome8 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome9 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome10 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome11 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome12 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome13 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome14 = new AppLib.Windows.CodigoNome();
+            AppLib.Windows.CodigoNome codigoNome15 = new AppLib.Windows.CodigoNome();
             AppLib.Windows.CodigoNome codigoNome16 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome17 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome18 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome19 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome20 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome21 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome22 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome23 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome24 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome25 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome26 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome27 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome28 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome29 = new AppLib.Windows.CodigoNome();
-            AppLib.Windows.CodigoNome codigoNome30 = new AppLib.Windows.CodigoNome();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButtonNOVO = new System.Windows.Forms.ToolStripButton();
             this.toolStripButtonEXCLUIR = new System.Windows.Forms.ToolStripButton();
@@ -85,6 +86,7 @@
             // toolStrip1
             // 
             this.toolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButtonNOVO,
             this.toolStripButtonEXCLUIR,
@@ -108,7 +110,7 @@
             this.toolStripButtonNOVO.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButtonNOVO.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonNOVO.Name = "toolStripButtonNOVO";
-            this.toolStripButtonNOVO.Size = new System.Drawing.Size(62, 36);
+            this.toolStripButtonNOVO.Size = new System.Drawing.Size(71, 36);
             this.toolStripButtonNOVO.Text = "Novo";
             this.toolStripButtonNOVO.Click += new System.EventHandler(this.toolStripButtonNOVO_Click);
             // 
@@ -118,7 +120,7 @@
             this.toolStripButtonEXCLUIR.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButtonEXCLUIR.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonEXCLUIR.Name = "toolStripButtonEXCLUIR";
-            this.toolStripButtonEXCLUIR.Size = new System.Drawing.Size(70, 36);
+            this.toolStripButtonEXCLUIR.Size = new System.Drawing.Size(80, 36);
             this.toolStripButtonEXCLUIR.Text = "Excluir";
             this.toolStripButtonEXCLUIR.Click += new System.EventHandler(this.toolStripButtonEXCLUIR_Click);
             // 
@@ -174,7 +176,7 @@
             this.toolStripButtonANEXOS.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButtonANEXOS.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonANEXOS.Name = "toolStripButtonANEXOS";
-            this.toolStripButtonANEXOS.Size = new System.Drawing.Size(86, 36);
+            this.toolStripButtonANEXOS.Size = new System.Drawing.Size(100, 36);
             this.toolStripButtonANEXOS.Text = "Anexos";
             // 
             // toolStripButtonPROCESSOS
@@ -183,7 +185,7 @@
             this.toolStripButtonPROCESSOS.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButtonPROCESSOS.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonPROCESSOS.Name = "toolStripButtonPROCESSOS";
-            this.toolStripButtonPROCESSOS.Size = new System.Drawing.Size(99, 36);
+            this.toolStripButtonPROCESSOS.Size = new System.Drawing.Size(116, 36);
             this.toolStripButtonPROCESSOS.Text = "Processos";
             // 
             // panel1
@@ -253,16 +255,16 @@
             this.listaTipo.Campo = null;
             this.listaTipo.Default = null;
             this.listaTipo.Edita = true;
-            codigoNome16.Codigo = null;
-            codigoNome16.Nome = "Selecione";
-            codigoNome17.Codigo = "304";
-            codigoNome17.Nome = "INOX";
-            codigoNome18.Codigo = "316";
-            codigoNome18.Nome = "INOX";
+            codigoNome1.Codigo = null;
+            codigoNome1.Nome = "Selecione";
+            codigoNome2.Codigo = "304";
+            codigoNome2.Nome = "INOX";
+            codigoNome3.Codigo = "316";
+            codigoNome3.Nome = "INOX";
             this.listaTipo.Lista = new AppLib.Windows.CodigoNome[] {
-        codigoNome16,
-        codigoNome17,
-        codigoNome18};
+        codigoNome1,
+        codigoNome2,
+        codigoNome3};
             this.listaTipo.Location = new System.Drawing.Point(433, 30);
             this.listaTipo.Name = "listaTipo";
             this.listaTipo.Query = 0;
@@ -275,7 +277,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(430, 14);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(27, 13);
+            this.label4.Size = new System.Drawing.Size(31, 14);
             this.label4.TabIndex = 113;
             this.label4.Text = "Tipo";
             // 
@@ -319,7 +321,7 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(673, 14);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(23, 13);
+            this.label3.Size = new System.Drawing.Size(30, 17);
             this.label3.TabIndex = 110;
             this.label3.Text = "Fim";
             // 
@@ -341,7 +343,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(567, 14);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(32, 13);
+            this.label2.Size = new System.Drawing.Size(40, 17);
             this.label2.TabIndex = 108;
             this.label2.Text = "Inicio";
             // 
@@ -362,43 +364,46 @@
             this.listaAcabamento.Campo = null;
             this.listaAcabamento.Default = null;
             this.listaAcabamento.Edita = true;
-            codigoNome19.Codigo = "";
-            codigoNome19.Nome = "Selecione";
-            codigoNome20.Codigo = "PZ";
-            codigoNome20.Nome = "Pré-Zincado";
-            codigoNome21.Codigo = "GE";
-            codigoNome21.Nome = "Galv. Eletrolitico";
-            codigoNome22.Codigo = "NAT";
-            codigoNome22.Nome = "Natural";
-            codigoNome23.Codigo = "INOX";
-            codigoNome23.Nome = "Aço Inox";
-            codigoNome24.Codigo = "GF";
-            codigoNome24.Nome = "Galv. a Fogo";
-            codigoNome25.Codigo = "AL";
-            codigoNome25.Nome = "Aluminio";
-            codigoNome26.Codigo = "GL";
-            codigoNome26.Nome = "Galvalume";
-            codigoNome27.Codigo = "PVC";
-            codigoNome27.Nome = "PVC";
-            codigoNome28.Codigo = "MIN";
-            codigoNome28.Nome = "Minimizada";
-            codigoNome29.Codigo = "BC ";
-            codigoNome29.Nome = "Bicromatizado";
-            codigoNome30.Codigo = "CD";
-            codigoNome30.Nome = "Cadmiado";
+            codigoNome4.Codigo = "";
+            codigoNome4.Nome = "Selecione";
+            codigoNome5.Codigo = "PZ";
+            codigoNome5.Nome = "Pré-Zincado";
+            codigoNome6.Codigo = "GE";
+            codigoNome6.Nome = "Galv. Eletrolitico";
+            codigoNome7.Codigo = "NAT";
+            codigoNome7.Nome = "Natural";
+            codigoNome8.Codigo = "INOX";
+            codigoNome8.Nome = "Aço Inox";
+            codigoNome9.Codigo = "GF";
+            codigoNome9.Nome = "Galv. a Fogo";
+            codigoNome10.Codigo = "AL";
+            codigoNome10.Nome = "Aluminio";
+            codigoNome11.Codigo = "GL";
+            codigoNome11.Nome = "Galvalume";
+            codigoNome12.Codigo = "PVC";
+            codigoNome12.Nome = "PVC";
+            codigoNome13.Codigo = "MIN";
+            codigoNome13.Nome = "Minimizada";
+            codigoNome14.Codigo = "BC ";
+            codigoNome14.Nome = "Bicromatizado";
+            codigoNome15.Codigo = "CD";
+            codigoNome15.Nome = "Cadmiado";
+            codigoNome16.Codigo = "Geomet";
+            codigoNome16.Nome = "Geomet";
             this.listaAcabamento.Lista = new AppLib.Windows.CodigoNome[] {
-        codigoNome19,
-        codigoNome20,
-        codigoNome21,
-        codigoNome22,
-        codigoNome23,
-        codigoNome24,
-        codigoNome25,
-        codigoNome26,
-        codigoNome27,
-        codigoNome28,
-        codigoNome29,
-        codigoNome30};
+        codigoNome4,
+        codigoNome5,
+        codigoNome6,
+        codigoNome7,
+        codigoNome8,
+        codigoNome9,
+        codigoNome10,
+        codigoNome11,
+        codigoNome12,
+        codigoNome13,
+        codigoNome14,
+        codigoNome15,
+        codigoNome16};
             this.listaAcabamento.Location = new System.Drawing.Point(243, 30);
             this.listaAcabamento.Name = "listaAcabamento";
             this.listaAcabamento.Query = 0;
@@ -413,7 +418,7 @@
             this.label64.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label64.Location = new System.Drawing.Point(240, 14);
             this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(67, 13);
+            this.label64.Size = new System.Drawing.Size(87, 17);
             this.label64.TabIndex = 105;
             this.label64.Text = "Acabamento";
             // 
@@ -422,7 +427,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(8, 15);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 13);
+            this.label1.Size = new System.Drawing.Size(44, 14);
             this.label1.TabIndex = 1;
             this.label1.Text = "Código";
             // 

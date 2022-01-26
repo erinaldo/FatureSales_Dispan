@@ -522,6 +522,8 @@ WHERE TITMMOV.CODCOLIGADA = TPRD.CODCOLIGADA
 
                                     if (sStatus == "S")
                                     {
+                                        ExcluirComposicaoItem(msgexclusao.Retorno.ToString());
+
                                         splashScreenManager1.CloseWaitForm();
 
                                         bExclusao = true;
@@ -544,13 +546,6 @@ WHERE TITMMOV.CODCOLIGADA = TPRD.CODCOLIGADA
                                 {
                                     //System.Threading.Thread.Sleep(5000); //5s
                                 }
-                            }
-
-                            if (ExcluirComposicaoItem(msgexclusao.Retorno.ToString()))
-                            {
-                                splashScreenManager1.CloseWaitForm();
-
-                                MessageBox.Show(msgexclusao.Mensagem);
                             }
 
                             MessageBox.Show(msgexclusao.Mensagem);

@@ -5110,9 +5110,7 @@ FROM TITMMOV (NOLOCK) WHERE IDMOV = '{5}'", /*VALORIPI*/ IPI.ValorDoTributo.ToSt
                     */
                     #endregion
 
-
                     #region Rotina Manual
-
 
                     sSql = @"SELECT IDMOV FROM ZTMOVFAT WHERE CODCOLIGADA = :CODCOLIGADA AND IDMOV = :IDMOV AND STATUS IN ('A','R')";
                     if (this.DBS.QueryFind(sSql, movimento.CodColigada, movimento.IdMov[0]))

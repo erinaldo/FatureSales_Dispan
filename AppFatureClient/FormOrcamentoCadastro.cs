@@ -217,9 +217,23 @@ namespace AppFatureClient
                     gcItensMovimento.DataSource = Item.GetTabela();
                     //gvItensMovimento.BestFitColumns();
 
+                    List<ItemComposicao> itemCompTemp = new List<ItemComposicao>();
                     for (int i = 0; i < Item.TabelaItens.Rows.Count; i++)
                     {
+                        if (ValidaComposicao(Convert.ToInt32(Item.TabelaItens.Rows[i]["IDPRD"])))
+                        {
+                            foreach (ItemComposicao iCompTemp in GetItemComposicao(Convert.ToInt32(Item.TabelaItens.Rows[i]["NSEQITMMOV"])))
+                            {
+                                itemCompTemp.Add(iCompTemp);
+                            }
+                        }
+                        else
+                        {
+                            Itens = Item.CarregaItens();
+                        }
+
                         // Carrega os itens no objeto
+                        /*
                         if (ValidaComposicao(Convert.ToInt32(Item.TabelaItens.Rows[i]["IDPRD"])))
                         {
                             Itens = Item.CarregaItens(GetItemComposicao(Convert.ToInt32(Item.TabelaItens.Rows[i]["NSEQITMMOV"])));
@@ -228,7 +242,10 @@ namespace AppFatureClient
                         {
                             Itens = Item.CarregaItens();
                         }
+                        */
                     }
+
+                    Itens = Item.CarregaItens(itemCompTemp);
 
                     util.SetVisaoUsuario(gvItensMovimento, "ITENS");
 
@@ -704,6 +721,7 @@ namespace AppFatureClient
 
             Itens = Item.CarregaItens();
 
+            /*
             for (int i = 0; i < Itens.Count; i++)
             {
                 if (ValidaComposicao(Itens[i].IDPRD))
@@ -711,6 +729,25 @@ namespace AppFatureClient
                     Itens = Item.CarregaItens(GetItemComposicao(Itens[i].NSEQITEMMOV));
                 }
             }
+            */
+
+            List<ItemComposicao> itemCompTemp = new List<ItemComposicao>();
+            for (int i = 0; i < Itens.Count; i++)
+            {
+                if (ValidaComposicao(Convert.ToInt32(Itens[i].IDPRD)))
+                {
+                    foreach (ItemComposicao iCompTemp in GetItemComposicao(Convert.ToInt32(Itens[i].NSEQITEMMOV)))
+                    {
+                        itemCompTemp.Add(iCompTemp);
+                    }
+                }
+                else
+                {
+                    Itens = Item.CarregaItens();
+                }
+            }
+
+            Itens = Item.CarregaItens(itemCompTemp);
 
             gcItensMovimento.DataSource = Item.AtualizaGridView(Itens);
 
@@ -793,7 +830,8 @@ namespace AppFatureClient
                 {
                     List<TITMMOV> lista = Itens;
 
-                    NseqPrevio = ProcuraMaiorNumeroSequencial(Itens) + 1;
+                    NseqPrevio = ProcuraMaiorNumeroSequencial(Itens, "NSEQITMMOV") + 1;
+                    NumeroSequencial = ProcuraMaiorNumeroSequencial(Itens, "NUMEROSEQUENCIAL") + 1;
 
                     for (int i = 0; i <= lista.Count - 1; i++)
                     {
@@ -812,7 +850,7 @@ namespace AppFatureClient
                 {
                     f.xTITMMOV.NSEQITEMMOV = NseqPrevio;
 
-                    f.xTITMMOV.NUMEROSEQUENCIAL = NseqPrevio;
+                    f.xTITMMOV.NUMEROSEQUENCIAL = NumeroSequencial;
 
                     Itens.Add(f.xTITMMOV);
                     CalcularSaldo();
@@ -1045,10 +1083,12 @@ namespace AppFatureClient
             decimal ValorTotal = 0;
             int Quantidade = 0;
             int numeroSequencial = 0;
+            int nseqitmmov = 0;
             decimal ValorDesconto = 0;
             decimal ValorDespesa = 0;
 
             string numPedido = "";
+            string historicolongo = "";
 
             if (CopiandoNumeroPedido)
             {
@@ -1134,17 +1174,23 @@ namespace AppFatureClient
 
                         orc.EspelhaGridView(dtItens);
 
+                        List<ItemComposicao> itemCompTemp = new List<ItemComposicao>();
                         for (int i = 0; i < Itens.Count; i++)
                         {
                             if (ValidaComposicao(Itens[i].IDPRD))
                             {
-                                Itens = orc.CarregaItens(GetItemComposicao(Itens[i].NSEQITEMMOV));
+                                foreach (ItemComposicao iCompTemp in GetItemComposicao(Itens[i].NSEQITEMMOV))
+                                {
+                                    itemCompTemp.Add(iCompTemp);
+                                }
                             }
                             else
                             {
                                 Itens = orc.CarregaItens();
                             }
                         }
+
+                        Itens = orc.CarregaItens(itemCompTemp);
 
                         return;
                     }
@@ -1153,6 +1199,7 @@ namespace AppFatureClient
                         // Quantidade
                         PrecoUnitario = Convert.ToDecimal(view.GetRowCellValue(e.RowHandle, "PRECOUNITARIO"));
                         Quantidade = Convert.ToInt32(view.GetRowCellValue(e.RowHandle, "QUANTIDADE"));
+                        nseqitmmov = Convert.ToInt32(view.GetRowCellValue(e.RowHandle, "NSEQITMMOV"));
 
                         ValorTotal = PrecoUnitario * Quantidade;
 
@@ -1160,36 +1207,72 @@ namespace AppFatureClient
                         IsValorTotalCalculado = true;
                         // Atribui o valor do Valor Total
                         view.SetRowCellValue(e.RowHandle, "VALORTOTAL", ValorTotal);
+
+                        foreach (TITMMOV item in Itens)
+                        {
+                            if (item.NSEQITEMMOV == nseqitmmov)
+                            {
+                                item.PRECOUNITARIO = PrecoUnitario;
+                                item.QUANTIDADE = Quantidade;
+                                item.VALORTOTAL = ValorTotal;
+                            }
+                        }
+
+                        New.Models.OrcamentoItens Item = new New.Models.OrcamentoItens();
+                        gcItensMovimento.DataSource = Item.AtualizaGridView(Itens);
                     }
                     else if (view.FocusedColumn.FieldName == "NUMPEDIDO")
                     {
                         // Número do Pedido
                         numPedido = view.GetRowCellValue(e.RowHandle, "NUMPEDIDO").ToString();
+                        nseqitmmov = Convert.ToInt32(view.GetRowCellValue(e.RowHandle, "NSEQITMMOV"));
 
                         IsPrecoUnitarioCalculado = true;
                         IsValorTotalCalculado = true;
 
                         view.SetRowCellValue(e.RowHandle, "NUMPEDIDO", numPedido);
+
+                        foreach (TITMMOV item in Itens)
+                        {
+                            if (item.NSEQITEMMOV == nseqitmmov)
+                            {
+                                item.NUMPEDIDO = numPedido;
+                            }
+                        }
+
+                        New.Models.OrcamentoItens Item = new New.Models.OrcamentoItens();
+                        gcItensMovimento.DataSource = Item.AtualizaGridView(Itens);
                     }
                     else if (view.FocusedColumn.FieldName == "NUMITEMPEDIDO")
                     {
                         // Número do Pedido
                         numPedido = view.GetRowCellValue(e.RowHandle, "NUMITEMPEDIDO").ToString();
+                        nseqitmmov = Convert.ToInt32(view.GetRowCellValue(e.RowHandle, "NSEQITMMOV"));
 
                         IsPrecoUnitarioCalculado = true;
                         IsValorTotalCalculado = true;
 
                         view.SetRowCellValue(e.RowHandle, "NUMITEMPEDIDO", numPedido);
+
+                        foreach (TITMMOV item in Itens)
+                        {
+                            if (item.NSEQITEMMOV == nseqitmmov)
+                            {
+                                item.NUMITEMPEDIDO = numPedido;
+                            }
+                        }
+
+                        New.Models.OrcamentoItens Item = new New.Models.OrcamentoItens();
+                        gcItensMovimento.DataSource = Item.AtualizaGridView(Itens);
+
                     }
                     else if (view.FocusedColumn.FieldName == "NUMEROSEQUENCIAL")
                     {
                         // Número do Pedido
                         numeroSequencial = Convert.ToInt32(view.GetRowCellValue(e.RowHandle, "NUMEROSEQUENCIAL"));
+                        nseqitmmov = Convert.ToInt32(view.GetRowCellValue(e.RowHandle, "NSEQITMMOV"));
 
-                        IsPrecoUnitarioCalculado = true;
-                        IsValorTotalCalculado = true;
-
-                        view.SetRowCellValue(e.RowHandle, "NUMEROSEQUENCIAL", numeroSequencial);
+                        //view.SetRowCellValue(e.RowHandle, "NUMEROSEQUENCIAL", numeroSequencial);
 
                         // Atualizar o valor do objeto PRECOUNITARIO do obejto itens
                         New.Models.OrcamentoItens orc = new New.Models.OrcamentoItens();
@@ -1197,7 +1280,86 @@ namespace AppFatureClient
 
                         orc.EspelhaGridView(dtItens);
 
-                        Itens = orc.CarregaItens();
+                        TITMMOV itemSelecionado = orc.GetItemBySeq(Itens, nseqitmmov);
+                        TITMMOV itemOrigem = orc.GetItemByNumSeq(Itens, numeroSequencial);
+
+                        if (itemOrigem.NSEQITEMMOV > 0)
+                        {
+                            bool flag = false;
+                            List<TITMMOV> itensTemp = new List<TITMMOV>();
+                            foreach (TITMMOV item in Itens)
+                            {
+                                if (item.NSEQITEMMOV == itemSelecionado.NSEQITEMMOV || item.NSEQITEMMOV == itemOrigem.NSEQITEMMOV)
+                                {
+                                    flag = true;
+                                }
+
+                                if (!flag)
+                                {
+                                    itensTemp.Add(item);
+                                }
+
+                                flag = false;
+                            }
+
+                            int numeroSequencialantigo = itemSelecionado.NUMEROSEQUENCIAL;
+                            itemSelecionado.NUMEROSEQUENCIAL = numeroSequencial;
+                            itemOrigem.NUMEROSEQUENCIAL = numeroSequencialantigo;
+
+                            itensTemp.Add(itemSelecionado);
+                            itensTemp.Add(itemOrigem);
+
+                            Itens = itensTemp;
+                        }
+                        else
+                        {
+                            bool flag = false;
+                            List<TITMMOV> itensTemp = new List<TITMMOV>();
+                            foreach (TITMMOV item in Itens)
+                            {
+                                if (item.NSEQITEMMOV == itemSelecionado.NSEQITEMMOV)
+                                {
+                                    flag = true;
+                                }
+
+                                if (!flag)
+                                {
+                                    itensTemp.Add(item);
+                                }
+
+                                flag = false;
+                            }
+
+                            itemSelecionado.NUMEROSEQUENCIAL = numeroSequencial;
+
+                            itensTemp.Add(itemSelecionado);
+
+                            Itens = itensTemp;
+                        }
+
+                        New.Models.OrcamentoItens Item = new New.Models.OrcamentoItens();
+                        gcItensMovimento.DataSource = Item.AtualizaGridView(Itens);
+                    }
+                    else if (view.FocusedColumn.FieldName == "HISTORICOLONGO")
+                    {
+                        historicolongo = view.GetRowCellValue(e.RowHandle, "HISTORICOLONGO").ToString();
+                        nseqitmmov = Convert.ToInt32(view.GetRowCellValue(e.RowHandle, "NSEQITMMOV"));
+
+                        IsPrecoUnitarioCalculado = true;
+                        IsValorTotalCalculado = true;
+
+                        view.SetRowCellValue(e.RowHandle, "HISTORICOLONGO", historicolongo);
+
+                        foreach (TITMMOV item in Itens)
+                        {
+                            if (item.NSEQITEMMOV == nseqitmmov)
+                            {
+                                item.HISTORICOLONGO = historicolongo;
+                            }
+                        }
+
+                        New.Models.OrcamentoItens Item = new New.Models.OrcamentoItens();
+                        gcItensMovimento.DataSource = Item.AtualizaGridView(Itens);
                     }
                 }
                 else
@@ -1541,7 +1703,7 @@ namespace AppFatureClient
             }
         }
 
-        private int ProcuraMaiorNumeroSequencial(List<TITMMOV> itens)
+        private int ProcuraMaiorNumeroSequencial(List<TITMMOV> itens, string tipo)
         {
             if (itens.Count == 0)
             {
@@ -1552,9 +1714,20 @@ namespace AppFatureClient
 
             foreach (TITMMOV item in itens)
             {
-                if (Convert.ToInt32(item.NSEQITEMMOV) > sequencialMaximo)
+                if (tipo == "NSEQITMMOV")
                 {
-                    sequencialMaximo = Convert.ToInt32(item.NSEQITEMMOV);
+                    if (Convert.ToInt32(item.NSEQITEMMOV) > sequencialMaximo)
+                    {
+                        sequencialMaximo = Convert.ToInt32(item.NSEQITEMMOV);
+                    }
+                }
+
+                if (tipo == "NUMEROSEQUENCIAL")
+                {
+                    if (Convert.ToInt32(item.NUMEROSEQUENCIAL) > sequencialMaximo)
+                    {
+                        sequencialMaximo = Convert.ToInt32(item.NUMEROSEQUENCIAL);
+                    }
                 }
             }
 
@@ -1742,11 +1915,21 @@ namespace AppFatureClient
 
                 gcItensMovimento.DataSource = orc.EspelhaGridView(dt);
 
-                Itens = orc.CarregaItens();
+                //Itens = orc.CarregaItens();
+                List<TITMMOV> itemTemp = new List<TITMMOV>();
+
+                itemTemp.Add(f.xTITMMOV);
+                foreach (TITMMOV titmmov in Itens)
+                {
+                    if (titmmov.NSEQITEMMOV != f.xTITMMOV.NSEQITEMMOV)
+                        itemTemp.Add(titmmov);
+                }
+
+                Itens = itemTemp;
 
                 var item = f.xTITMMOV;
 
-                Itens[indexRegistroSelecionado] = item;
+                //Itens[indexRegistroSelecionado] = item;
 
                 //Itens.RemoveAll(x => x.NSEQITEMMOV == New.Class.EnviromentHelper.NSEQITEMMOV.ToString());
 
@@ -2000,7 +2183,7 @@ namespace AppFatureClient
                                                         inner join TPRODUTO TP
                                                         on TP.IDPRD = ZORCAMENTOITEMCOMPOSTO.IDPRD
 
-                                                        where CODCOLIGADA = 1 and CODFILIAL = 1 and CODCOLPRD = 1 and IDMOV = '{0}' and NSEQ = '{1}'",
+                                                        where CODCOLIGADA = 1 and CODCOLPRD = 1 and IDMOV = '{0}' and NSEQ = '{1}'",
                             CopiaDeMovimento == true ? IDMOVCOPIADO : campoInteiroIDMOV.Get(), nSeqItem);
 
             DataTable itemComposicao = MetodosSQL.GetDT(Comando);
@@ -2040,6 +2223,7 @@ namespace AppFatureClient
                     itemComposto.NSEQ = (int)itc["NSEQ"];
                     itemComposto.QUANTIDADE = (decimal)itc["QUANTIDADE"];
                     itemComposto.PRECOUNITARIO = (decimal)itc["PRECOUNITARIO"];
+                    itemComposto.TOTAL = (decimal)itc["TOTAL"];
 
                     it.Add(itemComposto);
                 }
@@ -2070,6 +2254,7 @@ namespace AppFatureClient
                                 itemComposto.NSEQ = item.NSEQ;
                                 itemComposto.QUANTIDADE = item.QUANTIDADE;
                                 itemComposto.PRECOUNITARIO = item.PRECOUNITARIO;
+                                itemComposto.TOTAL = item.TOTAL;
 
                                 it.Add(itemComposto);
                             }
@@ -3087,7 +3272,7 @@ WHERE CODCOLIGADA = ?
 
                 List<String> queryItemComposto = new List<string>();
 
-                queryItemComposto.Add(String.Format(@"delete from ZORCAMENTOITEMCOMPOSTO where CODCOLIGADA = 1 and CODFILIAL = 1 and IDMOV = '{0}'", String.IsNullOrWhiteSpace(campoInteiroIDMOV.Get().ToString()) ? oGuid.ToString() : campoInteiroIDMOV.Get().ToString()));
+                queryItemComposto.Add(String.Format(@"delete from ZORCAMENTOITEMCOMPOSTO where CODCOLIGADA = 1 and IDMOV = '{0}'", String.IsNullOrWhiteSpace(campoInteiroIDMOV.Get().ToString()) ? oGuid.ToString() : campoInteiroIDMOV.Get().ToString()));
 
                 List<AppInterop.MovMovimentoItemPar> lMovMovimentoItemPar = new List<AppInterop.MovMovimentoItemPar>();
 
@@ -3101,16 +3286,18 @@ WHERE CODCOLIGADA = ?
                     DataTable dtItens = gcItensMovimento.DataSource as DataTable;
                     OrcItem.TabelaItens = OrcItem.EspelhaGridView(dtItens);
 
-                    Itens = OrcItem.CarregaItens();
+                    //Itens = OrcItem.CarregaItens();
 
                     item = Itens[i];
 
                     item.UNIDADE = ValidaUnidade(item);
 
+                    /*
                     if (this.Acao == AppLib.Global.Types.Acao.Editar)
                     {
                         item.COMPOSICAO = OrcItem.GetComposicaoInserida(Convert.ToInt32(item.NSEQITEMMOV), Convert.ToInt32(campoInteiroIDMOV.Get()));
                     }
+                    */
 
                     AppInterop.MovMovimentoItemPar itmmov = new AppInterop.MovMovimentoItemPar();
 
@@ -3277,7 +3464,8 @@ WHERE CODCOLIGADA = ?
 	                                                                                           /*NSEQ*/ {3},
 	                                                                                           /*IDPRD*/ {4},
 	                                                                                           /*QUANTIDADE*/ {5},
-	                                                                                           /*PRECOUNITARIO*/ {6})",
+	                                                                                           /*PRECOUNITARIO*/ {6},
+                                                                                               /*TOTAL*/ {7})",
 
                                                                                                    /*CODCOLIGADA*/ itmComposicao.CODCOLIGADA,
                                                                                                    /*CODFILIAL*/ itmComposicao.CODFILIAL,
@@ -3286,7 +3474,9 @@ WHERE CODCOLIGADA = ?
                                                                                                    /*IDPRD*/ itmComposicao.IDPRD,
                                                                                                    /*QUANTIDADE*/ itmComposicao.CODIGOPRD.StartsWith("14") ? item.DISTANCIAMENTO != "" ? item.DISTANCIAMENTO.Substring(6) : itmComposicao.QUANTIDADE.ToString().Replace(",", ".") : itmComposicao.QUANTIDADE.ToString().Replace(",", "."),
                                                                                                    /*UNIDADEMEDIDA itmComposicao.UNIDADEMEDIDA,*/
-                                                                                                   /*PRECOUNITARIO*/ itmComposicao.PRECOUNITARIO.ToString().Replace(",", "."));
+                                                                                                   /*PRECOUNITARIO*/ itmComposicao.PRECOUNITARIO.ToString().Replace(",", "."),
+                                                                                                   /*TOTAL*/ itmComposicao.TOTAL.ToString().Replace(",", ".")
+                                                                                                   );
                             queryItemComposto.Add(sSql);
                         }
                     }
@@ -3368,7 +3558,6 @@ WHERE CODCOLIGADA = ?
                     sSql = String.Format(@"update ZORCAMENTOITEMCOMPOSTO
                                                     set IDMOV = {0}
                                                     where CODCOLIGADA = 1
-                                                    and CODFILIAL = 1
                                                     and IDMOV = '{1}'", campoInteiroIDMOV.Get(), oGuid);
                     MetodosSQL.ExecQuery(sSql);
 

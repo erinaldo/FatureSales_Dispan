@@ -103,7 +103,7 @@ namespace AppLib.Data
             int ano = DateTime.Now.Year;
             int mesSelecionado = mesAtual - mes;
 
-            DateTime result = new DateTime(ano, mesSelecionado, 1);
+            DateTime result = new DateTime(ano, mesAtual, 1).AddMonths(-mes);
 
             if (AppLib.Util.Classificacao.getSGBD(Conexao) == AppLib.Util.SGBD.SQL)
             {

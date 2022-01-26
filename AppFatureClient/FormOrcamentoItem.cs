@@ -458,6 +458,129 @@ namespace AppFatureClient
                                     medidaD.comboBox1.SelectedIndex = 0;
                                     break;
                             }
+
+                            HabilitarControleGroupEspecs(false);
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show(ex.Message);
+                        }
+                    }
+                }
+            }
+        }
+
+        private void Item(object sender, EventArgs e)
+        {
+            if (campoDP.Get() != null)
+            {
+                if (Regex.IsMatch(campoDP.Get(), @"\d+"))
+                {
+                    codigoDP = Regex.Match(campoDP.Get(), @"\d+").Value;
+
+                    if (codigoDP.Length == 3)
+                    {
+                        try
+                        {
+                            EventosFiltragem(false);
+                            string sql = String.Format(@"select (select count(1) from ZTPRODUTOCOMPL where CODDP LIKE '{0}%') as 'PRODUTO',
+	                                                (select count(1) from ZTPRODUTOREGRA where CODDP LIKE '{0}%') as 'REGRA'", codigoDP);
+
+                            int CPROD = int.Parse(MetodosSQL.GetField(sql, "PRODUTO"));
+                            int CREG = int.Parse(MetodosSQL.GetField(sql, "REGRA"));
+
+                            if (CREG == 1)
+                            {
+                                HabilitarControleGroupEspecs(true);
+                                sql = String.Format(@"select * from ZTPRODUTOREGRA where CODDP = '{0}'", codigoDP);
+
+                                DataTable dt = MetodosSQL.GetDT(sql);
+
+                                medidaD.Enabled = (int)dt.Rows[0]["FLAGDISTANCIAMENTO"] == 1;
+                                listaVirola.Enabled = (int)dt.Rows[0]["FLAGVIROLA"] == 1;
+                                raio.Enabled = (int)dt.Rows[0]["FLAGRAIO"] == 1;
+                                listaRaio.Enabled = (int)dt.Rows[0]["FLAGTIPORAIO"] == 1;
+                                listaSepto.Enabled = (int)dt.Rows[0]["FLAGSEPTO"] == 1;
+                                listaComplemento.Enabled = (int)dt.Rows[0]["FLAGCOMPLEMENTO"] == 1;
+                                peso.Enabled = (int)dt.Rows[0]["FLAGPESO"] == 1;
+
+                                if ((int)dt.Rows[0]["FLAGLARGURA"] == 0) { medidaA.Set(null); }
+                                if ((int)dt.Rows[0]["FLAGALTURA"] == 0) { medidaB.Set(null); }
+                                if ((int)dt.Rows[0]["FLAGCOMPRIMENTO"] == 0) { medidaC.Set(null); }
+                                if ((int)dt.Rows[0]["FLAGDISTANCIAMENTO"] == 0) { medidaD.Set(null); }
+                                if ((int)dt.Rows[0]["FLAGCHAPA"] == 0) { listaChapa.Set(null); }
+                                if ((int)dt.Rows[0]["FLAGACABAMENTO"] == 0) { listaAcabamento.Set(null); }
+                                if ((int)dt.Rows[0]["FLAGVIROLA"] == 0) { listaVirola.Set(null); }
+                                if ((int)dt.Rows[0]["FLAGRAIO"] == 0) { raio.Set(null); }
+                                if ((int)dt.Rows[0]["FLAGTIPORAIO"] == 0) { listaRaio.Set(null); }
+                                if ((int)dt.Rows[0]["FLAGSEPTO"] == 0) { listaSepto.Set(null); }
+                                if ((int)dt.Rows[0]["FLAGCOMPLEMENTO"] == 0) { listaComplemento.Set(null); }
+                                if ((int)dt.Rows[0]["FLAGPESO"] == 0) { peso.Set(null); }
+
+                                if ((int)dt.Rows[0]["FLAGCOMPOSTO"] == 1) { isProdutoComposto = true; }
+                                else { isProdutoComposto = false; }
+
+                                verificaDP = false;
+                                AtualizaGridItem(null, null);
+                                EventosFiltragem(true);
+
+                                CarregaComplemento();
+                            }
+                            else if (CPROD > 0 && CREG == 0)
+                            {
+                                HabilitarControleGroupEspecs(false);
+                                verificaDP = false;
+                                AtualizaGridItem(null, null);
+                            }
+                            else
+                            {
+                                HabilitarControleGroupEspecs(false);
+                                gridControl1.DataSource = new DataTable();
+
+                                verificaDP = false;
+                                AtualizaGridItem(null, null);
+                            }
+
+                            listaPintura.Enabled = false;
+                            txtCorPintura.Enabled = false;
+
+                            if (listaAcabamento.Get() == "INOX")
+                            {
+                                if (!string.IsNullOrEmpty(xTITMMOV.TIPOINOX))
+                                {
+                                    listaTipoInox.Enabled = true;
+                                }
+                            }
+                            else
+                            {
+                                listaTipoInox.Enabled = false;
+                            }
+
+                            // Carrega Distanciamento 
+
+                            string distanciamento = AppLib.Context.poolConnection.Get("Start").ExecGetField("", @"SELECT DISTANCIAMENTO FROM TITMMOVCOMPL WHERE IDMOV = ? AND NSEQITMMOV = ?", new object[] { IDMOV, NSEQITEMMOV }).ToString();
+
+                            switch (distanciamento)
+                            {
+                                case " - Selecione":
+                                    medidaD.comboBox1.SelectedIndex = 0;
+                                    break;
+                                case "200 - 15":
+                                    medidaD.comboBox1.SelectedIndex = 1;
+                                    break;
+                                case "250 - 12":
+                                    medidaD.comboBox1.SelectedIndex = 2;
+                                    break;
+                                case "300 - 10":
+                                    medidaD.comboBox1.SelectedIndex = 3;
+                                    break;
+                                case "500 - 6":
+                                    medidaD.comboBox1.SelectedIndex = 4;
+                                    break;
+                                default:
+                                    medidaD.comboBox1.SelectedIndex = 0;
+                                    break;
+                            }
                         }
                         catch (Exception ex)
                         {
@@ -2009,6 +2132,8 @@ namespace AppFatureClient
             campoLookupPRODUTO.textBox1_Leave(null, null);
 
             tbQuantidade.Focus();
+
+            //LiberaCamposComplementares(this, null);
         }
 
         private void btnClean_Click(object sender, EventArgs e)
