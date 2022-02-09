@@ -144,11 +144,20 @@ WHERE
             view.Columns["CHAPA"].OptionsColumn.AllowEdit = false;
             view.Columns["ACABAMENTO"].OptionsColumn.AllowEdit = false;
             view.Columns["TAB_PRECO"].OptionsColumn.AllowEdit = false;
+
+            CarregaComboBoxTabelaPreco(control, view);
+
             view.Columns["PRECO_FIXO"].OptionsColumn.AllowEdit = false;
             view.Columns["PRECO_ACABADO"].OptionsColumn.AllowEdit = false;
             view.Columns["PRECO_REVENDA"].OptionsColumn.AllowEdit = false;
             view.Columns["CALCULACOMOACABADO"].OptionsColumn.AllowEdit = false;
+
+            CarregaComboBoxCalculaComoAcabado(control, view);
+
             view.Columns["USAPRECOFIXO"].OptionsColumn.AllowEdit = false;
+
+            CarregaComboBoxUsaPrecoFixo(control, view);
+
             view.Columns["ULTIMONIVEL"].OptionsColumn.AllowEdit = false;
             view.Columns["TIPO"].OptionsColumn.AllowEdit = false;
             view.Columns["INATIVO"].OptionsColumn.AllowEdit = false;
@@ -164,10 +173,12 @@ WHERE
         public GridView ConfiguraGridViewPreco(GridView view, DataRow row)
         {
             // Obtém o Tipo de Produto
-            string tipo = row["TIPOPROD"].ToString();
+            string tipo = (row["TIPOPROD"] == DBNull.Value) ? string.Empty : row["TIPOPROD"].ToString();
 
-            int UsaPrecoFixo = 0;
-            int calculadoComoAcabado = 0;
+            int UsaPrecoFixo = (row["USAPRECOFIXO"] == DBNull.Value) ? 0 : ((row["USAPRECOFIXO"].ToString() == "SIM") ? 1 : 0);
+            int calculadoComoAcabado = (row["CALCULACOMOACABADO"] == DBNull.Value) ? 0 : ((row["CALCULACOMOACABADO"].ToString() == "SIM") ? 1 : 0);
+
+            string TabelaPreco = (row["TAB_PRECO"] == DBNull.Value) ? string.Empty : row["TAB_PRECO"].ToString();
 
             // Habilita a edição do componente
             view.OptionsBehavior.Editable = true;
@@ -216,6 +227,9 @@ WHERE
 
             if (tipo == "ACABADO")
             {
+                view.Columns["TAB_PRECO"].OptionsColumn.AllowEdit = true;
+                view.Columns["USAPRECOFIXO"].OptionsColumn.AllowEdit = true;
+
                 UsaPrecoFixo = Convert.ToInt32(AppLib.Context.poolConnection.Get("Start").ExecGetField(-1, @"SELECT USAPRECOFIXO FROM ZTPRODUTOCOMPL WHERE CODCOLIGADA = ? AND IDPRD = ?", new object[] { AppLib.Context.Empresa, Convert.ToInt32(row["IDPRD"]) }));
 
                 // Se o parâmetro Preço Fixo estiver marcado, atualizar o campo PRECOFIXO da tabela ZTPRODUTOCOMPL
@@ -240,6 +254,7 @@ WHERE
 
             if (tipo == "REVENDA")
             {
+                view.Columns["CALCULACOMOACABADO"].OptionsColumn.AllowEdit = true;
                 calculadoComoAcabado = Convert.ToInt32(AppLib.Context.poolConnection.Get("Start").ExecGetField(-1, @"SELECT CALCCOMOACABADO FROM ZTPRODUTOCOMPL WHERE CODCOLIGADA = ? AND IDPRD = ?", new object[] { AppLib.Context.Empresa, Convert.ToInt32(row["IDPRD"]) }));
 
                 // Se o parâmetro Calculado Como Acabado estiver marcado, não atualizar o preço, do contrário, atualizar o campo 
@@ -256,6 +271,7 @@ WHERE
                     view.Columns["PRECO_ACABADO"].OptionsColumn.AllowEdit = false;
                     view.Columns["PRECO_FIXO"].OptionsColumn.AllowEdit = false;
                     view.Columns["PRECO_REVENDA"].OptionsColumn.AllowEdit = false;
+                    view.Columns["TAB_PRECO"].OptionsColumn.AllowEdit = true;
 
                     return view;
                 }
@@ -390,6 +406,63 @@ WHERE
             view.Columns[coluna].OptionsColumn.AllowEdit = true;
 
             return view;
+        }
+
+        private void CarregaComboBoxUsaPrecoFixo(GridControl control, GridView view)
+        {
+            HabilitarCelulaProduto(view, "USAPRECOFIXO");
+
+            DevExpress.XtraEditors.Repository.RepositoryItemComboBox combo = control.RepositoryItems.Add("ComboBoxEdit") as DevExpress.XtraEditors.Repository.RepositoryItemComboBox;
+
+            combo.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
+
+            combo.Items.Add("SIM");
+            combo.Items.Add("NÃO");
+
+            control.RepositoryItems.Add(combo);
+            view.Columns["USAPRECOFIXO"].ColumnEdit = combo;
+        }
+
+        private void CarregaComboBoxCalculaComoAcabado(GridControl control, GridView view)
+        {
+            HabilitarCelulaProduto(view, "CALCULACOMOACABADO");
+
+            DevExpress.XtraEditors.Repository.RepositoryItemComboBox combo = control.RepositoryItems.Add("ComboBoxEdit") as DevExpress.XtraEditors.Repository.RepositoryItemComboBox;
+
+            combo.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
+
+            combo.Items.Add("SIM");
+            combo.Items.Add("NÃO");
+
+            control.RepositoryItems.Add(combo);
+            view.Columns["CALCULACOMOACABADO"].ColumnEdit = combo;
+        }
+
+        private void CarregaComboBoxTabelaPreco(GridControl control, GridView view)
+        {
+            HabilitarCelulaProduto(view, "TAB_PRECO");
+
+            DevExpress.XtraEditors.Repository.RepositoryItemComboBox combo = control.RepositoryItems.Add("ComboBoxEdit") as DevExpress.XtraEditors.Repository.RepositoryItemComboBox;
+
+            combo.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
+
+            combo.Items.Add("Selecione");
+            combo.Items.Add("Eletrocalha");
+            combo.Items.Add("PARAFUSO");
+            combo.Items.Add("LEITO");
+            combo.Items.Add("TAMPA");
+            combo.Items.Add("ACESSORIO PARA ELETROCALHA");
+            combo.Items.Add("ACESSORIO PARA PERFILADO");
+            combo.Items.Add("ACESSORIO PARA LEITO");
+            combo.Items.Add("TAMPAS PARA ACESSORIO ELETROCALHA");
+            combo.Items.Add("TAMPAS PARA PERFILADO");
+            combo.Items.Add("TAMPAS PARA ACESSORIO LEITO");
+            combo.Items.Add("SEPTO DIVISOR");
+            combo.Items.Add("ARAMADO");
+            combo.Items.Add("VERGALHAO");
+
+            control.RepositoryItems.Add(combo);
+            view.Columns["TAB_PRECO"].ColumnEdit = combo;
         }
 
         private void CarregaComboBoxCodDP(GridControl control, GridView view)

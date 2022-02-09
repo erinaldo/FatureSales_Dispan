@@ -148,7 +148,8 @@ namespace AppFatureClient
                 else
                 {
                     //if (!isPrecoCarregado)
-                    //{
+                    if(isProdutoComposto)
+                    {
                         string IDPRD = AppLib.Context.poolConnection.Get("Start").ExecGetField("", "SELECT IDPRD FROM TPRODUTO WHERE CODCOLPRD = ? AND CODIGOPRD = ?", new object[] { AppLib.Context.Empresa, CODPRD }).ToString();
 
                         total = CalculoPreco.CacularPreco(IDPRD, listaTipoInox.Get(), "", "").PRECO;
@@ -162,7 +163,7 @@ namespace AppFatureClient
                         }
 
                         tbPrecoTabela.EditValue = total;
-                    //}
+                    }
                 }
 
                 if (edita == true)

@@ -2230,3 +2230,4 @@ E:\Projetos\FatureSales_Dispan\AppFatureClient\obj\Debug\AppFatureClient.csproj.
 E:\Projetos\FatureSales_Dispan\AppFatureClient\obj\Debug\AppFatureClient.csproj.CopyComplete
 E:\Projetos\FatureSales_Dispan\AppFatureClient\obj\Debug\AppFatureClient.exe
 E:\Projetos\FatureSales_Dispan\AppFatureClient\obj\Debug\AppFatureClient.pdb
+E:\Projetos\FatureSales_Dispan\AppFatureClient\obj\Debug\AppFatureClient.csproj.AssemblyReference.cache

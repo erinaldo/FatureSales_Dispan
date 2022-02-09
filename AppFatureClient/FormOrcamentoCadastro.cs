@@ -23,7 +23,7 @@ namespace AppFatureClient
         private List<TITMMOV> ItensBanco = new List<TITMMOV>();
         private Boolean ExcluiuTudo = false;
         private string status;
-        private int IDMOVCOPIADO = 0;
+        public int IDMOVCOPIADO = 0;
         private bool InserirNovo = true;
         public int IdMov;
 
@@ -352,7 +352,7 @@ namespace AppFatureClient
 
                 if (CopiaDeMovimento)
                 {
-                    if (IDMOVCOPIADO == 0)
+                    if (IDMOVCOPIADO > 0)
                     {
                         IDMOVCOPIADO = (int)campoInteiroIDMOV.Get();
                         campoLookupCODCFO_AposSelecao(null, null);
@@ -377,7 +377,19 @@ namespace AppFatureClient
                         {
                             for (int i = 0; i < Itens.Count; i++)
                             {
+                                decimal total = 0;
+
                                 Itens[i].PRECOTABELA = CalculoPreco.CacularPreco(Itens[i].IDPRD.ToString(), Itens[i].TIPOINOX, "", "").PRECO;
+
+                                if (Itens[i].COMPOSICAO != null)
+                                {
+                                    foreach (ItemComposicao comp in Itens[i].COMPOSICAO)
+                                    {
+                                        total += (comp.QUANTIDADE * comp.PRECOUNITARIO);
+                                    }
+
+                                    Itens[i].PRECOTABELA = total;
+                                }
                             }
                         }
 
@@ -1302,9 +1314,10 @@ namespace AppFatureClient
                                 flag = false;
                             }
 
-                            int numeroSequencialantigo = itemSelecionado.NUMEROSEQUENCIAL;
+                            //int numeroSequencialantigo = itemSelecionado.NUMEROSEQUENCIAL;
                             itemSelecionado.NUMEROSEQUENCIAL = numeroSequencial;
-                            itemOrigem.NUMEROSEQUENCIAL = numeroSequencialantigo;
+                            //itemOrigem.NUMEROSEQUENCIAL = numeroSequencialantigo;
+                            //itemOrigem.NUMEROSEQUENCIAL = numeroSequencial;
 
                             itensTemp.Add(itemSelecionado);
                             itensTemp.Add(itemOrigem);
@@ -1337,8 +1350,10 @@ namespace AppFatureClient
                             Itens = itensTemp;
                         }
 
-                        New.Models.OrcamentoItens Item = new New.Models.OrcamentoItens();
-                        gcItensMovimento.DataSource = Item.AtualizaGridView(Itens);
+                        //New.Models.OrcamentoItens Item = new New.Models.OrcamentoItens();
+                        //gcItensMovimento.DataSource = Item.AtualizaGridView(Itens);
+
+                        //ValidaSequencialRepetido();
                     }
                     else if (view.FocusedColumn.FieldName == "HISTORICOLONGO")
                     {
@@ -2859,6 +2874,7 @@ WHERE CODCOLIGADA = ?
                     // Carrega os itens no objeto 
                     if (CopiaDeMovimento == true)
                     {
+                        /*
                         for (int i = 0; i < Itens.Count; i++)
                         {
                             if (ValidaComposicao(Itens[i].IDPRD))
@@ -2870,6 +2886,7 @@ WHERE CODCOLIGADA = ?
                                 Itens = Item.CarregaItens();
                             }
                         }
+                        */
                     }
                 }
                 else

@@ -1187,6 +1187,7 @@ WHERE TITMMOV.CODCOLIGADA = TPRD.CODCOLIGADA
                         FormOrcamentoCadastro f = new FormOrcamentoCadastro();
                         f.CopiaDeMovimento = true;
                         f.CODSERIE = "ORC";
+                        f.IDMOVCOPIADO = Convert.ToInt32(drc[0]["IDMOV"]);
                         f.Editar(grid1.GetDataRow(), true);
 
                         grid1.toolStripButtonATUALIZAR_Click(this, null);
@@ -1195,7 +1196,36 @@ WHERE TITMMOV.CODCOLIGADA = TPRD.CODCOLIGADA
                         {
                             if (MessageBox.Show("Deseja visualizar o Orçamento?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                             {
-                                ImprimirOrcamento();
+                                //ImprimirOrcamento(this, null);
+
+                                if (new AppLib.Security.Access().Processo(grid1.Conexao, "APP8047", AppLib.Context.Perfil))
+                                {
+                                    if (grid1.gridView1.RowCount == 0)
+                                    {
+                                        grid1.Atualizar();
+                                        grid1.gridView1.RefreshData();
+                                    }
+
+                                    DataTable dtOrcamento = AppLib.Context.poolConnection.Get().ExecQuery(@"SELECT * FROM TMOV WHERE CODCOLIGADA = ? AND IDMOV = ?", new object[] { AppLib.Context.Empresa, f.IdMov });
+                                    if (dtOrcamento.Rows.Count > 0)
+                                    {
+                                        System.Data.DataRow dr = dtOrcamento.Rows[0];
+
+                                        RelOrcamentoDispan rel = new RelOrcamentoDispan();
+                                        rel.SelectRow = dr;
+                                        rel.Conexao = grid1.Conexao;
+
+                                        FormPrintPreview fpp = new FormPrintPreview();
+                                        fpp.SelectRow = dr;
+                                        fpp.Conexao = grid1.Conexao;
+                                        fpp.relatorio = rel;
+                                        fpp.ShowDialog();
+                                    }
+                                    else
+                                    {
+                                        MessageBox.Show("Movimento não localizado.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                                    }
+                                }
                             }
                         }
                     }
