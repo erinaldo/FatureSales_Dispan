@@ -27,7 +27,6 @@ namespace AppFatureClient
         private string Enderecos;
         bool edita = false;
         bool verificaDP = true;
-        int i;
 
         public int IDPRD;
 

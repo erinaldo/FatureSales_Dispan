@@ -45,11 +45,11 @@
     </Reference>
     <Reference Include="RM.Lib, Version=12.1.19.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\AppFatureClient\dll\RM.Lib.dll</HintPath>
+      <HintPath>..\packages\RM.Lib\RM.Lib.dll</HintPath>
     </Reference>
     <Reference Include="RM.Lib.Data, Version=12.1.19.117, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\AppFatureClient\dll\RM.Lib.Data.dll</HintPath>
+      <HintPath>..\packages\RM.Lib\RM.Lib.Data.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

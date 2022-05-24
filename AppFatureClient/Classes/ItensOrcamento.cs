@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace AppFatureClient.Classes
@@ -119,7 +115,7 @@ namespace AppFatureClient.Classes
                 }
 
             }
-            catch (Exception ex)
+            catch
             {
                 MessageBox.Show("CFOP não encontrada.", "Mensagem", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return 0;

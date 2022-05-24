@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using AppLib;
 using System.Windows.Forms;
 using System.Data;
-using System.Threading;
-using System.Data.SqlClient;
 using RM.Lib.Server;
 
 namespace AppFatureClient.Classes
@@ -116,11 +110,8 @@ namespace AppFatureClient.Classes
                         MetodosSQL.ExecQuery(sql);
                     }
                 }
-                catch (Exception ex)
-                {
-
-                    throw;
-                }
+                catch
+                { throw; }
             }
 
             public static void AtualizaADC(ParametrosComissao pc, string IDLAN)

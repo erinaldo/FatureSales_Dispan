@@ -2,7 +2,6 @@
 using System.Data;
 using System.Data.SqlClient;
 using System.Collections.Generic;
-using AppLib;
 
 namespace AppInterop
 {
@@ -75,7 +74,6 @@ namespace AppInterop
             catch (Exception ex)
             {
                 throw new System.Exception(ex.Message, ex);
-                return null;
             }
             finally
             {

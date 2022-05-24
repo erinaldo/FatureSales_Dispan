@@ -72,101 +72,161 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\AppLib-Dispan\AppLib\bin\Debug\AppLib.dll</HintPath>
     </Reference>
-    <Reference Include="Devart.Data, Version=5.0.1436.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>dll\Devart.Data.dll</HintPath>
+    <Reference Include="Devart.Data">
+      <HintPath>..\packages\Devart\Devart.Data.dll</HintPath>
     </Reference>
-    <Reference Include="Devart.Data.Oracle, Version=9.0.12.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>dll\Devart.Data.Oracle.dll</HintPath>
+    <Reference Include="Devart.Data.Oracle">
+      <HintPath>..\packages\Devart\Devart.Data.Oracle.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.BonusSkins.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
+    <Reference Include="DevExpress.BonusSkins.v19.1">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.BonusSkins.v19.1.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Charts.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
+    <Reference Include="DevExpress.Charts.v19.1.Core">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.Charts.v19.1.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <Private>True</Private>
+    <Reference Include="DevExpress.CodeParser.v19.1">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.CodeParser.v19.1.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.DataAccess.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.ExpressApp.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Office.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
+    <Reference Include="DevExpress.Dashboard.v19.1.Core">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.Dashboard.v19.1.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Pdf.v19.1.Drawing, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Persistent.Base.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.PivotGrid.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
+    <Reference Include="DevExpress.Dashboard.v19.1.Win">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.Dashboard.v19.1.Win.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Pdf.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <Private>True</Private>
+    <Reference Include="DevExpress.Data.v19.1">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.Data.v19.1.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Printing.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <Private>True</Private>
+    <Reference Include="DevExpress.DataAccess.v19.1">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.DataAccess.v19.1.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
+    <Reference Include="DevExpress.DataAccess.v19.1.UI">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.DataAccess.v19.1.UI.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Sparkline.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <Private>True</Private>
+    <Reference Include="DevExpress.Diagram.v19.1.Core">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.Diagram.v19.1.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Utils.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <Private>True</Private>
+    <Reference Include="DevExpress.ExpressApp.v19.1">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.ExpressApp.v19.1.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Utils.v19.1.UI, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
+    <Reference Include="DevExpress.Images.v19.1">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.Images.v19.1.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpo.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraBars.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
+    <Reference Include="DevExpress.Map.v19.1.Core">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.Map.v19.1.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraCharts.v19.1.Wizard, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
+    <Reference Include="DevExpress.Office.v19.1.Core">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.Office.v19.1.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraCharts.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
+    <Reference Include="DevExpress.Pdf.v19.1.Core">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.Pdf.v19.1.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraEditors.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraGauges.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraPdfViewer.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraPrinting.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <Private>True</Private>
+    <Reference Include="DevExpress.Pdf.v19.1.Drawing">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.Pdf.v19.1.Drawing.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraGrid.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <Private>True</Private>
+    <Reference Include="DevExpress.Persistent.Base.v19.1">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.Persistent.Base.v19.1.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraLayout.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
+    <Reference Include="DevExpress.PivotGrid.v19.1.Core">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.PivotGrid.v19.1.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraNavBar.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
+    <Reference Include="DevExpress.Printing.v19.1.Core">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.Printing.v19.1.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.CodeParser.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
+    <Reference Include="DevExpress.RichEdit.v19.1.Core">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.RichEdit.v19.1.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v19.1.Export, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
+    <Reference Include="DevExpress.RichEdit.v19.1.Export">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.RichEdit.v19.1.Export.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraReports.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
+    <Reference Include="DevExpress.Sparkline.v19.1.Core">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.Sparkline.v19.1.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraReports.v19.1.Extensions, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <Private>True</Private>
+    <Reference Include="DevExpress.TreeMap.v19.1.Core">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.TreeMap.v19.1.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraRichEdit.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraTreeList.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v19.1">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.Utils.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v19.1.UI">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.Utils.v19.1.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v19.1">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.Xpo.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v19.1">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.XtraBars.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v19.1">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.XtraCharts.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v19.1.Extensions">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.XtraCharts.v19.1.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v19.1.UI">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.XtraCharts.v19.1.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v19.1.Wizard">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.XtraCharts.v19.1.Wizard.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraDiagram.v19.1">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.XtraDiagram.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v19.1">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.XtraEditors.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v19.1.Core">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.XtraGauges.v19.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v19.1.Presets">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.XtraGauges.v19.1.Presets.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v19.1.Win">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.XtraGauges.v19.1.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v19.1">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.XtraGrid.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v19.1">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.XtraLayout.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraMap.v19.1">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.XtraMap.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v19.1">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.XtraNavBar.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPdfViewer.v19.1">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.XtraPdfViewer.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v19.1">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.XtraPivotGrid.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v19.1">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.XtraPrinting.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v19.1">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.XtraReports.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v19.1.Extensions">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.XtraReports.v19.1.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v19.1">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.XtraRichEdit.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v19.1">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.XtraTreeList.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeMap.v19.1">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.XtraTreeMap.v19.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v19.1">
+      <HintPath>..\packages\DevExpress\v19.1\DevExpress.XtraVerticalGrid.v19.1.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="RestSharp, Version=106.12.0.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
@@ -174,14 +234,15 @@
     </Reference>
     <Reference Include="RM.Lib, Version=12.1.19.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>dll\RM.Lib.dll</HintPath>
+      <HintPath>..\packages\RM.Lib\RM.Lib.dll</HintPath>
     </Reference>
     <Reference Include="RM.Lib.Data, Version=12.1.19.117, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>dll\RM.Lib.Data.dll</HintPath>
+      <HintPath>..\packages\RM.Lib\RM.Lib.Data.dll</HintPath>
     </Reference>
-    <Reference Include="RM.Lib.Server">
-      <HintPath>dll\RM.Lib.Server.dll</HintPath>
+    <Reference Include="RM.Lib.Server, Version=12.1.19.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\RM.Lib\RM.Lib.Server.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -204,11 +265,11 @@
     <Reference Include="System.Xml" />
     <Reference Include="TotvsSOA.SDK, Version=11.50.0.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>dll\TotvsSOA.SDK.dll</HintPath>
+      <HintPath>..\packages\TotvsSOA.SDK\TotvsSOA.SDK.dll</HintPath>
     </Reference>
     <Reference Include="TotvsSOA.SDK.WinForms, Version=11.50.0.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>dll\TotvsSOA.SDK.WinForms.dll</HintPath>
+      <HintPath>..\packages\TotvsSOA.SDK\TotvsSOA.SDK.WinForms.dll</HintPath>
     </Reference>
     <Reference Include="zxing, Version=0.16.6.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
       <HintPath>..\packages\ZXing.Net.0.16.6\lib\net48\zxing.dll</HintPath>
