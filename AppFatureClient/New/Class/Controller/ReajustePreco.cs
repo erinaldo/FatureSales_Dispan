@@ -16,8 +16,6 @@ namespace AppFatureClient.New.Class.Controller
 
         private DataTable dtReajuste = new DataTable();
 
-        private Nullable<DateTime> dataNula;
-
         #endregion
 
         #region Construtor
@@ -72,7 +70,7 @@ namespace AppFatureClient.New.Class.Controller
                         reajustePreco.CodColigada = dt.Rows[i]["CODCOLIGADA"] == DBNull.Value ? 1 : Convert.ToInt32(dt.Rows[i]["CODCOLIGADA"]);
                         reajustePreco.IDPrd = dt.Rows[i]["IDPRD"] == DBNull.Value ? IDPRD : Convert.ToInt32(dt.Rows[i]["IDPRD"]);
                         reajustePreco.Preco = dt.Rows[i]["PRECO"] == DBNull.Value ? 0 : Convert.ToDecimal(dt.Rows[i]["PRECO"]);
-                        reajustePreco.DataAlteracao = dt.Rows[i]["DATAALTERACAO"] == DBNull.Value ? dataNula : Convert.ToDateTime(dt.Rows[i]["DATAALTERACAO"]);
+                        reajustePreco.DataAlteracao = dt.Rows[i]["DATAALTERACAO"] == DBNull.Value ? new DateTime?() : Convert.ToDateTime(dt.Rows[i]["DATAALTERACAO"]);
                         reajustePreco.UsuarioAlteracao = dt.Rows[i]["USUARIOALTERACAO"] == DBNull.Value ? AppLib.Context.Usuario : dt.Rows[i]["USUARIOALTERACAO"].ToString();
 
                         reajustes.Add(reajustePreco);
@@ -83,7 +81,7 @@ namespace AppFatureClient.New.Class.Controller
                     reajustePreco.CodColigada = 1;
                     reajustePreco.IDPrd = IDPRD;
                     reajustePreco.Preco = 0;
-                    reajustePreco.DataAlteracao = dataNula;
+                    reajustePreco.DataAlteracao = null;
                     reajustePreco.UsuarioAlteracao = AppLib.Context.Usuario;
 
                     reajustes.Add(reajustePreco);

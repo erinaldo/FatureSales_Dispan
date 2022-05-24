@@ -6091,7 +6091,7 @@ FROM TITMMOV (NOLOCK) WHERE IDMOV = '{5}'", /*VALORIPI*/ IPI.ValorDoTributo.ToSt
                             /*RECCREATEDBY*/ clifor.UsuarioCriacao, /*RECCREATEDON*/ conn.GetDateTime(), /*RECMODIFIEDBY*/ clifor.UsuarioCriacao, /*RECMODIFIEDON*/ conn.GetDateTime());
 
                         if (clifor.HISTORICOATUAL != null)
-                            if (clifor.HISTORICOATUAL == string.Empty)
+                            if (clifor.HISTORICOATUAL.ToString() == string.Empty)
                                 clifor.HISTORICOATUAL = null;
 
                         sPoint = "FCFOCOMPL - ";

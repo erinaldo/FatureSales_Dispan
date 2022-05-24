@@ -218,7 +218,6 @@ namespace AppFatureClient.Classes
             catch (Exception ex)
             {
                 throw new System.Exception(ex.Message, ex);
-                return null;
             }
             finally
             {
